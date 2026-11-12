@@ -1,9 +1,11 @@
 # Radar Ampliado de Vagas Recomendadas (Últimos 15 dias) – 12/11/2026
 
-Total de oportunidades qualificadas encontradas: **41** (✨ **39 novas** e 📌 **2 já mapeadas** | Máx. 15 dias de publicação)
+Total de oportunidades qualificadas encontradas: **45** (✨ **43 novas** e 📌 **2 já mapeadas** | Máx. 15 dias de publicação)
 
 | Status | Score | Título da Vaga | Empresa | Modalidade / Local | Fonte | Link |
 |:---:|:---:|---|---|---|---|:---:|
+| ✨ NOVA | **100%** | Analista de IA Junior - Aplicada ao Mercado Financeiro | KPMG | Brasil (100% Remoto) (Remoto) | Remotar | [Acessar Vaga](https://kpmg.inhire.app/vagas/e63d02d2-3044-4b1a-976b-eb8a097329b8/analista-de-ia-junior-aplicada-ao-mercado-financeiro) |
+| ✨ NOVA | **100%** | Desenvolvedor(a) Back End Júnior - Remoto | Getronics | Home Office (Remoto) | Nerdin | [Acessar Vaga](https://nerdin.com.br/vaga_emprego/vaga-desenvolvedor-a-back-end-junior-remoto-100579.php) |
 | ✨ NOVA | **100%** | Desenvolvedor(a) Full Stack Júnior – Node.js | React Native | Vericode | Brasil (100% Remoto) (Remoto) | Remotar | [Acessar Vaga](https://vericode.inhire.app/vagas/30547dcf-a40a-4904-8f21-eb4ec63cde34/desenvolvedora-full-stack-junior-nodejs-or-react-native) |
 | ✨ NOVA | **100%** | Analista de Testes e Qualidade Júnior | Fast2Mine | Brasil (100% Remoto) (Remoto) | Remotar | [Acessar Vaga](https://fast2mine.vagas.solides.com.br/vaga/951758?origem=remotar) |
 | ✨ NOVA | **100%** | Analista Júnior de Power BI | Kinix | Home Office (Remoto) | Nerdin | [Acessar Vaga](https://nerdin.com.br/vaga_emprego/vaga-analista-junior-de-power-bi-100574.php) |
@@ -23,6 +25,8 @@ Total de oportunidades qualificadas encontradas: **41** (✨ **39 novas** e 📌
 | ✨ NOVA | **95%** | Analista Backend Java Júnior | Empresa via LinkedIn | Remoto / Alerta Configurado (Remoto) | LinkedIn (Alertas) | [Acessar Vaga](https://www.linkedin.com/jobs/view/4483914307/) |
 | ✨ NOVA | **95%** | Analista Backend Java Júnior | Evoluservices | Remoto (Remoto) | Gupy | [Acessar Vaga](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI4MTY2NDQsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | ✨ NOVA | **90%** | Pentester Júnior (madrugada) | It4us Cyber Security | Remoto (Brasil) (Remoto) | Inhire (It4us Cyber Security) | [Acessar Vaga](https://it4us-trial.inhire.app/vagas/c1335b73-4e99-4f23-a198-04f5540b4648) |
+| ✨ NOVA | **90%** | Desenvolvedor Junior | Empresa via LinkedIn | Remoto / Alerta Configurado (Remoto) | LinkedIn (Alertas) | [Acessar Vaga](https://www.linkedin.com/jobs/view/4489630231/) |
+| ✨ NOVA | **90%** | Desenvolvedor Backend Jr | Empresa via LinkedIn | Remoto / Alerta Configurado (Remoto) | LinkedIn (Alertas) | [Acessar Vaga](https://www.linkedin.com/jobs/view/4480746305/) |
 | ✨ NOVA | **90%** | Pessoa Desenvolvedora Júnior Golang | Quality Digital | Brasil (100% Remoto) (Remoto) | Remotar | [Acessar Vaga](https://qualitydigital.gupy.io/job/eyJqb2JJZCI6MTI4Njk0MjcsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | ✨ NOVA | **90%** | Desenvolvedor(a) Júnior | Ahlex | Brasil (100% Remoto) (Remoto) | Remotar | [Acessar Vaga](https://ahlex.vagas.solides.com.br/vaga/951388?origem=remotar) |
 | ✨ NOVA | **90%** | Desenvolvedor(a) Júnior - Integrações | 200DEV | Home Office (Remoto) | Nerdin | [Acessar Vaga](https://nerdin.com.br/vaga_emprego/vaga-desenvolvedor-a-junior-integracoes-100535.php) |
@@ -47,6 +51,20 @@ Total de oportunidades qualificadas encontradas: **41** (✨ **39 novas** e 📌
 | 📌 MAPEADA | **100%** | Pentester Júnior | It4us | Brasil (100% Remoto) (Remoto) | Remotar | [Acessar Vaga](https://it4us-trial.inhire.app/vagas/6ecb6110-0973-4591-b950-88e5ffb58ac1/pentester-junior) |
 
 ## Destaques de Altíssima Aderência (Score >= 75%)
+
+### 🎯 [100%] Analista de IA Junior - Aplicada ao Mercado Financeiro – KPMG (✨ NOVA OPORTUNIDADE)
+- **Modalidade/Local:** Brasil (100% Remoto) (Remoto)
+- **Data de Publicação:** 2026-11-12
+- **Fonte:** Remotar
+- **Link:** https://kpmg.inhire.app/vagas/e63d02d2-3044-4b1a-976b-eb8a097329b8/analista-de-ia-junior-aplicada-ao-mercado-financeiro
+- **Contexto:** <p>A KPMG busca um Analista de IA Júnior para atuar no mercado financeiro, desenvolvendo soluções de inteligência artificial para grandes bancos, fintechs, seguradoras, corretoras e outras empresas do setor. O profissional trabalhará com equipes expe...
+
+### 🎯 [100%] Desenvolvedor(a) Back End Júnior - Remoto – Getronics (✨ NOVA OPORTUNIDADE)
+- **Modalidade/Local:** Home Office (Remoto)
+- **Data de Publicação:** 2026-11-12
+- **Fonte:** Nerdin
+- **Link:** https://nerdin.com.br/vaga_emprego/vaga-desenvolvedor-a-back-end-junior-remoto-100579.php
+- **Contexto:** CLT • Junior • Home Office | Local: Home Office | Tags: #sistemas, #desenvolvedor, #python, #inteligência artificial...
 
 ### 🎯 [100%] Desenvolvedor(a) Full Stack Júnior – Node.js | React Native – Vericode (✨ NOVA OPORTUNIDADE)
 - **Modalidade/Local:** Brasil (100% Remoto) (Remoto)
@@ -198,6 +216,20 @@ Confidencial (vaga via Sylision): a empresa contratante não é nomeada neste an
 - **Fonte:** Inhire (It4us Cyber Security)
 - **Link:** https://it4us-trial.inhire.app/vagas/c1335b73-4e99-4f23-a198-04f5540b4648
 - **Contexto:** Empresa: It4us Cyber Security | Modalidade: Remoto | Inhire ATS...
+
+### 🎯 [90%] Desenvolvedor Junior – Empresa via LinkedIn (✨ NOVA OPORTUNIDADE)
+- **Modalidade/Local:** Remoto / Alerta Configurado (Remoto)
+- **Data de Publicação:** 2026-11-12
+- **Fonte:** LinkedIn (Alertas)
+- **Link:** https://www.linkedin.com/jobs/view/4489630231/
+- **Contexto:** Vaga recomendada recebida através dos alertas inteligentes do LinkedIn (ID 4489630231)....
+
+### 🎯 [90%] Desenvolvedor Backend Jr – Empresa via LinkedIn (✨ NOVA OPORTUNIDADE)
+- **Modalidade/Local:** Remoto / Alerta Configurado (Remoto)
+- **Data de Publicação:** 2026-11-12
+- **Fonte:** LinkedIn (Alertas)
+- **Link:** https://www.linkedin.com/jobs/view/4480746305/
+- **Contexto:** Vaga recomendada recebida através dos alertas inteligentes do LinkedIn (ID 4480746305)....
 
 ### 🎯 [90%] Pessoa Desenvolvedora Júnior Golang – Quality Digital (✨ NOVA OPORTUNIDADE)
 - **Modalidade/Local:** Brasil (100% Remoto) (Remoto)
