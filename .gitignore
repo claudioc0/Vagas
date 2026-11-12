@@ -22,3 +22,8 @@ ms-playwright/
 *.log
 Thumbs.db
 .DS_Store
+
+# Binários Go
+*.exe
+vagas-go/vagas
+vagas-go/vagas.exe

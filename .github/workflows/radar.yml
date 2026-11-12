@@ -1,9 +1,9 @@
-name: Radar de Vagas
+name: Radar de Vagas (Go Engine)
 
 on:
   schedule:
-    # A cada 15 minutos (sintaxe padrão do GitHub Actions, 24/7)
-    - cron: "*/15 * * * *"
+    # A cada 15 minutos em minutos deslocados (evita filas globais do GitHub Actions)
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -17,40 +17,33 @@ concurrency:
 jobs:
   scout:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5
 
     steps:
       - name: Checkout do Repositório
         uses: actions/checkout@v4
 
-      - name: Configurar Python
-        uses: actions/setup-python@v5
+      - name: Configurar Go
+        uses: actions/setup-go@v5
         with:
-          python-version: "3.11"
-          cache: "pip"
+          go-version: "stable"
+          cache-dependency-path: vagas-go/go.sum
 
-      - name: Instalar Dependências
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          playwright install --with-deps chromium
-
-      - name: Executar Radar de Vagas
+      - name: Executar Radar de Vagas (Go)
+        working-directory: vagas-go
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: |
-          python buscar_novas_vagas.py
+          go run ./cmd/vagas scan --db ../vagas.db --report ../busca/radar_vagas_recomendadas.md
 
-      - name: Persistir Atualizações no Git
+      - name: Persistir Atualizações no Repositório
         if: always()
         run: |
           git config --global user.name "Radar Bot"
           git config --global user.email "bot@radar-vagas.local"
-          git add busca/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(radar): atualiza radar de vagas [skip ci]" && git push)
+          git add busca/ vagas.db
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(radar): atualiza radar de vagas via Go Engine [skip ci]" && git push)
 
       - name: Keepalive Workflow
         if: github.event_name == 'schedule'
