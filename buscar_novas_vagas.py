@@ -1514,8 +1514,32 @@ def generate_recruiter_digest_md():
     return "\n".join(lines)
 
 
-def send_telegram_notifications(vagas_novas_top):
-    """Envia alertas em tempo real das vagas quentes para o Telegram via Bot API."""
+NOTIFIED_FILE = OUTPUT_DIR / "notified_jobs.json"
+
+
+def load_notified_jobs():
+    """Carrega registro de vagas já notificadas no Telegram com poda temporal (45 dias)."""
+    if not NOTIFIED_FILE.exists():
+        return {}
+    try:
+        data = json.loads(NOTIFIED_FILE.read_text(encoding="utf-8"))
+        cutoff = datetime.date.today() - datetime.timedelta(days=45)
+        pruned = {k: v for k, v in data.items() if datetime.date.fromisoformat(v) >= cutoff}
+        return pruned
+    except Exception:
+        return {}
+
+
+def save_notified_jobs(notified_map):
+    """Salva registro persistente de vagas já enviadas."""
+    try:
+        NOTIFIED_FILE.write_text(json.dumps(notified_map, indent=2, ensure_ascii=False), encoding="utf-8")
+    except Exception as e:
+        print(f"  [Aviso] Falha ao salvar notified_jobs: {e}")
+
+
+def send_telegram_notifications(vagas_novas_top, notified_map):
+    """Envia alertas em tempo real das vagas quentes para o Telegram via Bot API e persiste o envio."""
     bot_token = os.getenv("TELEGRAM_BOT_TOKEN")
     chat_id = os.getenv("TELEGRAM_CHAT_ID")
 
@@ -1523,14 +1547,24 @@ def send_telegram_notifications(vagas_novas_top):
         print("\nℹ️  Telegram Bot: TELEGRAM_BOT_TOKEN ou TELEGRAM_CHAT_ID não configurados no .env (alertas móveis desativados).")
         return
 
-    if not vagas_novas_top:
+    # Filtrar estritamente apenas vagas que AINDA NÃO FORAM NOTIFICADAS no Telegram
+    vagas_ineditas_notificar = []
+    for v in vagas_novas_top:
+        ckey = v.get("canonical_key", "")
+        url = v.get("url", "")
+        if ckey in notified_map or url in notified_map:
+            continue
+        vagas_ineditas_notificar.append(v)
+
+    if not vagas_ineditas_notificar:
+        print("\nℹ️  Telegram Bot: Nenhuma vaga inédita nova nesta rodada. O bot permanece em silêncio (sem spam).")
         return
 
-    print(f"\n📲 Enviando {len(vagas_novas_top)} alertas de vagas de altíssima relevância para o Telegram...")
+    print(f"\n📲 Enviando {len(vagas_ineditas_notificar)} nova(s) vaga(s) inédita(s) quente(s) para o Telegram...")
     try:
-        header = f"🎯 <b>Radar de Vagas: {len(vagas_novas_top)} Oportunidades Quentes (Score ≥ 80%)</b>\n\n"
+        header = f"🎯 <b>Radar de Vagas: {len(vagas_ineditas_notificar)} Nova(s) Vaga(s) Inédita(s) (Score ≥ 80%)</b>\n\n"
         blocks = []
-        for v in vagas_novas_top:
+        for v in vagas_ineditas_notificar:
             block = (
                 f"🔥 <b>[{v['fit_score']}%] {v['title']}</b>\n"
                 f"🏢 <b>Empresa:</b> {v['company']}\n"
@@ -1557,7 +1591,17 @@ def send_telegram_notifications(vagas_novas_top):
                 json={"chat_id": chat_id, "text": msg_current, "parse_mode": "HTML", "disable_web_page_preview": True},
                 timeout=10
             )
-        print("  -> Notificações enviadas com sucesso para o Telegram!")
+
+        # Marcar como notificadas no histórico
+        hoje_str = str(datetime.date.today())
+        for v in vagas_ineditas_notificar:
+            if v.get("canonical_key"):
+                notified_map[v["canonical_key"]] = hoje_str
+            if v.get("url"):
+                notified_map[v["url"]] = hoje_str
+        save_notified_jobs(notified_map)
+
+        print("  -> Notificações enviadas com sucesso e registradas no histórico!")
     except Exception as e:
         print(f"  [Telegram] Erro ao enviar notificação: {e}")
 
@@ -1665,9 +1709,10 @@ def main():
         f.write("\n".join(md_lines))
     print(f"Relatório Markdown gerado em: {md_path}")
 
-    # Notificar via Telegram se configurado (para vagas inéditas quentes Score >= 80)
-    vagas_para_telegram = [v for v in qualificadas if not v["ja_rastreada"] and v["fit_score"] >= 80][:15]
-    send_telegram_notifications(vagas_para_telegram)
+    # Notificar via Telegram se configurado (apenas vagas inéditas ainda não notificadas)
+    notified_map = load_notified_jobs()
+    vagas_para_telegram = [v for v in qualificadas if not v["ja_rastreada"] and v["fit_score"] >= 80]
+    send_telegram_notifications(vagas_para_telegram, notified_map)
 
     # Exibir Top 10 NOVAS no console
     novas_top = [v for v in qualificadas if not v["ja_rastreada"]]
