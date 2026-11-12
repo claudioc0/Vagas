@@ -1,0 +1,24 @@
+# Ambiente e credenciais (NUNCA subir para o GitHub)
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Playwright / Browsers
+.playwright/
+ms-playwright/
+
+# Pastas de candidaturas e arquivos pessoais (currículos, apresentações)
+[0-9][0-9]_*/
+*.pdf
+*.pptx
+
+# Logs e arquivos de sistema
+*.log
+Thumbs.db
+.DS_Store

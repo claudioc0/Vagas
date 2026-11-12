@@ -1,0 +1,60 @@
+name: Radar de Vagas
+
+on:
+  schedule:
+    # A cada 15 minutos em horário comercial (Brasil UTC-3, 08h às 22h45)
+    # Minutos deslocados (3, 18, 33, 48) evitam filas no GitHub Actions
+    - cron: "3,18,33,48 11-23,0,1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: radar-vagas
+  cancel-in-progress: false
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Instalar Dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests lxml playwright
+          playwright install --with-deps chromium
+
+      - name: Executar Radar de Vagas
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: |
+          python buscar_novas_vagas.py
+
+      - name: Persistir Atualizações no Git
+        if: always()
+        run: |
+          git config --global user.name "Radar Bot"
+          git config --global user.email "bot@radar-vagas.local"
+          git add busca/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(radar): atualiza radar de vagas [skip ci]" && git push)
+
+      - name: Keepalive Workflow
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method PUT "repos/${{ github.repository }}/actions/workflows/radar.yml/enable" || true
