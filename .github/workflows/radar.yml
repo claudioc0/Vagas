@@ -2,9 +2,8 @@ name: Radar de Vagas
 
 on:
   schedule:
-    # A cada 15 minutos em horário comercial (Brasil UTC-3, 08h às 22h45)
-    # Minutos deslocados (3, 18, 33, 48) evitam filas no GitHub Actions
-    - cron: "3,18,33,48 11-23,0,1 * * *"
+    # A cada 15 minutos (sintaxe padrão do GitHub Actions, 24/7)
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
