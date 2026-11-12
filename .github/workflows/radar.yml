@@ -33,7 +33,7 @@ jobs:
       - name: Instalar Dependências
         run: |
           python -m pip install --upgrade pip
-          pip install requests lxml playwright
+          pip install -r requirements.txt
           playwright install --with-deps chromium
 
       - name: Executar Radar de Vagas
