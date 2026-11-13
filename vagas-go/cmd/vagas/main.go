@@ -18,12 +18,13 @@ import (
 )
 
 var (
-	dbPath      string
-	minScore    int
-	modalityStr string
-	searchQuery string
-	limitCount  int
-	reportPath  string
+	dbPath           string
+	minScore         int
+	modalityStr      string
+	searchQuery      string
+	limitCount       int
+	reportPath       string
+	telegramMinScore int
 )
 
 func main() {
@@ -83,18 +84,23 @@ func main() {
 			// Notificação no Telegram se configurado
 			tel := notifier.NewTelegramNotifier(db)
 			if tel.IsConfigured() {
-				fmt.Println("📲 Verificando alertas do Telegram...")
-				jobs, err := db.ListUnnotifiedJobs(ctx, 80, "telegram", 20)
+				fmt.Printf("📲 Verificando alertas do Telegram (Score >= %d)...\n", telegramMinScore)
+				jobs, err := db.ListUnnotifiedJobs(ctx, telegramMinScore, "telegram", 20)
 				if err != nil {
 					fmt.Printf("  [Telegram] Erro ao buscar vagas não notificadas: %v\n", err)
 				} else {
-					sent, err := tel.NotifyHotJobs(ctx, jobs, 80)
+					sent, err := tel.NotifyHotJobs(ctx, jobs, telegramMinScore)
 					if err != nil {
 						fmt.Printf("  [Telegram] Aviso: %v\n", err)
 					} else if sent > 0 {
 						fmt.Printf("  -> %d nova(s) vaga(s) quente(s) enviada(s) ao Telegram!\n", sent)
 					} else {
-						fmt.Println("  -> Nenhuma vaga nova pendente de envio para o Telegram.")
+						fmt.Println("  -> Nenhuma vaga nova pendente; enviando resumo da execução ao Telegram...")
+						if err := tel.NotifyScanSummary(ctx, stats.TotalUnique, stats.Eligible, stats.HighFit, telegramMinScore); err != nil {
+							fmt.Printf("  [Telegram] Erro ao enviar resumo: %v\n", err)
+						} else {
+							fmt.Println("  -> Resumo de execução enviado ao Telegram!")
+						}
 					}
 				}
 			}
@@ -112,6 +118,7 @@ func main() {
 		},
 	}
 	scanCmd.Flags().StringVar(&reportPath, "report", defaultReport, "Caminho do relatório Markdown a ser gerado")
+	scanCmd.Flags().IntVar(&telegramMinScore, "telegram-min-score", 75, "Pontuação mínima de Fit Score para notificação no Telegram")
 
 	// Subcomando: list
 	listCmd := &cobra.Command{

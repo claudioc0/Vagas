@@ -90,6 +90,28 @@ func (t *TelegramNotifier) NotifyHotJobs(ctx context.Context, jobs []domain.Job,
 	return sentCount, nil
 }
 
+// NotifyScanSummary envia um resumo de execução quando nenhuma vaga nova é notificada
+func (t *TelegramNotifier) NotifyScanSummary(ctx context.Context, totalUnique, eligible, highFit, minScore int) error {
+	if !t.IsConfigured() {
+		return nil
+	}
+
+	msg := fmt.Sprintf(
+		"🔎 <b>Radar de Vagas executado</b>\n\n"+
+			"• Vagas únicas varridas: %d\n"+
+			"• Elegíveis (Score ≥50): %d\n"+
+			"• Alto Fit (Score ≥75): %d\n"+
+			"• Novas enviadas: 0\n\n"+
+			"<i>Nenhuma vaga nova pendente com Score ≥%d.</i>",
+		totalUnique,
+		eligible,
+		highFit,
+		minScore,
+	)
+
+	return t.sendMessage(ctx, msg)
+}
+
 func (t *TelegramNotifier) sendMessage(ctx context.Context, text string) error {
 	apiURL := fmt.Sprintf("https://api.telegram.org/bot%s/sendMessage", t.token)
 	payload := map[string]any{
