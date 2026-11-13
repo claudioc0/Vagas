@@ -118,6 +118,12 @@ func (db *DB) UpsertJob(ctx context.Context, job *domain.Job) (bool, error) {
 		coletada = time.Now()
 	}
 
+	var pubStr any = nil
+	if !job.PublishedAt.IsZero() {
+		pubStr = job.PublishedAt.Format(time.RFC3339)
+	}
+	colStr := coletada.Format(time.RFC3339)
+
 	res, err := db.conn.ExecContext(
 		ctx,
 		query,
@@ -133,8 +139,8 @@ func (db *DB) UpsertJob(ctx context.Context, job *domain.Job) (bool, error) {
 		string(tagsJSON),
 		job.FitScore,
 		job.FitReason,
-		job.PublishedAt,
-		coletada,
+		pubStr,
+		colStr,
 	)
 	if err != nil {
 		return false, err
@@ -218,6 +224,7 @@ func (db *DB) ListJobs(ctx context.Context, filter JobFilter) ([]domain.Job, err
 		var j domain.Job
 		var tagsStr string
 		var modStr string
+		var pubVal, colVal any
 
 		err := rows.Scan(
 			&j.ID,
@@ -232,14 +239,16 @@ func (db *DB) ListJobs(ctx context.Context, filter JobFilter) ([]domain.Job, err
 			&tagsStr,
 			&j.FitScore,
 			&j.FitReason,
-			&j.PublishedAt,
-			&j.CollectedAt,
+			&pubVal,
+			&colVal,
 		)
 		if err != nil {
 			return nil, err
 		}
 
 		j.Modality = domain.Modality(modStr)
+		j.PublishedAt = parseTimeFlex(pubVal)
+		j.CollectedAt = parseTimeFlex(colVal)
 		if tagsStr != "" {
 			_ = json.Unmarshal([]byte(tagsStr), &j.Tags)
 		}
@@ -247,6 +256,114 @@ func (db *DB) ListJobs(ctx context.Context, filter JobFilter) ([]domain.Job, err
 	}
 
 	return jobs, nil
+}
+
+// ListUnnotifiedJobs busca vagas com score mínimo que ainda não foram notificadas em determinado canal
+func (db *DB) ListUnnotifiedJobs(ctx context.Context, minScore int, canal string, limit int) ([]domain.Job, error) {
+	if limit <= 0 {
+		limit = 20
+	}
+
+	query := fmt.Sprintf(`
+		SELECT v.id, v.fonte_id, v.titulo, v.empresa, v.localizacao, v.modalidade,
+		       v.senioridade, v.link, v.descricao, v.tags, v.fit_score, v.fit_reason,
+		       v.publicada_em, v.coletada_em
+		FROM vagas v
+		LEFT JOIN notificacoes n ON v.id = n.vaga_id AND n.canal = ?
+		WHERE v.fit_score >= ? AND n.vaga_id IS NULL
+		ORDER BY v.fit_score DESC, v.coletada_em DESC
+		LIMIT %d
+	`, limit)
+
+	rows, err := db.conn.QueryContext(ctx, query, canal, minScore)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var jobs []domain.Job
+	for rows.Next() {
+		var j domain.Job
+		var tagsStr string
+		var modStr string
+		var pubVal, colVal any
+
+		err := rows.Scan(
+			&j.ID,
+			&j.SourceID,
+			&j.Title,
+			&j.Company,
+			&j.Location,
+			&modStr,
+			&j.Seniority,
+			&j.URL,
+			&j.Description,
+			&tagsStr,
+			&j.FitScore,
+			&j.FitReason,
+			&pubVal,
+			&colVal,
+		)
+		if err != nil {
+			return nil, err
+		}
+
+		j.Modality = domain.Modality(modStr)
+		j.PublishedAt = parseTimeFlex(pubVal)
+		j.CollectedAt = parseTimeFlex(colVal)
+		if tagsStr != "" {
+			_ = json.Unmarshal([]byte(tagsStr), &j.Tags)
+		}
+		jobs = append(jobs, j)
+	}
+
+	return jobs, nil
+}
+
+// parseTimeFlex realiza o parsing de datas salvadas em diversos formatos históricos no SQLite
+func parseTimeFlex(val any) time.Time {
+	if val == nil {
+		return time.Time{}
+	}
+	switch v := val.(type) {
+	case time.Time:
+		return v
+	case string:
+		s := strings.TrimSpace(v)
+		if s == "" {
+			return time.Time{}
+		}
+		// Remove o sufixo monotonic clock do Go se presente (ex: " ... m=+1.257179586")
+		if idx := strings.Index(s, " m="); idx != -1 {
+			s = s[:idx]
+		}
+		layouts := []string{
+			time.RFC3339Nano,
+			time.RFC3339,
+			"2006-01-02 15:04:05.999999999 -0700 MST",
+			"2006-01-02 15:04:05.999999999 -0700 -0700",
+			"2006-01-02 15:04:05 -0700 -0700",
+			"2006-01-02 15:04:05.999999999 +0000 UTC",
+			"2006-01-02 15:04:05 +0000 UTC",
+			"2006-01-02 15:04:05.999999999",
+			"2006-01-02 15:04:05",
+			"2006-01-02",
+		}
+		for _, l := range layouts {
+			if t, err := time.Parse(l, s); err == nil {
+				return t
+			}
+		}
+		if len(s) >= 19 {
+			if t, err := time.Parse("2006-01-02 15:04:05", s[:19]); err == nil {
+				return t
+			}
+			if t, err := time.Parse("2006-01-02T15:04:05", s[:19]); err == nil {
+				return t
+			}
+		}
+	}
+	return time.Time{}
 }
 
 // CountJobs retorna o total de vagas e a média de score

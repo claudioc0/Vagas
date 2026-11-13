@@ -84,21 +84,28 @@ func main() {
 			tel := notifier.NewTelegramNotifier(db)
 			if tel.IsConfigured() {
 				fmt.Println("📲 Verificando alertas do Telegram...")
-				jobs, _ := db.ListJobs(ctx, storage.JobFilter{MinScore: 80, Limit: 10})
-				sent, err := tel.NotifyHotJobs(ctx, jobs, 80)
+				jobs, err := db.ListUnnotifiedJobs(ctx, 80, "telegram", 20)
 				if err != nil {
-					fmt.Printf("  [Telegram] Aviso: %v\n", err)
-				} else if sent > 0 {
-					fmt.Printf("  -> %d nova(s) vaga(s) quente(s) enviada(s) ao Telegram!\n", sent)
+					fmt.Printf("  [Telegram] Erro ao buscar vagas não notificadas: %v\n", err)
 				} else {
-					fmt.Println("  -> Nenhuma vaga nova pendente de envio para o Telegram.")
+					sent, err := tel.NotifyHotJobs(ctx, jobs, 80)
+					if err != nil {
+						fmt.Printf("  [Telegram] Aviso: %v\n", err)
+					} else if sent > 0 {
+						fmt.Printf("  -> %d nova(s) vaga(s) quente(s) enviada(s) ao Telegram!\n", sent)
+					} else {
+						fmt.Println("  -> Nenhuma vaga nova pendente de envio para o Telegram.")
+					}
 				}
 			}
 
 			// Geração automática do relatório Markdown
 			if reportPath != "" {
-				_ = pipeline.GenerateMarkdownReport(ctx, db, reportPath)
-				fmt.Printf("📄 Relatório atualizado em: %s\n", reportPath)
+				if err := pipeline.GenerateMarkdownReport(ctx, db, reportPath); err != nil {
+					fmt.Printf("  [Aviso] Falha ao gerar relatório Markdown: %v\n", err)
+				} else {
+					fmt.Printf("📄 Relatório atualizado em: %s\n", reportPath)
+				}
 			}
 
 			return nil
