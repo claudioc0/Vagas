@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 13/11/2026 às 13:30 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 212 vagas | **Elegíveis (Score >= 60):** 32 vagas
+> **Última Atualização:** 13/11/2026 às 13:45 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 213 vagas | **Elegíveis (Score >= 60):** 33 vagas
 
 ---
 
@@ -18,6 +18,7 @@
 | **85%** | BIP Brasil | Desenvolvedor Full Stack Júnior | Remoto | `IA/LLM` | [Candidatar-se](https://vemprabip.gupy.io/job/eyJqb2JJZCI6MTI4NDQ4NDksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **80%** | Dataside | Engenheiro de Dados Azure Júnior - Remoto | Remoto | `SQL` | [Candidatar-se](https://dataside.inhire.app/vagas/56dc86fa-bb79-4fd0-9786-23e852f191b0/engenheiro-de-dados-azure-junior-remoto) |
 | **80%** | Viceri | Pessoa Desenvolvedora FullStack (NodeJS / Angular / Java) - Junior | Remoto | `Node.js` | [Candidatar-se](https://viceri-vagas.gupy.io/job/eyJqb2JJZCI6MTI3ODU1MTksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
+| **75%** | backend-br | [Remoto] Back-end Developer JR - PORT LOUIS | Remoto | `Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12474) |
 | **75%** | soujava | [Remoto] Desenvolvedor(a) Java Júnior (Integrações Bancárias CNAB) - Confidencial (vaga via Sylision) | Remoto | `Git` | [Candidatar-se](https://github.com/soujava/vagas-java/issues/1979) |
 | **75%** | soujava | [Remoto] Desenvolvedor(a) Java Júnior (Pagamentos via Pix) - Confidencial (vaga via Sylision) | Remoto | `Git` | [Candidatar-se](https://github.com/soujava/vagas-java/issues/1975) |
 | **75%** | soujava | [Remoto] Desenvolvedor(a) Java Júnior (Notificações) - Confidencial (vaga via Sylision) | Remoto | `Git` | [Candidatar-se](https://github.com/soujava/vagas-java/issues/1974) |
