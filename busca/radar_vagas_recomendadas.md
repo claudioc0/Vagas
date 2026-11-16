@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 16/11/2026 às 20:00 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 398 vagas | **Elegíveis (Score >= 60):** 52 vagas
+> **Última Atualização:** 16/11/2026 às 20:13 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 583 vagas | **Elegíveis (Score >= 60):** 54 vagas
 
 ---
 
@@ -58,7 +58,7 @@
 | **70%** | Wicomm | Desenvolvedor Front-end Jr | Remoto | `-` | [Candidatar-se](https://wicomm.vagas.solides.com.br/vaga/949725?origem=remotar) |
 | **70%** | Sicredi | Engenharia de Software JR – Foco em Financiamentos PF | Remoto | `-` | [Candidatar-se](https://sicredi.gupy.io/job/eyJqb2JJZCI6MTI2MDE4NzgsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Smart NX | Analista de QA Júnior | Remoto | `-` | [Candidatar-se](https://smartnx.gupy.io/job/eyJqb2JJZCI6MTI3NjE4NDMsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
-| **65%** | Canonical | Software Engineer - Secure Container Images | Remoto | `Docker` | [Candidatar-se](https://job-boards.greenhouse.io/canonical/jobs/8130859) |
+| **65%** | AMIL ASSISTÊNCIA MÉDICA INTERNACIONAL | Analista de Dados Jr - Curitiba, PR | Presencial | `-` | [Candidatar-se](https://www.catho.com.br/vagas/analista-de-dados-jr-curitiba-pr/39000748) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
