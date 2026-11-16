@@ -55,6 +55,25 @@ func TestEvaluate(t *testing.T) {
 		},
 	}
 
+	onsite := func(loc string, mod domain.Modality) domain.Job {
+		return domain.Job{Title: "Desenvolvedor Python Júnior", Company: "X", Location: loc, Modality: mod}
+	}
+	tests = append(tests, []struct {
+		name          string
+		job           domain.Job
+		expectedScore int
+		mustBeZero    bool
+	}{
+		{"Presencial Curitiba ok", onsite("Curitiba, Paraná", domain.ModalityOnSite), 0, false},
+		{"Hibrido Sao Jose dos Pinhais ok", onsite("São José dos Pinhais, Paraná", domain.ModalityHybrid), 0, false},
+		{"Presencial PR sigla ok", onsite("Londrina - PR", domain.ModalityOnSite), 0, false},
+		{"Presencial local desconhecido ok", onsite("Brasil", domain.ModalityOnSite), 0, false},
+		{"Presencial Presidente Prudente fora", onsite("Presidente Prudente, São Paulo", domain.ModalityOnSite), 0, true},
+		{"Hibrido Salvador fora", onsite("Salvador, Bahia", domain.ModalityHybrid), 0, true},
+		{"Hibrido Sao Paulo fora", onsite("São Paulo, São Paulo", domain.ModalityHybrid), 0, true},
+		{"Remoto fora do PR ok", onsite("Salvador, Bahia", domain.ModalityRemote), 0, false},
+	}...)
+
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			score, reason, tags := fitscore.Evaluate(&tt.job)

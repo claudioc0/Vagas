@@ -18,6 +18,10 @@ var (
 
 	reCoreTech = regexp.MustCompile(`(?i)\b(dev|desenvolvedor(a)?|developer|software|programador(a)?|engenheiro(a)?\s+de\s+software|engenharia\s+de\s+software|full\s*stack|front\s*end|frontend|back\s*end|backend|mobile|web|intelig[eê]ncia\s+artificial|\bia\b|ai\b|genai|llm|machine\s+learning|prompt|dados|data\s+engineer|engenheir[oa]\s+de\s+dados|cientista\s+de\s+dados|analista\s+de\s+dados|power\s*bi|qa|qualidade\s+de\s+software|testes?|test\s+engineer|ciberseguran[cç]a|cybersecurity|pentest(er)?|seguran[cç]a\s+da\s+informa[cç][aã]o|appsec|rpa|automa[cç][aã]o\s+de\s+software|python|golang|go|java|react|typescript|node)\b`)
 
+	// Casa nomes inteiros (sem \b, que não lida com acentos em Go): evita falsos positivos
+	// como "Presidente Prudente" para "pr" ou "Espírito Santo" para "sp".
+	reCuritibaRegion = regexp.MustCompile(`(?i)(^|[^\p{L}])(curitiba|pinhais|s[aã]o\s+jos[eé]\s+dos\s+pinhais|colombo|arauc[aá]ria|fazenda\s+rio\s+grande|campo\s+largo|almirante\s+tamandar[eé]|paran[aá]|pr)($|[^\p{L}])`)
+
 	techKeywords = []struct {
 		Pattern *regexp.Regexp
 		Points  int
@@ -34,6 +38,14 @@ var (
 		{regexp.MustCompile(`(?i)\b(git|github)\b`), 5, "Git"},
 	}
 )
+
+func isLocationUnknown(loc string) bool {
+	switch strings.TrimSpace(loc) {
+	case "", "brasil", "brazil", "indefinido":
+		return true
+	}
+	return false
+}
 
 // Evaluate calcula o FitScore (0 a 100) e a justificativa para uma vaga
 func Evaluate(job *domain.Job) (int, string, []string) {
@@ -75,13 +87,9 @@ func Evaluate(job *domain.Job) (int, string, []string) {
 
 	// 7. Compatibilidade de Localização (Se presencial/híbrido, deve ser Curitiba/PR)
 	if job.Modality == domain.ModalityOnSite || job.Modality == domain.ModalityHybrid {
-		isCuritiba := strings.Contains(loc, "curitiba") || strings.Contains(loc, "pinhais") ||
-			strings.Contains(loc, "são josé dos pinhais") || strings.Contains(loc, "colombo") ||
-			strings.Contains(loc, "araucária") || strings.Contains(loc, "paraná") || strings.Contains(loc, "pr")
-		if !isCuritiba && (strings.Contains(loc, "são paulo") || strings.Contains(loc, "sp") ||
-			strings.Contains(loc, "rio de janeiro") || strings.Contains(loc, "rj") ||
-			strings.Contains(loc, "belo horizonte") || strings.Contains(loc, "bh") ||
-			strings.Contains(loc, "porto alegre")) {
+		// Localização desconhecida (ex.: "Brasil") não é descartada; qualquer local
+		// conhecido fora de Curitiba/PR é.
+		if !isLocationUnknown(loc) && !reCuritibaRegion.MatchString(loc) {
 			return 0, "Vaga presencial/híbrida fora do polo Curitiba/PR", nil
 		}
 	}
