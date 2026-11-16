@@ -69,7 +69,8 @@ func main() {
 			gh := provider.NewGitHubProvider()
 			rem := provider.NewRemotarProvider()
 
-			engine := pipeline.NewEngine(db, gh, rem)
+			gup := provider.NewGupyProvider()
+			engine := pipeline.NewEngine(db, gh, rem, gup)
 
 			ctx, cancel := context.WithTimeout(context.Background(), 60*time.Second)
 			defer cancel()

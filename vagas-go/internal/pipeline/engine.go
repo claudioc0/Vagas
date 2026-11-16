@@ -3,6 +3,7 @@ package pipeline
 import (
 	"context"
 	"fmt"
+	"sort"
 	"strings"
 	"sync"
 	"time"
@@ -60,19 +61,32 @@ func (e *Engine) Run(ctx context.Context, onlyEligible bool) (*ScanStats, error)
 		warnMu.Unlock()
 	}
 
-	// Goroutine consumidora (Fan-In): Deduplica, pontua e persiste
+	// Goroutine consumidora (Fan-In): apenas coleta; o processamento ocorre depois,
+	// em ordem determinística, para que a mesma vaga vinda de várias fontes
+	// (ex.: Remotar e Gupy) fique sempre com o mesmo registro/ID entre execuções.
+	var collected []domain.Job
 	processWG.Add(1)
 	go func() {
 		defer processWG.Done()
 		for job := range jobsChan {
+			collected = append(collected, job)
+		}
+	}()
+
+	process := func() {
+		sort.SliceStable(collected, func(i, k int) bool {
+			return sourcePriority(collected[i].SourceID) < sourcePriority(collected[k].SourceID)
+		})
+		for _, job := range collected {
 			stats.TotalFound++
 
+			key := job.DedupKey()
 			mapMu.Lock()
-			if seenMap[job.ID] {
+			if seenMap[key] {
 				mapMu.Unlock()
 				continue
 			}
-			seenMap[job.ID] = true
+			seenMap[key] = true
 			mapMu.Unlock()
 
 			stats.TotalUnique++
@@ -104,7 +118,7 @@ func (e *Engine) Run(ctx context.Context, onlyEligible bool) (*ScanStats, error)
 				}
 			}
 		}
-	}()
+	}
 
 	// Executa os provedores em paralelo (Fan-Out)
 	g, gCtx := errgroup.WithContext(ctx)
@@ -138,6 +152,7 @@ func (e *Engine) Run(ctx context.Context, onlyEligible bool) (*ScanStats, error)
 
 	// Aguarda processamento de persistência
 	processWG.Wait()
+	process()
 
 	if upsertErrs > 0 {
 		fmt.Printf("  [Aviso] %d vaga(s) não persistidas no banco: %v\n", upsertErrs, firstUpsertErr)
@@ -146,6 +161,16 @@ func (e *Engine) Run(ctx context.Context, onlyEligible bool) (*ScanStats, error)
 
 	stats.Duration = time.Since(start)
 	return stats, nil
+}
+
+// sourcePriority define qual fonte "vence" na deduplicação (menor = preferida).
+// A Gupy fica por último porque o Remotar já agrega vagas dela, e os registros
+// do Remotar existentes no banco não devem ser duplicados nem renotificados.
+func sourcePriority(source string) int {
+	if source == "gupy" {
+		return 1
+	}
+	return 0
 }
 
 func firstLine(s string) string {

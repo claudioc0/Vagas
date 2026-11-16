@@ -2,6 +2,8 @@ package domain
 
 import (
 	"crypto/sha256"
+	"encoding/base64"
+	"encoding/json"
 	"fmt"
 	"strings"
 	"time"
@@ -44,6 +46,34 @@ func (j *Job) GenerateID() string {
 	raw := fmt.Sprintf("%s|%s|%s", cleanCompany, cleanTitle, cleanURL)
 	sum := sha256.Sum256([]byte(raw))
 	return fmt.Sprintf("%x", sum)
+}
+
+// DedupKey identifica a mesma vaga vinda de fontes diferentes. Links da Gupy trazem
+// um token base64 ({"jobId":N,"source":"..."}) no caminho; o jobId é estável entre fontes.
+func (j *Job) DedupKey() string {
+	u := strings.ToLower(j.URL)
+	if !strings.Contains(u, "gupy.io/") {
+		return j.ID
+	}
+	idx := strings.Index(j.URL, "/job/")
+	if idx < 0 {
+		return j.ID
+	}
+	token := j.URL[idx+len("/job/"):]
+	if end := strings.IndexAny(token, "?#/"); end >= 0 {
+		token = token[:end]
+	}
+	raw, err := base64.RawStdEncoding.DecodeString(strings.TrimRight(token, "="))
+	if err != nil {
+		return j.ID
+	}
+	var payload struct {
+		JobID int64 `json:"jobId"`
+	}
+	if json.Unmarshal(raw, &payload) != nil || payload.JobID == 0 {
+		return j.ID
+	}
+	return fmt.Sprintf("gupy:%d", payload.JobID)
 }
 
 // Source representa a origem da coleta
