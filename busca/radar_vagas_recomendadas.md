@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 16/11/2026 às 18:20 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 394 vagas | **Elegíveis (Score >= 60):** 48 vagas
+> **Última Atualização:** 16/11/2026 às 18:30 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 398 vagas | **Elegíveis (Score >= 60):** 49 vagas
 
 ---
 
@@ -19,6 +19,7 @@
 | **85%** | It4us | Pentester Júnior | Remoto | `IA/LLM` | [Candidatar-se](https://it4us-trial.inhire.app/vagas/6ecb6110-0973-4591-b950-88e5ffb58ac1/pentester-junior) |
 | **85%** | KPMG | Analista de IA Junior - Aplicada ao Mercado Financeiro | Remoto | `IA/LLM` | [Candidatar-se](https://kpmg.inhire.app/vagas/e63d02d2-3044-4b1a-976b-eb8a097329b8/analista-de-ia-junior-aplicada-ao-mercado-financeiro) |
 | **85%** | BIP Brasil | Desenvolvedor Full Stack Júnior | Remoto | `IA/LLM` | [Candidatar-se](https://vemprabip.gupy.io/job/eyJqb2JJZCI6MTI4NDQ4NDksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
+| **80%** | Smart NX | Desenvolvedor Back-end Jr. | Remoto | `Node.js` | [Candidatar-se](https://smartnx.gupy.io/job/eyJqb2JJZCI6MTI4OTcxMjEsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **80%** | Dataside | Engenheiro de Dados Azure Júnior - Remoto | Remoto | `SQL` | [Candidatar-se](https://dataside.inhire.app/vagas/56dc86fa-bb79-4fd0-9786-23e852f191b0/engenheiro-de-dados-azure-junior-remoto) |
 | **80%** | Viceri | Pessoa Desenvolvedora FullStack (NodeJS / Angular / Java) - Junior | Remoto | `Node.js` | [Candidatar-se](https://viceri-vagas.gupy.io/job/eyJqb2JJZCI6MTI3ODU1MTksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **75%** | Semantix | Banco de Talentos - Tecnologia, Dados e IA | Remoto | `IA/LLM` | [Candidatar-se](https://carreiras-semantix.inhire.app/vagas/094d10bd-941f-4872-869a-97e209cd4886/banco-de-talentos-or-tecnologia-dados-e-ia) |
