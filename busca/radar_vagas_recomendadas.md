@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 16/11/2026 às 17:15 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 298 vagas | **Elegíveis (Score >= 60):** 40 vagas
+> **Última Atualização:** 16/11/2026 às 17:22 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 316 vagas | **Elegíveis (Score >= 60):** 42 vagas
 
 ---
 
@@ -12,6 +12,7 @@
 | **100%** | Yandeh | Desenvolvedor de Software Full Stack Júnior | Remoto | `React, TypeScript, Node.js` | [Candidatar-se](https://yandeh.inhire.app/vagas/1a963223-260a-4242-bbb7-f53dd801d760/desenvolvedor-de-software-full-stack-junior) |
 | **100%** | Vericode | Desenvolvedor(a) Full Stack Júnior – Node.js - React Native | Remoto | `React, TypeScript, Node.js` | [Candidatar-se](https://vericode.inhire.app/vagas/30547dcf-a40a-4904-8f21-eb4ec63cde34/desenvolvedora-full-stack-junior-nodejs-or-react-native) |
 | **100%** | backend-br | [Remoto] Desenvolvedor(a) Back-end Júnior - Python / AI Coding & Agentic AI - MKdigital | Remoto | `Python, IA/LLM, Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12493) |
+| **85%** | Datum TI | Pessoa Analista de Dados Júnior | Remoto | `IA/LLM` | [Candidatar-se](https://datum.jobs.recrut.ai/job/0H2SSE?utm_source=remotar) |
 | **85%** | Canals | Junior Software Engineer | Remoto | `IA/LLM` | [Candidatar-se](https://jobs.ashbyhq.com/canals/f5be2674-0d4b-406d-bc29-be5e657b8ac5?utm_source=remotar) |
 | **85%** | BIP Brasil | Pessoa Desenvolvedora de IA/RPA - Júnior | Remoto | `IA/LLM` | [Candidatar-se](https://vemprabip.gupy.io/job/eyJqb2JJZCI6MTI4NDQ3ODAsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **85%** | Quality Digital | Pessoa Desenvolvedora Júnior Golang | Remoto | `Go` | [Candidatar-se](https://qualitydigital.gupy.io/job/eyJqb2JJZCI6MTI4Njk0MjcsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
@@ -34,6 +35,7 @@
 | **75%** | soujava | [REMOTO] Desenvolvedor Java Junior na DB1/ANYMARKET | Remoto | `Git` | [Candidatar-se](https://github.com/soujava/vagas-java/issues/1962) |
 | **75%** | react-brasil | [Nova Lima, Brasil] Full Cycle Developer (Júnior) na Coodesh | Indefinido | `React, Git` | [Candidatar-se](https://github.com/react-brasil/vagas/issues/3038) |
 | **75%** | backend-br | [Remoto] Dev java junior - DB1 | Remoto | `Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12444) |
+| **70%** | DANIEL | Analista de Sistemas (Desenvolvedor Java) Júnior | Remoto | `-` | [Candidatar-se](https://daniel-ip.gupy.io/job/eyJqb2JJZCI6MTI4MzY5OTMsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **70%** | LWSA | Analista de Segurança da Informação Júnior | Remoto | `-` | [Candidatar-se](https://lwsa.inhire.app/vagas/bf53a8de-cc82-4d7f-9239-5f98f08ba5ab/lwsa-or-analista-de-seguranca-da-informacao-junior-soc-or-remoto) |
 | **70%** | Sicredi | Engenharia de Software Júnior | Remoto | `-` | [Candidatar-se](https://sicredi.gupy.io/job/eyJqb2JJZCI6MTI1OTk1ODksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Clínica Experts | Desenvolvedor(a) Júnior | Remoto | `-` | [Candidatar-se](https://clinicaexperts.inhire.app/vagas/3347c144-1df3-400c-b47b-2300e3a935bf/desenvolvedora-junior) |
