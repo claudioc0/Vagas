@@ -100,7 +100,7 @@ func main() {
 						}
 					} else {
 						fmt.Println("  -> Nenhuma vaga nova pendente; enviando resumo da execução ao Telegram...")
-						if err := tel.NotifyScanSummary(ctx, stats.TotalUnique, stats.Eligible, stats.HighFit, telegramMinScore, stats.Warnings); err != nil {
+						if err := tel.NotifyScanSummary(ctx, stats.TotalUnique, stats.Eligible, stats.HighFit, stats.TierB, telegramMinScore, stats.Warnings); err != nil {
 							fmt.Printf("  [Telegram] Erro ao enviar resumo: %v\n", err)
 						} else {
 							fmt.Println("  -> Resumo de execução enviado ao Telegram!")

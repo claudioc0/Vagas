@@ -163,9 +163,7 @@ func (p *RemotarProvider) fetchPage(ctx context.Context, query string, page int)
 		}
 
 		desc := item.Description
-		if len(desc) > 500 {
-			desc = desc[:500] + "..."
-		}
+		desc = truncateDesc(desc)
 
 		parsedDate, _ := time.Parse(time.RFC3339, item.CreatedAt)
 		if parsedDate.IsZero() {

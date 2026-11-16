@@ -21,6 +21,7 @@ type ScanStats struct {
 	TotalUnique  int           `json:"total_unique"`
 	Eligible     int           `json:"eligible"`
 	HighFit      int           `json:"high_fit"`
+	TierB        int           `json:"tier_b"` // nível não declarado (revisão manual)
 	Duration     time.Duration `json:"duration"`
 	ProviderHits map[string]int `json:"provider_hits"`
 	// Warnings reúne falhas de fontes/persistência que não interrompem a varredura
@@ -103,6 +104,9 @@ func (e *Engine) Run(ctx context.Context, onlyEligible bool) (*ScanStats, error)
 			}
 			if score >= 75 {
 				stats.HighFit++
+			}
+			if score > 0 && strings.HasPrefix(reason, fitscore.TierBReason) {
+				stats.TierB++
 			}
 
 			// Se onlyEligible for true, só grava no banco se score > 0
@@ -187,6 +191,7 @@ func (s *ScanStats) PrintSummary() {
 	fmt.Printf("Total Vagas Únicas    : %d\n", s.TotalUnique)
 	fmt.Printf("Vagas Elegíveis (>=50): %d\n", s.Eligible)
 	fmt.Printf("Alto Fit (Score >=75) : %d\n", s.HighFit)
+	fmt.Printf("Nível não declarado   : %d (revisão manual)\n", s.TierB)
 	fmt.Println("Distribuição por Fonte:")
 	for prov, count := range s.ProviderHits {
 		fmt.Printf("  • %-20s: %d\n", prov, count)

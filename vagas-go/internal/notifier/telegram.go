@@ -91,7 +91,7 @@ func (t *TelegramNotifier) NotifyHotJobs(ctx context.Context, jobs []domain.Job,
 }
 
 // NotifyScanSummary envia um resumo de execução quando nenhuma vaga nova é notificada
-func (t *TelegramNotifier) NotifyScanSummary(ctx context.Context, totalUnique, eligible, highFit, minScore int, warnings []string) error {
+func (t *TelegramNotifier) NotifyScanSummary(ctx context.Context, totalUnique, eligible, highFit, tierB, minScore int, warnings []string) error {
 	if !t.IsConfigured() {
 		return nil
 	}
@@ -101,11 +101,13 @@ func (t *TelegramNotifier) NotifyScanSummary(ctx context.Context, totalUnique, e
 			"• Vagas únicas varridas: %d\n"+
 			"• Elegíveis (Score ≥50): %d\n"+
 			"• Alto Fit (Score ≥75): %d\n"+
+			"• Nível não declarado (para revisar): %d\n"+
 			"• Novas enviadas: 0\n\n"+
 			"<i>Nenhuma vaga nova pendente com Score ≥%d.</i>",
 		totalUnique,
 		eligible,
 		highFit,
+		tierB,
 		minScore,
 	)
 

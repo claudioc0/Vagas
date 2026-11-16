@@ -8,6 +8,7 @@ import (
 	"strings"
 	"time"
 	"vagas-go/internal/storage"
+	"vagas-go/pkg/fitscore"
 )
 
 // GenerateMarkdownReport cria o arquivo radar_vagas_recomendadas.md atualizado
@@ -48,6 +49,26 @@ func GenerateMarkdownReport(ctx context.Context, db *storage.DB, outputPath stri
 			"| **%d%%** | %s | %s | %s | `%s` | [Candidatar-se](%s) |\n",
 			j.FitScore, cleanCompany, cleanTitle, j.Modality, tags, j.URL,
 		))
+	}
+
+	// Nível B: tecnologia sem nível declarado, com sinais de entrada (apenas para revisão manual)
+	tierB, err := db.ListJobs(ctx, storage.JobFilter{ReasonPrefix: fitscore.TierBReason, Limit: 30})
+	if err != nil {
+		return err
+	}
+	if len(tierB) > 0 {
+		sb.WriteString("\n---\n\n## 🔍 Para Revisar (nível não declarado)\n\n")
+		sb.WriteString("> Vagas de tecnologia sem \"júnior\" no anúncio, mas com sinais de nível de entrada e sem indícios de senioridade. Não geram alerta no Telegram.\n\n")
+		sb.WriteString("| Empresa | Título da Vaga | Modalidade | Tecnologias | Link |\n")
+		sb.WriteString("| :--- | :--- | :---: | :--- | :---: |\n")
+		for _, j := range tierB {
+			tags := strings.Join(j.Tags, ", ")
+			if tags == "" {
+				tags = "-"
+			}
+			sb.WriteString(fmt.Sprintf("| %s | %s | %s | `%s` | [Ver vaga](%s) |\n",
+				strings.ReplaceAll(j.Company, "|", "-"), strings.ReplaceAll(j.Title, "|", "-"), j.Modality, tags, j.URL))
+		}
 	}
 
 	sb.WriteString("\n---\n")

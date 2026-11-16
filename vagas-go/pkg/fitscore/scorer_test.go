@@ -68,6 +68,10 @@ func TestEvaluate(t *testing.T) {
 		{"Trainee TI remoto", domain.Job{Title: "Trainee | Tecnologia da Informação (TI)", Company: "X", Modality: domain.ModalityRemote}, 0, false},
 		{"Advogado Junior continua fora", domain.Job{Title: "Advogado(a) Junior - Direito Digital", Company: "X", Modality: domain.ModalityRemote}, 0, true},
 		{"Analista Financeiro Junior continua fora", domain.Job{Title: "Analista Financeiro - Júnior", Company: "X", Modality: domain.ModalityRemote}, 0, true},
+		{"Nivel B sem sinal de entrada fora", domain.Job{Title: "Desenvolvedor(a) Full Stack", Company: "X", Location: "Brasil", Modality: domain.ModalityRemote, Description: "Construir APIs em Go"}, 0, true},
+		{"Nivel B exige anos fora", domain.Job{Title: "Desenvolvedor(a) Backend", Company: "X", Location: "Brasil", Modality: domain.ModalityRemote, Description: "Early career mas com 4 anos de experiência"}, 0, true},
+		{"Nivel B arquiteto fora", domain.Job{Title: "Arquiteto de Soluções de IA", Company: "X", Location: "Brasil", Modality: domain.ModalityRemote, Description: "early career"}, 0, true},
+		{"Nivel B fora do remoto fora", domain.Job{Title: "Software Engineer", Company: "X", Location: "Cidade do México", Modality: domain.ModalityUnknown, Description: "Early Career"}, 0, true},
 		{"Presencial Curitiba ok", onsite("Curitiba, Paraná", domain.ModalityOnSite), 0, false},
 		{"Hibrido Sao Jose dos Pinhais ok", onsite("São José dos Pinhais, Paraná", domain.ModalityHybrid), 0, false},
 		{"Presencial PR sigla ok", onsite("Londrina - PR", domain.ModalityOnSite), 0, false},
@@ -89,5 +93,26 @@ func TestEvaluate(t *testing.T) {
 			}
 			t.Logf("[%s] Score: %d | Tags: %v | Razao: %s", tt.name, score, tags, reason)
 		})
+	}
+}
+
+func TestEvaluateTierB(t *testing.T) {
+	job := domain.Job{
+		Title: "Desenvolvedor(a) Full Stack", Company: "X", Location: "Brasil",
+		Modality: domain.ModalityRemote, Description: "Não exigimos experiência prévia. Stack: Python e React.",
+	}
+	score, reason, _ := fitscore.Evaluate(&job)
+	if score < 35 || score > 49 {
+		t.Fatalf("Nível B deveria ter score entre 35 e 49, obteve %d (%s)", score, reason)
+	}
+	if len(reason) < len(fitscore.TierBReason) || reason[:len(fitscore.TierBReason)] != fitscore.TierBReason {
+		t.Errorf("motivo inesperado: %s", reason)
+	}
+
+	// Nível A continua >= 50
+	jr := job
+	jr.Title = "Desenvolvedor(a) Full Stack Júnior"
+	if s, _, _ := fitscore.Evaluate(&jr); s < 50 {
+		t.Errorf("Nível A deveria ser >= 50, obteve %d", s)
 	}
 }

@@ -222,9 +222,7 @@ func (p *GupyProvider) fetchPage(ctx context.Context, query string) ([]domain.Jo
 		}
 
 		desc := g.Description
-		if r := []rune(desc); len(r) > 500 {
-			desc = string(r[:500]) + "..."
-		}
+		desc = truncateDesc(desc)
 
 		company := strings.TrimSpace(g.CareerPage)
 		if company == "" {

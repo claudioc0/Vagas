@@ -138,9 +138,7 @@ func (p *GitHubProvider) fetchRepo(ctx context.Context, repo string, maxAge time
 		}
 
 		desc := iss.Body
-		if len(desc) > 500 {
-			desc = desc[:500] + "..."
-		}
+		desc = truncateDesc(desc)
 
 		job := domain.Job{
 			SourceID:    p.ID(),

@@ -169,6 +169,8 @@ type JobFilter struct {
 	Modality domain.Modality
 	Search   string
 	Limit    int
+	// ReasonPrefix filtra por prefixo de fit_reason (ex.: vagas de Nível B)
+	ReasonPrefix string
 }
 
 // ListJobs busca vagas aplicando filtros
@@ -184,6 +186,11 @@ func (db *DB) ListJobs(ctx context.Context, filter JobFilter) ([]domain.Job, err
 	if filter.Modality != "" && filter.Modality != domain.ModalityUnknown {
 		conditions = append(conditions, "modalidade = ?")
 		args = append(args, string(filter.Modality))
+	}
+
+	if filter.ReasonPrefix != "" {
+		conditions = append(conditions, "fit_reason LIKE ?")
+		args = append(args, filter.ReasonPrefix+"%")
 	}
 
 	if strings.TrimSpace(filter.Search) != "" {
