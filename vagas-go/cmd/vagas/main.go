@@ -70,7 +70,8 @@ func main() {
 			rem := provider.NewRemotarProvider()
 
 			gup := provider.NewGupyProvider()
-			engine := pipeline.NewEngine(db, gh, rem, gup)
+			cat := provider.NewCathoProvider()
+			engine := pipeline.NewEngine(db, gh, rem, gup, cat)
 
 			ctx, cancel := context.WithTimeout(context.Background(), 60*time.Second)
 			defer cancel()
