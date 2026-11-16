@@ -64,6 +64,10 @@ func TestEvaluate(t *testing.T) {
 		expectedScore int
 		mustBeZero    bool
 	}{
+		{"Analista de Sistemas Junior remoto", domain.Job{Title: "Analista de Sistemas Junior", Company: "X", Location: "Brasil", Modality: domain.ModalityRemote}, 0, false},
+		{"Trainee TI remoto", domain.Job{Title: "Trainee | Tecnologia da Informação (TI)", Company: "X", Modality: domain.ModalityRemote}, 0, false},
+		{"Advogado Junior continua fora", domain.Job{Title: "Advogado(a) Junior - Direito Digital", Company: "X", Modality: domain.ModalityRemote}, 0, true},
+		{"Analista Financeiro Junior continua fora", domain.Job{Title: "Analista Financeiro - Júnior", Company: "X", Modality: domain.ModalityRemote}, 0, true},
 		{"Presencial Curitiba ok", onsite("Curitiba, Paraná", domain.ModalityOnSite), 0, false},
 		{"Hibrido Sao Jose dos Pinhais ok", onsite("São José dos Pinhais, Paraná", domain.ModalityHybrid), 0, false},
 		{"Presencial PR sigla ok", onsite("Londrina - PR", domain.ModalityOnSite), 0, false},

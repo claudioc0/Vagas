@@ -47,6 +47,17 @@ func NewRemotarProvider() *RemotarProvider {
 			"back end junior",
 			"inteligencia artificial",
 			"dados junior",
+			"analista de sistemas junior",
+			"qa junior",
+			"devops junior",
+			"seguranca da informacao junior",
+			"desenvolvedor mobile junior",
+			"javascript junior",
+			"react junior",
+			"node junior",
+			"java junior",
+			"trainee ti",
+			"engenheiro de dados junior",
 		},
 	}
 }
