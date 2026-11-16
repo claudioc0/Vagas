@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 16/11/2026 às 17:00 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 250 vagas | **Elegíveis (Score >= 60):** 34 vagas
+> **Última Atualização:** 16/11/2026 às 17:03 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 296 vagas | **Elegíveis (Score >= 60):** 40 vagas
 
 ---
 
@@ -12,6 +12,8 @@
 | **100%** | Yandeh | Desenvolvedor de Software Full Stack Júnior | Remoto | `React, TypeScript, Node.js` | [Candidatar-se](https://yandeh.inhire.app/vagas/1a963223-260a-4242-bbb7-f53dd801d760/desenvolvedor-de-software-full-stack-junior) |
 | **100%** | Vericode | Desenvolvedor(a) Full Stack Júnior – Node.js - React Native | Remoto | `React, TypeScript, Node.js` | [Candidatar-se](https://vericode.inhire.app/vagas/30547dcf-a40a-4904-8f21-eb4ec63cde34/desenvolvedora-full-stack-junior-nodejs-or-react-native) |
 | **100%** | backend-br | [Remoto] Desenvolvedor(a) Back-end Júnior - Python / AI Coding & Agentic AI - MKdigital | Remoto | `Python, IA/LLM, Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12493) |
+| **85%** | Canals | Junior Software Engineer | Remoto | `IA/LLM` | [Candidatar-se](https://jobs.ashbyhq.com/canals/f5be2674-0d4b-406d-bc29-be5e657b8ac5?utm_source=remotar) |
+| **85%** | BIP Brasil | Pessoa Desenvolvedora de IA/RPA - Júnior | Remoto | `IA/LLM` | [Candidatar-se](https://vemprabip.gupy.io/job/eyJqb2JJZCI6MTI4NDQ3ODAsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **85%** | Quality Digital | Pessoa Desenvolvedora Júnior Golang | Remoto | `Go` | [Candidatar-se](https://qualitydigital.gupy.io/job/eyJqb2JJZCI6MTI4Njk0MjcsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **85%** | It4us | Pentester Júnior | Remoto | `IA/LLM` | [Candidatar-se](https://it4us-trial.inhire.app/vagas/6ecb6110-0973-4591-b950-88e5ffb58ac1/pentester-junior) |
 | **85%** | KPMG | Analista de IA Junior - Aplicada ao Mercado Financeiro | Remoto | `IA/LLM` | [Candidatar-se](https://kpmg.inhire.app/vagas/e63d02d2-3044-4b1a-976b-eb8a097329b8/analista-de-ia-junior-aplicada-ao-mercado-financeiro) |
@@ -32,6 +34,9 @@
 | **75%** | soujava | [REMOTO] Desenvolvedor Java Junior na DB1/ANYMARKET | Remoto | `Git` | [Candidatar-se](https://github.com/soujava/vagas-java/issues/1962) |
 | **75%** | react-brasil | [Nova Lima, Brasil] Full Cycle Developer (Júnior) na Coodesh | Indefinido | `React, Git` | [Candidatar-se](https://github.com/react-brasil/vagas/issues/3038) |
 | **75%** | backend-br | [Remoto] Dev java junior - DB1 | Remoto | `Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12444) |
+| **70%** | LWSA | Analista de Segurança da Informação Júnior | Remoto | `-` | [Candidatar-se](https://lwsa.inhire.app/vagas/bf53a8de-cc82-4d7f-9239-5f98f08ba5ab/lwsa-or-analista-de-seguranca-da-informacao-junior-soc-or-remoto) |
+| **70%** | Sicredi | Engenharia de Software Júnior | Remoto | `-` | [Candidatar-se](https://sicredi.gupy.io/job/eyJqb2JJZCI6MTI1OTk1ODksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
+| **70%** | Clínica Experts | Desenvolvedor(a) Júnior | Remoto | `-` | [Candidatar-se](https://clinicaexperts.inhire.app/vagas/3347c144-1df3-400c-b47b-2300e3a935bf/desenvolvedora-junior) |
 | **70%** | Grupo SysMap | Analista de Governança de Dados JR | Remoto | `-` | [Candidatar-se](https://gruposysmap.gupy.io/job/eyJqb2JJZCI6MTI4NzkzNTMsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | BRQ | Engenheiro(a) de Dados Jr - Azure Databricks | Remoto | `-` | [Candidatar-se](https://brq.inhire.app/vagas/5768c629-443b-4e05-aa77-aea3a1fc5cc6/engenheiroa-de-dados-jr-or-azure-databricks) |
 | **70%** | BRQ | Engenheiro de Dados Junior | Remoto | `-` | [Candidatar-se](https://brq.inhire.app/vagas/405e6923-2489-4833-9287-11d131d39811/engenheiro-de-dados-junior) |
@@ -42,6 +47,7 @@
 | **70%** | Wicomm | Desenvolvedor Front-end Jr | Remoto | `-` | [Candidatar-se](https://wicomm.vagas.solides.com.br/vaga/949725?origem=remotar) |
 | **70%** | Sicredi | Engenharia de Software JR – Foco em Financiamentos PF | Remoto | `-` | [Candidatar-se](https://sicredi.gupy.io/job/eyJqb2JJZCI6MTI2MDE4NzgsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Smart NX | Analista de QA Júnior | Remoto | `-` | [Candidatar-se](https://smartnx.gupy.io/job/eyJqb2JJZCI6MTI3NjE4NDMsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
+| **60%** | Jump | Analista de Segurança da Informação | Remoto | `-` | [Candidatar-se](https://jump.inhire.app/vagas/f766e3e5-ca20-4423-b795-b5e60bd08f89/analista-de-seguranca-da-informacao) |
 | **60%** | MJV | Desenvolvedor Front-End Mobile (Angular/Ionic) | Remoto | `-` | [Candidatar-se](https://mjv.inhire.app/vagas/8754f23f-8729-41bd-9f1c-e43169cf268c/desenvolvedor-front-end-mobile-angularionic) |
 
 ---
