@@ -3,6 +3,7 @@ package provider
 import (
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"net/http"
 	"net/url"
@@ -57,6 +58,7 @@ func (p *RemotarProvider) Fetch(ctx context.Context) ([]domain.Job, error) {
 	var mu sync.Mutex
 	var allJobs []domain.Job
 	var wg sync.WaitGroup
+	var errs []error
 
 	limit := make(chan struct{}, 3)
 
@@ -72,41 +74,64 @@ func (p *RemotarProvider) Fetch(ctx context.Context) ([]domain.Job, error) {
 			}
 
 			jobs, err := p.fetchQuery(ctx, query)
-			if err != nil {
-				return
-			}
 
 			mu.Lock()
 			allJobs = append(allJobs, jobs...)
+			if err != nil {
+				errs = append(errs, fmt.Errorf("busca %q: %w", query, err))
+			}
 			mu.Unlock()
 		}(q)
 	}
 
 	wg.Wait()
-	return allJobs, nil
+	// Resultado parcial é válido: devolve o coletado junto com os erros
+	return allJobs, errors.Join(errs...)
 }
 
+const (
+	remotarPageSize = 20
+	remotarMaxPages = 3
+)
+
+// fetchQuery pagina uma busca (até remotarMaxPages páginas); em erro devolve o já coletado.
 func (p *RemotarProvider) fetchQuery(ctx context.Context, query string) ([]domain.Job, error) {
-	apiURL := fmt.Sprintf("https://api.remotar.com.br/jobs?search=%s&limit=20&page=1", url.QueryEscape(query))
+	var all []domain.Job
+	for page := 1; page <= remotarMaxPages; page++ {
+		jobs, n, err := p.fetchPage(ctx, query, page)
+		all = append(all, jobs...)
+		if err != nil {
+			return all, fmt.Errorf("página %d: %w", page, err)
+		}
+		if n < remotarPageSize {
+			break
+		}
+	}
+	return all, nil
+}
+
+// fetchPage retorna as vagas da página e o total bruto de itens recebidos.
+func (p *RemotarProvider) fetchPage(ctx context.Context, query string, page int) ([]domain.Job, int, error) {
+	apiURL := fmt.Sprintf("https://api.remotar.com.br/jobs?search=%s&limit=%d&page=%d", url.QueryEscape(query), remotarPageSize, page)
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, apiURL, nil)
 	if err != nil {
-		return nil, err
+		return nil, 0, err
 	}
 	req.Header.Set("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) VagasHunter/1.0")
 
 	resp, err := p.client.Do(req)
 	if err != nil {
-		return nil, err
+		return nil, 0, err
 	}
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		return nil, fmt.Errorf("remotar api status %d", resp.StatusCode)
+		return nil, 0, fmt.Errorf("remotar api status %d", resp.StatusCode)
 	}
 
 	var res RemotarResponse
 	if err := json.NewDecoder(resp.Body).Decode(&res); err != nil {
-		return nil, err
+		return nil, 0, err
 	}
 
 	var jobs []domain.Job
@@ -152,5 +177,5 @@ func (p *RemotarProvider) fetchQuery(ctx context.Context, query string) ([]domai
 		jobs = append(jobs, job)
 	}
 
-	return jobs, nil
+	return jobs, len(res.Data), nil
 }

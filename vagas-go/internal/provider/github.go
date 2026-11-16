@@ -3,8 +3,10 @@ package provider
 import (
 	"context"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"net/http"
+	"os"
 	"strings"
 	"sync"
 	"time"
@@ -53,6 +55,7 @@ func (p *GitHubProvider) Fetch(ctx context.Context) ([]domain.Job, error) {
 	var mu sync.Mutex
 	var allJobs []domain.Job
 	var wg sync.WaitGroup
+	var errs []error
 
 	limitChan := make(chan struct{}, 4) // Até 4 repositórios em paralelo
 	maxAge := 30 * 24 * time.Hour
@@ -69,18 +72,18 @@ func (p *GitHubProvider) Fetch(ctx context.Context) ([]domain.Job, error) {
 			}
 
 			jobs, err := p.fetchRepo(ctx, r, maxAge)
-			if err != nil {
-				return
-			}
 
 			mu.Lock()
 			allJobs = append(allJobs, jobs...)
+			if err != nil {
+				errs = append(errs, fmt.Errorf("%s: %w", r, err))
+			}
 			mu.Unlock()
 		}(repo)
 	}
 
 	wg.Wait()
-	return allJobs, nil
+	return allJobs, errors.Join(errs...)
 }
 
 func (p *GitHubProvider) fetchRepo(ctx context.Context, repo string, maxAge time.Duration) ([]domain.Job, error) {
@@ -91,6 +94,10 @@ func (p *GitHubProvider) fetchRepo(ctx context.Context, repo string, maxAge time
 	}
 	req.Header.Set("User-Agent", "VagasGo-Hunter/1.0")
 	req.Header.Set("Accept", "application/vnd.github.v3+json")
+	// Token opcional: sem ele o limite é 60 req/h por IP (compartilhado nos runners)
+	if token := os.Getenv("GITHUB_TOKEN"); token != "" {
+		req.Header.Set("Authorization", "Bearer "+token)
+	}
 
 	resp, err := p.client.Do(req)
 	if err != nil {

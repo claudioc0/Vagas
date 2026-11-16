@@ -3,6 +3,7 @@ package pipeline
 import (
 	"context"
 	"fmt"
+	"strings"
 	"sync"
 	"time"
 	"vagas-go/internal/domain"
@@ -21,6 +22,8 @@ type ScanStats struct {
 	HighFit      int           `json:"high_fit"`
 	Duration     time.Duration `json:"duration"`
 	ProviderHits map[string]int `json:"provider_hits"`
+	// Warnings reúne falhas de fontes/persistência que não interrompem a varredura
+	Warnings []string `json:"warnings,omitempty"`
 }
 
 // Engine orquestra a coleta paralela e persistência
@@ -48,6 +51,14 @@ func (e *Engine) Run(ctx context.Context, onlyEligible bool) (*ScanStats, error)
 	var processWG sync.WaitGroup
 	seenMap := make(map[string]bool)
 	var mapMu sync.Mutex
+	var warnMu sync.Mutex
+	upsertErrs := 0
+	var firstUpsertErr error
+	addWarning := func(w string) {
+		warnMu.Lock()
+		stats.Warnings = append(stats.Warnings, w)
+		warnMu.Unlock()
+	}
 
 	// Goroutine consumidora (Fan-In): Deduplica, pontua e persiste
 	processWG.Add(1)
@@ -86,7 +97,12 @@ func (e *Engine) Run(ctx context.Context, onlyEligible bool) (*ScanStats, error)
 			}
 
 			// Persistência no SQLite
-			_, _ = e.db.UpsertJob(ctx, &job)
+			if _, err := e.db.UpsertJob(ctx, &job); err != nil {
+				upsertErrs++
+				if firstUpsertErr == nil {
+					firstUpsertErr = err
+				}
+			}
 		}
 	}()
 
@@ -97,8 +113,13 @@ func (e *Engine) Run(ctx context.Context, onlyEligible bool) (*ScanStats, error)
 		prov := p
 		g.Go(func() error {
 			jobs, err := prov.Fetch(gCtx)
+			// Falha em uma fonte não interrompe as demais, mas é registrada
 			if err != nil {
-				return nil // Falha em uma fonte não interrompe as demais
+				fmt.Printf("  [Aviso] Fonte %s com falhas: %v\n", prov.ID(), err)
+				addWarning(fmt.Sprintf("Fonte %s com falhas: %s", prov.ID(), firstLine(err.Error())))
+			} else if len(jobs) == 0 {
+				fmt.Printf("  [Aviso] Fonte %s retornou 0 vagas\n", prov.ID())
+				addWarning(fmt.Sprintf("Fonte %s retornou 0 vagas", prov.ID()))
 			}
 			for _, j := range jobs {
 				select {
@@ -118,8 +139,20 @@ func (e *Engine) Run(ctx context.Context, onlyEligible bool) (*ScanStats, error)
 	// Aguarda processamento de persistência
 	processWG.Wait()
 
+	if upsertErrs > 0 {
+		fmt.Printf("  [Aviso] %d vaga(s) não persistidas no banco: %v\n", upsertErrs, firstUpsertErr)
+		stats.Warnings = append(stats.Warnings, fmt.Sprintf("%d vaga(s) não persistidas (%v)", upsertErrs, firstUpsertErr))
+	}
+
 	stats.Duration = time.Since(start)
 	return stats, nil
+}
+
+func firstLine(s string) string {
+	if i := strings.IndexByte(s, '\n'); i >= 0 {
+		return s[:i]
+	}
+	return s
 }
 
 // PrintSummary exibe um resumo formatado da varredura

@@ -91,7 +91,7 @@ func (t *TelegramNotifier) NotifyHotJobs(ctx context.Context, jobs []domain.Job,
 }
 
 // NotifyScanSummary envia um resumo de execução quando nenhuma vaga nova é notificada
-func (t *TelegramNotifier) NotifyScanSummary(ctx context.Context, totalUnique, eligible, highFit, minScore int) error {
+func (t *TelegramNotifier) NotifyScanSummary(ctx context.Context, totalUnique, eligible, highFit, minScore int, warnings []string) error {
 	if !t.IsConfigured() {
 		return nil
 	}
@@ -109,7 +109,28 @@ func (t *TelegramNotifier) NotifyScanSummary(ctx context.Context, totalUnique, e
 		minScore,
 	)
 
+	msg += formatWarnings(warnings)
+
 	return t.sendMessage(ctx, msg)
+}
+
+// NotifyWarnings avisa sobre falhas de fontes quando há vagas novas (o resumo não é enviado nesse caso)
+func (t *TelegramNotifier) NotifyWarnings(ctx context.Context, warnings []string) error {
+	if !t.IsConfigured() || len(warnings) == 0 {
+		return nil
+	}
+	return t.sendMessage(ctx, "🔎 <b>Radar de Vagas</b>"+formatWarnings(warnings))
+}
+
+func formatWarnings(warnings []string) string {
+	if len(warnings) == 0 {
+		return ""
+	}
+	out := "\n\n⚠️ <b>Avisos:</b>"
+	for _, w := range warnings {
+		out += "\n• " + escapeHTML(w)
+	}
+	return out
 }
 
 func (t *TelegramNotifier) sendMessage(ctx context.Context, text string) error {
