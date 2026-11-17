@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 17/11/2026 às 18:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 717 vagas | **Elegíveis (Score >= 60):** 56 vagas
+> **Última Atualização:** 17/11/2026 às 19:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 719 vagas | **Elegíveis (Score >= 60):** 57 vagas
 
 ---
 
@@ -40,6 +40,7 @@
 | **75%** | soujava | [REMOTO] Desenvolvedor Java Junior na DB1/ANYMARKET | Remoto | `Git` | [Candidatar-se](https://github.com/soujava/vagas-java/issues/1962) |
 | **75%** | react-brasil | [Nova Lima, Brasil] Full Cycle Developer (Júnior) na Coodesh | Indefinido | `React, Git` | [Candidatar-se](https://github.com/react-brasil/vagas/issues/3038) |
 | **75%** | backend-br | [Remoto] Dev java junior - DB1 | Remoto | `Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12444) |
+| **70%** | Compass UOL | Cloud Network DevOps - Júnior (Remoto) | Remoto | `-` | [Candidatar-se](https://compass.gupy.io/job/eyJqb2JJZCI6MTI4Njg1NzYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **70%** | Sky.One | Analista de Segurança da Informação Júnior (SOC) | Remoto | `-` | [Candidatar-se](https://skyone.inhire.app/vagas/beded6c7-850f-4763-b29e-dc3ff726374e/analista-de-seguranca-da-informacao-junior-soc) |
 | **70%** | Jobgether | Analista de Cibersegurança Júnior (Blue Team) | Remoto | `-` | [Candidatar-se](https://www.linkedin.com/jobs/view/4490170698/?) |
 | **70%** | Vonbz | Analista Junior de Cybersecurity - Zscaler - Remoto | Remoto | `-` | [Candidatar-se](https://vonbz.inhire.app/vagas/602a17f3-36b9-4542-8c92-9e31cb5998a2/analista-junior-de-cybersecurity-or-zscaler-or-remoto) |
@@ -58,7 +59,6 @@
 | **70%** | Ahlex | Desenvolvedor(a) Júnior | Remoto | `-` | [Candidatar-se](https://ahlex.vagas.solides.com.br/vaga/951388?origem=remotar) |
 | **70%** | Grupo Bancobrás | Analista de Dados Júnior | Remoto | `-` | [Candidatar-se](https://bancorbras.gupy.io/job/eyJqb2JJZCI6MTI4NDgzOTUsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Wicomm | Desenvolvedor Front-end Jr | Remoto | `-` | [Candidatar-se](https://wicomm.vagas.solides.com.br/vaga/949725?origem=remotar) |
-| **70%** | Sicredi | Engenharia de Software JR – Foco em Financiamentos PF | Remoto | `-` | [Candidatar-se](https://sicredi.gupy.io/job/eyJqb2JJZCI6MTI2MDE4NzgsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
