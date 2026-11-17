@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 17/11/2026 às 03:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 660 vagas | **Elegíveis (Score >= 60):** 54 vagas
+> **Última Atualização:** 17/11/2026 às 04:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 661 vagas | **Elegíveis (Score >= 60):** 55 vagas
 
 ---
 
@@ -40,6 +40,7 @@
 | **75%** | soujava | [REMOTO] Desenvolvedor Java Junior na DB1/ANYMARKET | Remoto | `Git` | [Candidatar-se](https://github.com/soujava/vagas-java/issues/1962) |
 | **75%** | react-brasil | [Nova Lima, Brasil] Full Cycle Developer (Júnior) na Coodesh | Indefinido | `React, Git` | [Candidatar-se](https://github.com/react-brasil/vagas/issues/3038) |
 | **75%** | backend-br | [Remoto] Dev java junior - DB1 | Remoto | `Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12444) |
+| **70%** | Jobgether | Analista de Cibersegurança Júnior (Blue Team) | Remoto | `-` | [Candidatar-se](https://www.linkedin.com/jobs/view/4490170698/?) |
 | **70%** | Vonbz | Analista Junior de Cybersecurity - Zscaler - Remoto | Remoto | `-` | [Candidatar-se](https://vonbz.inhire.app/vagas/602a17f3-36b9-4542-8c92-9e31cb5998a2/analista-junior-de-cybersecurity-or-zscaler-or-remoto) |
 | **70%** | Ahlex | Analista de Qualidade (QA) Júnior | Remoto | `-` | [Candidatar-se](https://ahlex.vagas.solides.com.br/vaga/943274?origem=remotar) |
 | **70%** | Ativa GR | Analista de Qualidade (QA/Tester) Júnior | Remoto | `-` | [Candidatar-se](https://ativagr.gupy.io/job/eyJqb2JJZCI6MTI4MjUxNzUsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
@@ -58,7 +59,6 @@
 | **70%** | Wicomm | Desenvolvedor Front-end Jr | Remoto | `-` | [Candidatar-se](https://wicomm.vagas.solides.com.br/vaga/949725?origem=remotar) |
 | **70%** | Sicredi | Engenharia de Software JR – Foco em Financiamentos PF | Remoto | `-` | [Candidatar-se](https://sicredi.gupy.io/job/eyJqb2JJZCI6MTI2MDE4NzgsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Smart NX | Analista de QA Júnior | Remoto | `-` | [Candidatar-se](https://smartnx.gupy.io/job/eyJqb2JJZCI6MTI3NjE4NDMsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
-| **65%** | AMIL ASSISTÊNCIA MÉDICA INTERNACIONAL | Analista de Dados Jr - Curitiba, PR | Presencial | `-` | [Candidatar-se](https://www.catho.com.br/vagas/analista-de-dados-jr-curitiba-pr/39000748) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
