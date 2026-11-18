@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 18/11/2026 às 12:00 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 769 vagas | **Elegíveis (Score >= 60):** 58 vagas
+> **Última Atualização:** 18/11/2026 às 12:15 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 771 vagas | **Elegíveis (Score >= 60):** 59 vagas
 
 ---
 
@@ -15,6 +15,7 @@
 | **100%** | Vericode | Desenvolvedor(a) Full Stack Júnior – Node.js - React Native | Remoto | `React, TypeScript, Node.js, IA/LLM` | [Candidatar-se](https://vericode.inhire.app/vagas/30547dcf-a40a-4904-8f21-eb4ec63cde34/desenvolvedora-full-stack-junior-nodejs-or-react-native) |
 | **100%** | backend-br | [Remoto] Desenvolvedor(a) Back-end Júnior - Python / AI Coding & Agentic AI - MKdigital | Remoto | `Python, IA/LLM, Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12493) |
 | **90%** | StarShip Aceleradora | Desenvolvedor - Analista Sistemas IA Claude Code | Remoto | `Python, IA/LLM` | [Candidatar-se](https://gabyreisrh.abler.com.br/vagas/desenvolvedor-analista-sistemas-ia-claude-code-855417?utm_source=remotar) |
+| **85%** | Leega Consultoria | Analista Programador Júnior (.NET e Python) | Remoto | `Python` | [Candidatar-se](https://leega.gupy.io/job/eyJqb2JJZCI6MTI5MDUxMjksInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **85%** | Canals | Junior Software Engineer | Remoto | `IA/LLM` | [Candidatar-se](https://jobs.ashbyhq.com/canals/f5be2674-0d4b-406d-bc29-be5e657b8ac5?utm_source=remotar) |
 | **85%** | BIP Brasil | Pessoa Desenvolvedora de IA/RPA - Júnior | Remoto | `IA/LLM` | [Candidatar-se](https://vemprabip.gupy.io/job/eyJqb2JJZCI6MTI4NDQ3ODAsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **85%** | Dataside | Engenheiro de Dados Azure Júnior - Remoto | Remoto | `SQL, Git` | [Candidatar-se](https://dataside.inhire.app/vagas/56dc86fa-bb79-4fd0-9786-23e852f191b0/engenheiro-de-dados-azure-junior-remoto) |
@@ -58,7 +59,6 @@
 | **70%** | Vertigo Tecnologia | Analista de TI Júnior | Remoto | `-` | [Candidatar-se](https://vertigo.inhire.app/vagas/599310d3-dcf8-4e58-b9f6-9f962c19371c/analista-de-ti-junior-or-foco-em-seguranca) |
 | **70%** | Sky.One | Analista de Sustentação Cloud Júnior | Remoto | `-` | [Candidatar-se](https://skyone.inhire.app/vagas/ce2d1f28-ced2-4279-9a7b-0fb8f27e03d6/analista-de-sustentacao-cloud-junior) |
 | **70%** | Ahlex | Desenvolvedor(a) Júnior | Remoto | `-` | [Candidatar-se](https://ahlex.vagas.solides.com.br/vaga/951388?origem=remotar) |
-| **70%** | Grupo Bancobrás | Analista de Dados Júnior | Remoto | `-` | [Candidatar-se](https://bancorbras.gupy.io/job/eyJqb2JJZCI6MTI4NDgzOTUsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
