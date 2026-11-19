@@ -123,7 +123,7 @@ func main() {
 		},
 	}
 	scanCmd.Flags().StringVar(&reportPath, "report", defaultReport, "Caminho do relatório Markdown a ser gerado")
-	scanCmd.Flags().IntVar(&telegramMinScore, "telegram-min-score", 75, "Pontuação mínima de Fit Score para notificação no Telegram")
+	scanCmd.Flags().IntVar(&telegramMinScore, "telegram-min-score", 50, "Pontuação mínima de Fit Score para notificação no Telegram")
 
 	// Subcomando: list
 	listCmd := &cobra.Command{
