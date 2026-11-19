@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 19/11/2026 às 13:33 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 881 vagas | **Elegíveis (Score >= 60):** 61 vagas
+> **Última Atualização:** 19/11/2026 às 13:45 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 882 vagas | **Elegíveis (Score >= 60):** 62 vagas
 
 ---
 
@@ -43,6 +43,7 @@
 | **75%** | soujava | [REMOTO] Desenvolvedor Java Junior na DB1/ANYMARKET | Remoto | `Git` | [Candidatar-se](https://github.com/soujava/vagas-java/issues/1962) |
 | **75%** | react-brasil | [Nova Lima, Brasil] Full Cycle Developer (Júnior) na Coodesh | Indefinido | `React, Git` | [Candidatar-se](https://github.com/react-brasil/vagas/issues/3038) |
 | **75%** | backend-br | [Remoto] Dev java junior - DB1 | Remoto | `Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12444) |
+| **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA2NjYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **70%** | PagBank | Engenheiro de Qualidade de Software Jr. | Remoto | `-` | [Candidatar-se](https://pagseguro.gupy.io/job/eyJqb2JJZCI6MTE4ODI1NTksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Compass UOL | Cloud Network DevOps - Júnior (Remoto) | Remoto | `-` | [Candidatar-se](https://compass.gupy.io/job/eyJqb2JJZCI6MTI4Njg1NzYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **70%** | Sky.One | Analista de Segurança da Informação Júnior (SOC) | Remoto | `-` | [Candidatar-se](https://skyone.inhire.app/vagas/beded6c7-850f-4763-b29e-dc3ff726374e/analista-de-seguranca-da-informacao-junior-soc) |
@@ -58,7 +59,6 @@
 | **70%** | BRQ | Engenheiro(a) de Dados Jr - Azure Databricks | Remoto | `-` | [Candidatar-se](https://brq.inhire.app/vagas/5768c629-443b-4e05-aa77-aea3a1fc5cc6/engenheiroa-de-dados-jr-or-azure-databricks) |
 | **70%** | BRQ | Engenheiro de Dados Junior | Remoto | `-` | [Candidatar-se](https://brq.inhire.app/vagas/405e6923-2489-4833-9287-11d131d39811/engenheiro-de-dados-junior) |
 | **70%** | Tripla | Consultor de Segurança da Informação Júnior | Remoto | `-` | [Candidatar-se](https://tripla.inhire.app/vagas/1104223e-d17c-466e-8e6e-7dcdfc9ae032/consultor-de-seguranca-da-informacao-junior) |
-| **70%** | Vertigo Tecnologia | Analista de TI Júnior | Remoto | `-` | [Candidatar-se](https://vertigo.inhire.app/vagas/599310d3-dcf8-4e58-b9f6-9f962c19371c/analista-de-ti-junior-or-foco-em-seguranca) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
