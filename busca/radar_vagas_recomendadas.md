@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 19/11/2026 às 18:30 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 913 vagas | **Elegíveis (Score >= 60):** 63 vagas
+> **Última Atualização:** 19/11/2026 às 18:45 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 919 vagas | **Elegíveis (Score >= 60):** 65 vagas
 
 ---
 
@@ -43,6 +43,8 @@
 | **75%** | soujava | [REMOTO] Desenvolvedor Java Junior na DB1/ANYMARKET | Remoto | `Git` | [Candidatar-se](https://github.com/soujava/vagas-java/issues/1962) |
 | **75%** | react-brasil | [Nova Lima, Brasil] Full Cycle Developer (Júnior) na Coodesh | Indefinido | `React, Git` | [Candidatar-se](https://github.com/react-brasil/vagas/issues/3038) |
 | **75%** | backend-br | [Remoto] Dev java junior - DB1 | Remoto | `Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12444) |
+| **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA2NjYsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
+| **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA0OTIsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Frete.com | Software Engineer III (Frontend) | Remoto | `React` | [Candidatar-se](https://frete.inhire.app/vagas/6aa4b219-14b1-4c20-9fde-d017265fe9a5/software-engineer-iii-frontend) |
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA2NjYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **70%** | PagBank | Engenheiro de Qualidade de Software Jr. | Remoto | `-` | [Candidatar-se](https://pagseguro.gupy.io/job/eyJqb2JJZCI6MTE4ODI1NTksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
@@ -57,8 +59,6 @@
 | **70%** | Sicredi | Engenharia de Software Júnior | Remoto | `-` | [Candidatar-se](https://sicredi.gupy.io/job/eyJqb2JJZCI6MTI1OTk1ODksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Clínica Experts | Desenvolvedor(a) Júnior | Remoto | `-` | [Candidatar-se](https://clinicaexperts.inhire.app/vagas/3347c144-1df3-400c-b47b-2300e3a935bf/desenvolvedora-junior) |
 | **70%** | WEX | Software Development Engineer 2 | Remoto | `React` | [Candidatar-se](https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/Brazil---Remote/Software-Development-Engineer-2_R22937?utm_source=remotar) |
-| **70%** | BRQ | Engenheiro(a) de Dados Jr - Azure Databricks | Remoto | `-` | [Candidatar-se](https://brq.inhire.app/vagas/5768c629-443b-4e05-aa77-aea3a1fc5cc6/engenheiroa-de-dados-jr-or-azure-databricks) |
-| **70%** | BRQ | Engenheiro de Dados Junior | Remoto | `-` | [Candidatar-se](https://brq.inhire.app/vagas/405e6923-2489-4833-9287-11d131d39811/engenheiro-de-dados-junior) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
