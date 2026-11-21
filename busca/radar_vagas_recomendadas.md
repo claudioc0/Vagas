@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 21/11/2026 às 03:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 989 vagas | **Elegíveis (Score >= 60):** 66 vagas
+> **Última Atualização:** 21/11/2026 às 04:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 991 vagas | **Elegíveis (Score >= 60):** 67 vagas
 
 ---
 
@@ -9,6 +9,7 @@
 
 | Fit | Empresa | Título da Vaga | Modalidade | Tecnologias | Link |
 | :---: | :--- | :--- | :---: | :--- | :---: |
+| **100%** | OrderMesh | Junior Software Development Engineer in Test (SDET) | Remoto | `TypeScript, Node.js, IA/LLM, Git` | [Candidatar-se](https://apply.workable.com/ordermesh/j/89F22141AF/?utm_source=remotar) |
 | **100%** | Datum TI | Pessoa Analista de Dados Júnior | Remoto | `Python, SQL, IA/LLM, Git` | [Candidatar-se](https://datum.jobs.recrut.ai/job/0H2SSE?utm_source=remotar) |
 | **100%** | backend-br | [Remoto] Back-end Developer JR - PORT LOUIS | Remoto | `TypeScript, Node.js, SQL, Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12474) |
 | **100%** | Yandeh | Desenvolvedor de Software Full Stack Júnior | Remoto | `React, TypeScript, Node.js` | [Candidatar-se](https://yandeh.inhire.app/vagas/1a963223-260a-4242-bbb7-f53dd801d760/desenvolvedor-de-software-full-stack-junior) |
@@ -58,7 +59,6 @@
 | **70%** | LWSA | Analista de Segurança da Informação Júnior | Remoto | `-` | [Candidatar-se](https://lwsa.inhire.app/vagas/bf53a8de-cc82-4d7f-9239-5f98f08ba5ab/lwsa-or-analista-de-seguranca-da-informacao-junior-soc-or-remoto) |
 | **70%** | Sicredi | Engenharia de Software Júnior | Remoto | `-` | [Candidatar-se](https://sicredi.gupy.io/job/eyJqb2JJZCI6MTI1OTk1ODksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Clínica Experts | Desenvolvedor(a) Júnior | Remoto | `-` | [Candidatar-se](https://clinicaexperts.inhire.app/vagas/3347c144-1df3-400c-b47b-2300e3a935bf/desenvolvedora-junior) |
-| **70%** | WEX | Software Development Engineer 2 | Remoto | `React` | [Candidatar-se](https://wexinc.wd5.myworkdayjobs.com/WEXInc/job/Brazil---Remote/Software-Development-Engineer-2_R22937?utm_source=remotar) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
