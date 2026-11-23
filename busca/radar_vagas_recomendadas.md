@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 23/11/2026 às 19:00 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1050 vagas | **Elegíveis (Score >= 60):** 67 vagas
+> **Última Atualização:** 23/11/2026 às 19:15 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1056 vagas | **Elegíveis (Score >= 60):** 68 vagas
 
 ---
 
@@ -17,6 +17,7 @@
 | **100%** | backend-br | [Remoto] Desenvolvedor(a) Back-end Júnior - Python / AI Coding & Agentic AI - MKdigital | Remoto | `Python, IA/LLM, Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12493) |
 | **95%** | Oportunidades | ANALISTA DE DADOS JUNIOR | Remoto | `Python, SQL` | [Candidatar-se](https://bancorbras.gupy.io/job/eyJqb2JJZCI6MTI4NDgzOTUsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **90%** | StarShip Aceleradora | Desenvolvedor - Analista Sistemas IA Claude Code | Remoto | `Python, IA/LLM` | [Candidatar-se](https://gabyreisrh.abler.com.br/vagas/desenvolvedor-analista-sistemas-ia-claude-code-855417?utm_source=remotar) |
+| **85%** | Grupo SysMap | Engenheiro de Dados JR | Remoto | `IA/LLM` | [Candidatar-se](https://gruposysmap.gupy.io/job/eyJqb2JJZCI6MTI5MTY0ODksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **85%** | BIP Brasil | Pessoa Desenvolvedora de IA/RPA  - Junior | Remoto | `IA/LLM` | [Candidatar-se](https://vemprabip.gupy.io/job/eyJqb2JJZCI6MTI4NDQ3ODAsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **85%** | Leega Consultoria | Analista Programador Júnior (.NET e Python) | Remoto | `Python` | [Candidatar-se](https://leega.gupy.io/job/eyJqb2JJZCI6MTI5MDUxMjksInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **85%** | Canals | Junior Software Engineer | Remoto | `IA/LLM` | [Candidatar-se](https://jobs.ashbyhq.com/canals/f5be2674-0d4b-406d-bc29-be5e657b8ac5?utm_source=remotar) |
@@ -58,7 +59,6 @@
 | **70%** | DANIEL | Analista de Sistemas (Desenvolvedor Java) Júnior | Remoto | `-` | [Candidatar-se](https://daniel-ip.gupy.io/job/eyJqb2JJZCI6MTI4MzY5OTMsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **70%** | LWSA | Analista de Segurança da Informação Júnior | Remoto | `-` | [Candidatar-se](https://lwsa.inhire.app/vagas/bf53a8de-cc82-4d7f-9239-5f98f08ba5ab/lwsa-or-analista-de-seguranca-da-informacao-junior-soc-or-remoto) |
 | **70%** | Sicredi | Engenharia de Software Júnior | Remoto | `-` | [Candidatar-se](https://sicredi.gupy.io/job/eyJqb2JJZCI6MTI1OTk1ODksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
-| **70%** | Clínica Experts | Desenvolvedor(a) Júnior | Remoto | `-` | [Candidatar-se](https://clinicaexperts.inhire.app/vagas/3347c144-1df3-400c-b47b-2300e3a935bf/desenvolvedora-junior) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
