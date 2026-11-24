@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 24/11/2026 às 22:30 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1206 vagas | **Elegíveis (Score >= 60):** 71 vagas
+> **Última Atualização:** 24/11/2026 às 22:45 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1214 vagas | **Elegíveis (Score >= 60):** 72 vagas
 
 ---
 
@@ -29,6 +29,7 @@
 | **85%** | KPMG | Analista de IA Junior - Aplicada ao Mercado Financeiro | Remoto | `IA/LLM` | [Candidatar-se](https://kpmg.inhire.app/vagas/e63d02d2-3044-4b1a-976b-eb8a097329b8/analista-de-ia-junior-aplicada-ao-mercado-financeiro) |
 | **85%** | Fast2Mine | Analista de Testes e Qualidade Júnior | Remoto | `Python` | [Candidatar-se](https://fast2mine.vagas.solides.com.br/vaga/951758?origem=remotar) |
 | **85%** | BIP Brasil | Desenvolvedor Full Stack Júnior | Remoto | `IA/LLM` | [Candidatar-se](https://vemprabip.gupy.io/job/eyJqb2JJZCI6MTI4NDQ4NDksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
+| **80%** | mazzatech | 3762: Desenvolvedor(a) Full Stack Júnior – PHP | Remoto | `React` | [Candidatar-se](https://mazzatech.inhire.app/vagas/aa9cc8b0-d04f-4626-8b27-c9eccc704d6c/3762-desenvolvedora-full-stack-junior-php) |
 | **80%** | Smart NX | Desenvolvedor Back-end Jr. | Remoto | `Node.js` | [Candidatar-se](https://smartnx.gupy.io/job/eyJqb2JJZCI6MTI4OTcxMjEsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **80%** | Grupo SysMap | Analista de Governança de Dados JR | Remoto | `SQL` | [Candidatar-se](https://gruposysmap.gupy.io/job/eyJqb2JJZCI6MTI4NzkzNTMsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **80%** | Viceri | Pessoa Desenvolvedora FullStack (NodeJS / Angular / Java) - Junior | Remoto | `Node.js` | [Candidatar-se](https://viceri-vagas.gupy.io/job/eyJqb2JJZCI6MTI3ODU1MTksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
@@ -58,7 +59,6 @@
 | **70%** | Vonbz | Analista Junior de Cybersecurity - Zscaler - Remoto | Remoto | `-` | [Candidatar-se](https://vonbz.inhire.app/vagas/602a17f3-36b9-4542-8c92-9e31cb5998a2/analista-junior-de-cybersecurity-or-zscaler-or-remoto) |
 | **70%** | Ahlex | Analista de Qualidade (QA) Júnior | Remoto | `-` | [Candidatar-se](https://ahlex.vagas.solides.com.br/vaga/943274?origem=remotar) |
 | **70%** | Ativa GR | Analista de Qualidade (QA/Tester) Júnior | Remoto | `-` | [Candidatar-se](https://ativagr.gupy.io/job/eyJqb2JJZCI6MTI4MjUxNzUsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
-| **70%** | DANIEL | Analista de Sistemas (Desenvolvedor Java) Júnior | Remoto | `-` | [Candidatar-se](https://daniel-ip.gupy.io/job/eyJqb2JJZCI6MTI4MzY5OTMsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
