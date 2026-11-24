@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 24/11/2026 às 17:15 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1149 vagas | **Elegíveis (Score >= 60):** 70 vagas
+> **Última Atualização:** 24/11/2026 às 17:30 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1152 vagas | **Elegíveis (Score >= 60):** 71 vagas
 
 ---
 
@@ -17,6 +17,7 @@
 | **100%** | backend-br | [Remoto] Desenvolvedor(a) Back-end Júnior - Python / AI Coding & Agentic AI - MKdigital | Remoto | `Python, IA/LLM, Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12493) |
 | **95%** | Oportunidades | ANALISTA DE DADOS JUNIOR | Remoto | `Python, SQL` | [Candidatar-se](https://bancorbras.gupy.io/job/eyJqb2JJZCI6MTI4NDgzOTUsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **90%** | StarShip Aceleradora | Desenvolvedor - Analista Sistemas IA Claude Code | Remoto | `Python, IA/LLM` | [Candidatar-se](https://gabyreisrh.abler.com.br/vagas/desenvolvedor-analista-sistemas-ia-claude-code-855417?utm_source=remotar) |
+| **85%** | AZ Tecnologia em Gestão | Desenvolvedor(a) Fullstack Júnior | Remoto | `IA/LLM` | [Candidatar-se](https://aztecnologia.vagas.solides.com.br/vaga/957052?origem=remotar) |
 | **85%** | Grupo SysMap | Engenheiro de Dados JR | Remoto | `IA/LLM` | [Candidatar-se](https://gruposysmap.gupy.io/job/eyJqb2JJZCI6MTI5MTY0ODksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **85%** | BIP Brasil | Pessoa Desenvolvedora de IA/RPA  - Junior | Remoto | `IA/LLM` | [Candidatar-se](https://vemprabip.gupy.io/job/eyJqb2JJZCI6MTI4NDQ3ODAsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **85%** | Leega Consultoria | Analista Programador Júnior (.NET e Python) | Remoto | `Python` | [Candidatar-se](https://leega.gupy.io/job/eyJqb2JJZCI6MTI5MDUxMjksInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
@@ -58,7 +59,6 @@
 | **70%** | Ahlex | Analista de Qualidade (QA) Júnior | Remoto | `-` | [Candidatar-se](https://ahlex.vagas.solides.com.br/vaga/943274?origem=remotar) |
 | **70%** | Ativa GR | Analista de Qualidade (QA/Tester) Júnior | Remoto | `-` | [Candidatar-se](https://ativagr.gupy.io/job/eyJqb2JJZCI6MTI4MjUxNzUsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **70%** | DANIEL | Analista de Sistemas (Desenvolvedor Java) Júnior | Remoto | `-` | [Candidatar-se](https://daniel-ip.gupy.io/job/eyJqb2JJZCI6MTI4MzY5OTMsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
-| **70%** | LWSA | Analista de Segurança da Informação Júnior | Remoto | `-` | [Candidatar-se](https://lwsa.inhire.app/vagas/bf53a8de-cc82-4d7f-9239-5f98f08ba5ab/lwsa-or-analista-de-seguranca-da-informacao-junior-soc-or-remoto) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
