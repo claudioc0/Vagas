@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 24/11/2026 às 16:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1140 vagas | **Elegíveis (Score >= 60):** 69 vagas
+> **Última Atualização:** 24/11/2026 às 17:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1144 vagas | **Elegíveis (Score >= 60):** 70 vagas
 
 ---
 
@@ -45,6 +45,7 @@
 | **75%** | soujava | [REMOTO] Desenvolvedor Java Junior na DB1/ANYMARKET | Remoto | `Git` | [Candidatar-se](https://github.com/soujava/vagas-java/issues/1962) |
 | **75%** | react-brasil | [Nova Lima, Brasil] Full Cycle Developer (Júnior) na Coodesh | Indefinido | `React, Git` | [Candidatar-se](https://github.com/react-brasil/vagas/issues/3038) |
 | **75%** | backend-br | [Remoto] Dev java junior - DB1 | Remoto | `Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12444) |
+| **70%** | EVT | Desenvolvedor Tosca Júnior | Remoto | `-` | [Candidatar-se](https://jobs.quickin.io/evtit/jobs/6afedb9296ed470013c97a41?utm_source=remotar) |
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA2NjYsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA0OTIsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Frete.com | Software Engineer III (Frontend) | Remoto | `React` | [Candidatar-se](https://frete.inhire.app/vagas/6aa4b219-14b1-4c20-9fde-d017265fe9a5/software-engineer-iii-frontend) |
@@ -58,7 +59,6 @@
 | **70%** | Ativa GR | Analista de Qualidade (QA/Tester) Júnior | Remoto | `-` | [Candidatar-se](https://ativagr.gupy.io/job/eyJqb2JJZCI6MTI4MjUxNzUsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **70%** | DANIEL | Analista de Sistemas (Desenvolvedor Java) Júnior | Remoto | `-` | [Candidatar-se](https://daniel-ip.gupy.io/job/eyJqb2JJZCI6MTI4MzY5OTMsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **70%** | LWSA | Analista de Segurança da Informação Júnior | Remoto | `-` | [Candidatar-se](https://lwsa.inhire.app/vagas/bf53a8de-cc82-4d7f-9239-5f98f08ba5ab/lwsa-or-analista-de-seguranca-da-informacao-junior-soc-or-remoto) |
-| **70%** | Sicredi | Engenharia de Software Júnior | Remoto | `-` | [Candidatar-se](https://sicredi.gupy.io/job/eyJqb2JJZCI6MTI1OTk1ODksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
