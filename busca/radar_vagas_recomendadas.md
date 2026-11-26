@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 26/11/2026 às 19:15 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1468 vagas | **Elegíveis (Score >= 60):** 77 vagas
+> **Última Atualização:** 26/11/2026 às 19:30 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1474 vagas | **Elegíveis (Score >= 60):** 78 vagas
 
 ---
 
@@ -50,6 +50,7 @@
 | **75%** | soujava | [REMOTO] Desenvolvedor Java Junior na DB1/ANYMARKET | Remoto | `Git` | [Candidatar-se](https://github.com/soujava/vagas-java/issues/1962) |
 | **75%** | react-brasil | [Nova Lima, Brasil] Full Cycle Developer (Júnior) na Coodesh | Indefinido | `React, Git` | [Candidatar-se](https://github.com/react-brasil/vagas/issues/3038) |
 | **75%** | backend-br | [Remoto] Dev java junior - DB1 | Remoto | `Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12444) |
+| **70%** | VExpenses | Desenvolvedor(a) Back-End Laravel Júnior | Remoto | `-` | [Candidatar-se](https://vexpenses.gupy.io/job/eyJqb2JJZCI6MTI5NDk0NTIsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Celcoin | Software Engineer PHP - Júnior | Remoto | `-` | [Candidatar-se](https://celcoin.inhire.app/vagas/3d9c8a59-a428-4e60-bdd1-3e458b697a5e/software-engineer-php-junior) |
 | **70%** | MJV | Trainee de Qualidade (QA / Testes) | Remoto | `-` | [Candidatar-se](https://mjv.inhire.app/vagas/b4a56dc7-cb0e-454d-a1a7-8f597be5272f/trainee-de-qualidade-qa-testes) |
 | **70%** | EVT | Desenvolvedor Tosca Júnior | Remoto | `-` | [Candidatar-se](https://jobs.quickin.io/evtit/jobs/6afedb9296ed470013c97a41?utm_source=remotar) |
@@ -58,7 +59,6 @@
 | **70%** | Frete.com | Software Engineer III (Frontend) | Remoto | `React` | [Candidatar-se](https://frete.inhire.app/vagas/6aa4b219-14b1-4c20-9fde-d017265fe9a5/software-engineer-iii-frontend) |
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA2NjYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **70%** | PagBank | Engenheiro de Qualidade de Software Jr. | Remoto | `-` | [Candidatar-se](https://pagseguro.gupy.io/job/eyJqb2JJZCI6MTE4ODI1NTksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
-| **70%** | Compass UOL | Cloud Network DevOps - Júnior (Remoto) | Remoto | `-` | [Candidatar-se](https://compass.gupy.io/job/eyJqb2JJZCI6MTI4Njg1NzYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 
 ---
 
@@ -69,7 +69,7 @@
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
 | 85% | Workana | Desenvolvimento de Chatbot com Inteligência Artificial para Whatsapp | USD 250 - 500 · 30 propostas | 26/11 18:09 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-inteligencia-artificial-para-whatsapp-12) |
-| 85% | Workana | Desenvolvimento de Chatbot com Ia para Atendimento no Whatsapp | USD 100 - 250 · 28 propostas | 26/11 17:48 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-ia-para-atendimento-no-whatsapp-8) |
+| 85% | Workana | Desenvolvimento de Chatbot com Ia para Atendimento no Whatsapp | USD 100 - 250 · 29 propostas | 26/11 17:48 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-ia-para-atendimento-no-whatsapp-8) |
 | 65% | Freelancer.com | Market Researcher | USD 25–50 (por hora) · 0 propostas | 26/11 17:30 | [Ver projeto](https://www.freelancer.com/projects/market-research/Market-Researcher-40837434) |
 | 70% | Workana | Desenvolvimento de Sistema de Respostas Automáticas para Perguntas Frequentes | USD 100 - 250 · 28 propostas | 26/11 16:05 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-respostas-automaticas-para-perguntas-frequentes) |
 | 85% | Freelancer.com | Telegram FAQ Chatbot Development | INR 5000000 (fixo) · 24 propostas | 26/11 15:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Telegram-FAQ-Chatbot-Development) |
