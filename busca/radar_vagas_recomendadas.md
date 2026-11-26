@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 26/11/2026 às 20:15 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1480 vagas | **Elegíveis (Score >= 60):** 78 vagas
+> **Última Atualização:** 26/11/2026 às 20:30 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1486 vagas | **Elegíveis (Score >= 60):** 78 vagas
 
 ---
 
@@ -68,7 +68,9 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 75% | Workana | Programador Python para Suporte e Infraestrutura em Nuvem | USD 100 - 250 · 25 propostas | 26/11 20:03 | [Ver projeto](https://www.workana.com/job/programador-python-para-suporte-e-infraestrutura-em-nuvem) |
+| 60% | Freelancer.com | Facebook Comment Safety Consultation PDF | USD 30–250 (fixo) · 19 propostas | 26/11 20:20 | [Ver projeto](https://www.freelancer.com/projects/selenium/Facebook-Comment-Safety-Consultation-PDF) |
+| 55% | Freelancer.com | On-Screen Takeoff 3 Project | USD 30–250 (fixo) · 22 propostas | 26/11 20:19 | [Ver projeto](https://www.freelancer.com/projects/construction-management/Screen-Takeoff-Project) |
+| 75% | Workana | Programador Python para Suporte e Infraestrutura em Nuvem | USD 100 - 250 · 30 propostas | 26/11 20:03 | [Ver projeto](https://www.workana.com/job/programador-python-para-suporte-e-infraestrutura-em-nuvem) |
 | 85% | Workana | Desenvolvimento de Chatbot com Inteligência Artificial para Whatsapp | USD 250 - 500 · 30 propostas | 26/11 18:09 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-inteligencia-artificial-para-whatsapp-12) |
 | 85% | Workana | Desenvolvimento de Chatbot com Ia para Atendimento no Whatsapp | USD 100 - 250 · 29 propostas | 26/11 17:48 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-ia-para-atendimento-no-whatsapp-8) |
 | 65% | Freelancer.com | Market Researcher | USD 25–50 (por hora) · 0 propostas | 26/11 17:30 | [Ver projeto](https://www.freelancer.com/projects/market-research/Market-Researcher-40837434) |
