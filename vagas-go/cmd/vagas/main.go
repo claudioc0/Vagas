@@ -75,7 +75,9 @@ func main() {
 			gup := provider.NewGupyProvider()
 			cat := provider.NewCathoProvider()
 			free := provider.NewFreelancerProvider()
-			engine := pipeline.NewEngine(db, gh, rem, gup, cat, free)
+			f99 := provider.NewFreelas99Provider()
+			wk := provider.NewWorkanaProvider()
+			engine := pipeline.NewEngine(db, gh, rem, gup, cat, free, f99, wk)
 
 			ctx, cancel := context.WithTimeout(context.Background(), 60*time.Second)
 			defer cancel()

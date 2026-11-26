@@ -17,13 +17,12 @@ import (
 // Os cortes de concorrência, orçamento, idioma e idade ficam aqui; a relevância
 // da área é avaliada por fitscore.Evaluate.
 const (
-	freelancerMaxBids      = 30
 	freelancerMinFixedUSD  = 100.0
 	freelancerMinHourlyUSD = 15.0
-	freelancerMaxAge       = 24 * time.Hour
 )
 
 type FreelancerProvider struct {
+	freelanceSource
 	client  *http.Client
 	queries []string
 }
@@ -138,10 +137,10 @@ func (pr freelancerProject) accepted(now time.Time) bool {
 	if pr.Language != "en" && pr.Language != "pt" {
 		return false
 	}
-	if now.Sub(time.Unix(pr.Submitted, 0)) > freelancerMaxAge {
+	if now.Sub(time.Unix(pr.Submitted, 0)) > freelanceMaxAge {
 		return false
 	}
-	if pr.BidStats.BidCount > freelancerMaxBids {
+	if pr.BidStats.BidCount > freelanceMaxBids {
 		return false
 	}
 	mid := (pr.Budget.Minimum + math.Max(pr.Budget.Minimum, pr.Budget.Maximum)) / 2 * pr.Currency.ExchangeRate

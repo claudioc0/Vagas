@@ -11,7 +11,7 @@ const FreelanceReason = "Projeto freelance"
 
 var (
 	// Trabalhos fora de programação (ou antiéticos, como trabalhos acadêmicos) que as buscas trazem
-	reFreelanceExclude = regexp.MustCompile(`(?i)\b(data\s+entry|logo|video\s+edit\w*|translat\w+|content\s+writ\w+|article\s+writ\w+|copywrit\w+|seo|marketing|telemarketing|virtual\s+assistant|lead\s+generation|cold\s+call\w*|sales|graphic\s+design|illustrat\w+|homework|assignment|thesis|dissertation|research|video\w*|animat\w+|music|track|audio|voice|speakers?|recording|annotat\w+|labell?ing|collect|collection|partner|hack\w*|cheat\w*|aimbot|betting|casino|gambling|payment\s+test\w*)\b`)
+	reFreelanceExclude = regexp.MustCompile(`(?i)\b(data\s+entry|logo|video\s+edit\w*|translat\w+|content\s+writ\w+|article\s+writ\w+|copywrit\w+|seo|marketing|telemarketing|virtual\s+assistant|lead\s+generation|cold\s+call\w*|sales|graphic\s+design|illustrat\w+|homework|assignment|thesis|dissertation|research|video\w*|animat\w+|music|track|audio|voice|speakers?|recording|annotat\w+|labell?ing|collect|collection|partner|hack\w*|cheat\w*|aimbot|betting|casino|gambling|payment\s+test\w*|v[ií]deos?|anima[cç][aã]o|design|redesign|ux|figma|reda[cç][aã]o|tradu[cç][aã]o|digita[cç][aã]o|tcc|trabalho\s+acad[eê]mico|faculdade|apostas?|cassino|vendas|tr[aá]fego)\b`)
 
 	// "go" isolado é palavra comum em inglês, por isso só "golang"
 	freelanceAreas = []struct {
@@ -19,14 +19,14 @@ var (
 		Points  int
 		Tag     string
 	}{
-		{regexp.MustCompile(`(?i)\b(ai|llms?|gpt|openai|claude|gemini|genai|rag|langchain|machine\s+learning|artificial\s+intelligence|ia)\b`), 15, "IA/LLM"},
-		{regexp.MustCompile(`(?i)\b(chat\s*bots?|ai\s+agents?|agentic)\b`), 10, "Chatbot/Agentes"},
-		{regexp.MustCompile(`(?i)\b(automation|automa[cç][aã]o|n8n|web\s*scraping|scraper)\b`), 10, "Automação"},
+		{regexp.MustCompile(`(?i)\b(ai|llms?|gpt|chatgpt|openai|anthropic|claude|gemini|genai|rag|langchain|machine\s+learning|artificial\s+intelligence|intelig[eê]ncia\s+artificial|ia)\b`), 15, "IA/LLM"},
+		{regexp.MustCompile(`(?i)\b(chat\s*bots?|ai\s+agents?|agentic|agentes?\s+de\s+ia)\b`), 10, "Chatbot/Agentes"},
+		{regexp.MustCompile(`(?i)\b(automation|automa[cç][aã]o|automatiza[cç][aã]o|n8n|web\s*scraping|scraper|raspagem)\b`), 10, "Automação"},
 		{regexp.MustCompile(`(?i)\bpython\b`), 15, "Python"},
 		{regexp.MustCompile(`(?i)\bgolang\b`), 15, "Go"},
 		{regexp.MustCompile(`(?i)\b(react(\.?js)?|next\.?js)\b`), 10, "React"},
 		{regexp.MustCompile(`(?i)\b(node(\.?js)?|typescript)\b`), 10, "Node/TS"},
-		{regexp.MustCompile(`(?i)\b(data\s+(analysis|analytics|engineering|science)|sql|power\s*bi|etl)\b`), 10, "Dados"},
+		{regexp.MustCompile(`(?i)\b(data\s+(analysis|analytics|engineering|science)|sql|power\s*bi|etl|an[aá]lise\s+de\s+dados|engenharia\s+de\s+dados)\b`), 10, "Dados"},
 	}
 )
 

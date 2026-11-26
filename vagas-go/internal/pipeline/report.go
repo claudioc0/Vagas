@@ -79,11 +79,11 @@ func GenerateMarkdownReport(ctx context.Context, db *storage.DB, outputPath stri
 	if len(freelas) > 0 {
 		sb.WriteString("\n---\n\n## 💼 Projetos Freelance\n\n")
 		sb.WriteString("> Orçamento e número de propostas são os da última coleta em que o projeto passou nos filtros.\n\n")
-		sb.WriteString("| Fit | Projeto | Orçamento e propostas | Publicado | Link |\n")
-		sb.WriteString("| :---: | :--- | :--- | :---: | :---: |\n")
+		sb.WriteString("| Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |\n")
+		sb.WriteString("| :---: | :--- | :--- | :--- | :---: | :---: |\n")
 		for _, j := range freelas {
-			sb.WriteString(fmt.Sprintf("| %d%% | %s | %s | %s | [Ver projeto](%s) |\n",
-				j.FitScore, strings.ReplaceAll(j.Title, "|", "-"), j.Location, j.PublishedAt.Format("02/01 15:04"), j.URL))
+			sb.WriteString(fmt.Sprintf("| %d%% | %s | %s | %s | %s | [Ver projeto](%s) |\n",
+				j.FitScore, j.Company, strings.ReplaceAll(j.Title, "|", "-"), j.Location, j.PublishedAt.Format("02/01 15:04"), j.URL))
 		}
 	}
 

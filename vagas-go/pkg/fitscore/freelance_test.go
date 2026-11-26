@@ -16,6 +16,9 @@ func TestEvaluateFreelance(t *testing.T) {
 		{"Senior Golang API", nil, true}, // senioridade não bloqueia freelance
 		{"Data Entry with Python", []string{"Python"}, false},
 		{"Python homework help", []string{"Python"}, false},
+		{"Automatização de atendimento com Inteligência Artificial", nil, true},
+		{"Redesign de telas para SaaS", []string{"React"}, false},
+		{"Edição de vídeo com IA", nil, false},
 		{"Experienced Developer for BGMI Emulator Hack", []string{"Python"}, false},
 		{"Hindi 2D Family Series Animator", []string{"AI"}, false},
 		{"India UPI and IMPS Payment Test", []string{"API", "Node.js"}, false},

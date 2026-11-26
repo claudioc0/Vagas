@@ -140,7 +140,7 @@ func (e *Engine) Run(ctx context.Context, onlyEligible bool) (*ScanStats, error)
 			if err != nil {
 				fmt.Printf("  [Aviso] Fonte %s com falhas: %v\n", prov.ID(), err)
 				addWarning(fmt.Sprintf("Fonte %s com falhas: %s", prov.ID(), firstLine(err.Error())))
-			} else if len(jobs) == 0 {
+			} else if len(jobs) == 0 && !mayBeEmpty(prov) {
 				fmt.Printf("  [Aviso] Fonte %s retornou 0 vagas\n", prov.ID())
 				addWarning(fmt.Sprintf("Fonte %s retornou 0 vagas", prov.ID()))
 			}
@@ -170,6 +170,12 @@ func (e *Engine) Run(ctx context.Context, onlyEligible bool) (*ScanStats, error)
 
 	stats.Duration = time.Since(start)
 	return stats, nil
+}
+
+// mayBeEmpty indica fontes que já filtram na coleta e podem legitimamente voltar vazias
+func mayBeEmpty(p provider.Provider) bool {
+	e, ok := p.(interface{ MayBeEmpty() bool })
+	return ok && e.MayBeEmpty()
 }
 
 // sourcePriority define qual fonte "vence" na deduplicação (menor = preferida).
