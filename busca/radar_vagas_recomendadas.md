@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 26/11/2026 às 21:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1498 vagas | **Elegíveis (Score >= 60):** 78 vagas
+> **Última Atualização:** 26/11/2026 às 22:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1500 vagas | **Elegíveis (Score >= 60):** 78 vagas
 
 ---
 
@@ -68,7 +68,9 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 60% | Workana | Desenvolvimento de Plataforma Web Responsiva Completa com Ia e Integração Whatsapp | USD 250 - 500 · 25 propostas | 26/11 21:35 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-plataforma-web-responsiva-completa-com-ia-e-integracao-whatsapp) |
+| 70% | Freelancer.com | Native Australian Voices for AI Training | AUD 25–50 (por hora) · 0 propostas | 26/11 21:50 | [Ver projeto](https://www.freelancer.com/projects/ai-training-data/Native-Australian-Voices-for-Training) |
+| 60% | Workana | Desenvolvimento de site institucional em Astro + Lumos a partir de especificação pronta | USD 250 - 500 · 15 propostas | 26/11 21:43 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-site-institucional-em-astro-lumos-a-partir-de-especificacao-pronta) |
+| 60% | Workana | Desenvolvimento de Plataforma Web Responsiva Completa com Ia e Integração Whatsapp | USD 250 - 500 · 29 propostas | 26/11 21:35 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-plataforma-web-responsiva-completa-com-ia-e-integracao-whatsapp) |
 | 55% | Freelancer.com | Facebook Comment Safety Consultation PDF | USD 30–250 (fixo) · 25 propostas | 26/11 20:20 | [Ver projeto](https://www.freelancer.com/projects/selenium/Facebook-Comment-Safety-Consultation-PDF) |
 | 55% | Freelancer.com | On-Screen Takeoff 3 Project | USD 30–250 (fixo) · 28 propostas | 26/11 20:19 | [Ver projeto](https://www.freelancer.com/projects/construction-management/Screen-Takeoff-Project) |
 | 75% | Workana | Programador Python para Suporte e Infraestrutura em Nuvem | USD 100 - 250 · 30 propostas | 26/11 20:03 | [Ver projeto](https://www.workana.com/job/programador-python-para-suporte-e-infraestrutura-em-nuvem) |
