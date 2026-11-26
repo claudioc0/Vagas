@@ -1,6 +1,6 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 26/11/2026 às 16:05 (Executado via GitHub Actions / Go Engine)
+> **Última Atualização:** 26/11/2026 às 16:15 (Executado via GitHub Actions / Go Engine)
 > **Total no Banco:** 1420 vagas | **Elegíveis (Score >= 60):** 73 vagas
 
 ---
@@ -69,7 +69,7 @@
 | Fit | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :---: | :---: |
 | 85% | Telegram FAQ Chatbot Development | INR 5000000 (fixo) · 22 propostas | 26/11 15:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Telegram-FAQ-Chatbot-Development) |
-| 60% | Node.js Role-Based Access Control | INR 10000–16000 (fixo) · 14 propostas | 26/11 12:19 | [Ver projeto](https://www.freelancer.com/projects/restful-api/Node-Role-Based-Access-Control) |
+| 60% | Node.js Role-Based Access Control | INR 10000–16000 (fixo) · 15 propostas | 26/11 12:19 | [Ver projeto](https://www.freelancer.com/projects/restful-api/Node-Role-Based-Access-Control) |
 | 60% | Astrology and Vastu AI Fine-Tuning | INR 12500–37500 (fixo) · 24 propostas | 26/11 11:08 | [Ver projeto](https://www.freelancer.com/projects/ai-model-development/Astrology-Vastu-Fine-Tuning) |
 
 ---
