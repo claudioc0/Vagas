@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 26/11/2026 às 18:00 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1444 vagas | **Elegíveis (Score >= 60):** 75 vagas
+> **Última Atualização:** 26/11/2026 às 18:15 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1448 vagas | **Elegíveis (Score >= 60):** 75 vagas
 
 ---
 
@@ -68,7 +68,8 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 90% | Workana | Desenvolvimento de Chatbot com Ia para Atendimento no Whatsapp | USD 100 - 250 · 17 propostas | 26/11 17:48 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-ia-para-atendimento-no-whatsapp-8) |
+| 85% | Workana | Desenvolvimento de Chatbot com Inteligência Artificial para Whatsapp | USD 250 - 500 · 21 propostas | 26/11 18:09 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-inteligencia-artificial-para-whatsapp-12) |
+| 85% | Workana | Desenvolvimento de Chatbot com Ia para Atendimento no Whatsapp | USD 100 - 250 · 21 propostas | 26/11 17:48 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-ia-para-atendimento-no-whatsapp-8) |
 | 65% | Freelancer.com | Market Researcher | USD 25–50 (por hora) · 0 propostas | 26/11 17:30 | [Ver projeto](https://www.freelancer.com/projects/market-research/Market-Researcher-40837434) |
 | 70% | Workana | Desenvolvimento de Sistema de Respostas Automáticas para Perguntas Frequentes | USD 100 - 250 · 28 propostas | 26/11 16:05 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-respostas-automaticas-para-perguntas-frequentes) |
 | 85% | Freelancer.com | Telegram FAQ Chatbot Development | INR 5000000 (fixo) · 24 propostas | 26/11 15:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Telegram-FAQ-Chatbot-Development) |
