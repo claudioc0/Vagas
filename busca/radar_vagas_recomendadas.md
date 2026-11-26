@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 26/11/2026 às 16:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1429 vagas | **Elegíveis (Score >= 60):** 73 vagas
+> **Última Atualização:** 26/11/2026 às 17:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1435 vagas | **Elegíveis (Score >= 60):** 74 vagas
 
 ---
 
@@ -9,6 +9,7 @@
 
 | Fit | Empresa | Título da Vaga | Modalidade | Tecnologias | Link |
 | :---: | :--- | :--- | :---: | :--- | :---: |
+| **100%** | VExpenses | Desenvolvedor(a) Back-End Laravel - Júnior (Remoto) | Remoto | `Python, Node.js, IA/LLM` | [Candidatar-se](https://vexpenses.gupy.io/job/eyJqb2JJZCI6MTI5NDk0NTIsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **100%** | OrderMesh | Junior Software Development Engineer in Test (SDET) | Remoto | `TypeScript, Node.js, IA/LLM, Git` | [Candidatar-se](https://apply.workable.com/ordermesh/j/89F22141AF/?utm_source=remotar) |
 | **100%** | Datum TI | Pessoa Analista de Dados Júnior | Remoto | `Python, SQL, IA/LLM, Git` | [Candidatar-se](https://datum.jobs.recrut.ai/job/0H2SSE?utm_source=remotar) |
 | **100%** | backend-br | [Remoto] Back-end Developer JR - PORT LOUIS | Remoto | `TypeScript, Node.js, SQL, Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12474) |
@@ -58,7 +59,6 @@
 | **70%** | Sky.One | Analista de Segurança da Informação Júnior (SOC) | Remoto | `-` | [Candidatar-se](https://skyone.inhire.app/vagas/beded6c7-850f-4763-b29e-dc3ff726374e/analista-de-seguranca-da-informacao-junior-soc) |
 | **70%** | Jobgether | Analista de Cibersegurança Júnior (Blue Team) | Remoto | `-` | [Candidatar-se](https://www.linkedin.com/jobs/view/4490170698/?) |
 | **70%** | Vonbz | Analista Junior de Cybersecurity - Zscaler - Remoto | Remoto | `-` | [Candidatar-se](https://vonbz.inhire.app/vagas/602a17f3-36b9-4542-8c92-9e31cb5998a2/analista-junior-de-cybersecurity-or-zscaler-or-remoto) |
-| **70%** | Ahlex | Analista de Qualidade (QA) Júnior | Remoto | `-` | [Candidatar-se](https://ahlex.vagas.solides.com.br/vaga/943274?origem=remotar) |
 
 ---
 
@@ -69,7 +69,7 @@
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
 | 70% | Workana | Desenvolvimento de Sistema de Respostas Automáticas para Perguntas Frequentes | USD 100 - 250 · 28 propostas | 26/11 16:05 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-respostas-automaticas-para-perguntas-frequentes) |
-| 85% | Freelancer.com | Telegram FAQ Chatbot Development | INR 5000000 (fixo) · 22 propostas | 26/11 15:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Telegram-FAQ-Chatbot-Development) |
+| 85% | Freelancer.com | Telegram FAQ Chatbot Development | INR 5000000 (fixo) · 23 propostas | 26/11 15:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Telegram-FAQ-Chatbot-Development) |
 | 60% | Freelancer.com | Node.js Role-Based Access Control | INR 10000–16000 (fixo) · 15 propostas | 26/11 12:19 | [Ver projeto](https://www.freelancer.com/projects/restful-api/Node-Role-Based-Access-Control) |
 | 60% | Freelancer.com | Astrology and Vastu AI Fine-Tuning | INR 12500–37500 (fixo) · 24 propostas | 26/11 11:08 | [Ver projeto](https://www.freelancer.com/projects/ai-model-development/Astrology-Vastu-Fine-Tuning) |
 
