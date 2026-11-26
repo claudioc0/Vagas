@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 26/11/2026 às 16:00 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1382 vagas | **Elegíveis (Score >= 60):** 73 vagas
+> **Última Atualização:** 26/11/2026 às 16:05 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1420 vagas | **Elegíveis (Score >= 60):** 73 vagas
 
 ---
 
@@ -59,6 +59,18 @@
 | **70%** | Jobgether | Analista de Cibersegurança Júnior (Blue Team) | Remoto | `-` | [Candidatar-se](https://www.linkedin.com/jobs/view/4490170698/?) |
 | **70%** | Vonbz | Analista Junior de Cybersecurity - Zscaler - Remoto | Remoto | `-` | [Candidatar-se](https://vonbz.inhire.app/vagas/602a17f3-36b9-4542-8c92-9e31cb5998a2/analista-junior-de-cybersecurity-or-zscaler-or-remoto) |
 | **70%** | Ahlex | Analista de Qualidade (QA) Júnior | Remoto | `-` | [Candidatar-se](https://ahlex.vagas.solides.com.br/vaga/943274?origem=remotar) |
+
+---
+
+## 💼 Projetos Freelance
+
+> Orçamento e número de propostas são os da última coleta em que o projeto passou nos filtros.
+
+| Fit | Projeto | Orçamento e propostas | Publicado | Link |
+| :---: | :--- | :--- | :---: | :---: |
+| 85% | Telegram FAQ Chatbot Development | INR 5000000 (fixo) · 22 propostas | 26/11 15:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Telegram-FAQ-Chatbot-Development) |
+| 60% | Node.js Role-Based Access Control | INR 10000–16000 (fixo) · 14 propostas | 26/11 12:19 | [Ver projeto](https://www.freelancer.com/projects/restful-api/Node-Role-Based-Access-Control) |
+| 60% | Astrology and Vastu AI Fine-Tuning | INR 12500–37500 (fixo) · 24 propostas | 26/11 11:08 | [Ver projeto](https://www.freelancer.com/projects/ai-model-development/Astrology-Vastu-Fine-Tuning) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
