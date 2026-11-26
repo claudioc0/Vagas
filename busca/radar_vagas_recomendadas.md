@@ -1,6 +1,6 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 26/11/2026 às 20:45 (Executado via GitHub Actions / Go Engine)
+> **Última Atualização:** 26/11/2026 às 21:00 (Executado via GitHub Actions / Go Engine)
 > **Total no Banco:** 1492 vagas | **Elegíveis (Score >= 60):** 78 vagas
 
 ---
@@ -68,8 +68,8 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 55% | Freelancer.com | Facebook Comment Safety Consultation PDF | USD 30–250 (fixo) · 23 propostas | 26/11 20:20 | [Ver projeto](https://www.freelancer.com/projects/selenium/Facebook-Comment-Safety-Consultation-PDF) |
-| 55% | Freelancer.com | On-Screen Takeoff 3 Project | USD 30–250 (fixo) · 25 propostas | 26/11 20:19 | [Ver projeto](https://www.freelancer.com/projects/construction-management/Screen-Takeoff-Project) |
+| 55% | Freelancer.com | Facebook Comment Safety Consultation PDF | USD 30–250 (fixo) · 25 propostas | 26/11 20:20 | [Ver projeto](https://www.freelancer.com/projects/selenium/Facebook-Comment-Safety-Consultation-PDF) |
+| 55% | Freelancer.com | On-Screen Takeoff 3 Project | USD 30–250 (fixo) · 27 propostas | 26/11 20:19 | [Ver projeto](https://www.freelancer.com/projects/construction-management/Screen-Takeoff-Project) |
 | 75% | Workana | Programador Python para Suporte e Infraestrutura em Nuvem | USD 100 - 250 · 30 propostas | 26/11 20:03 | [Ver projeto](https://www.workana.com/job/programador-python-para-suporte-e-infraestrutura-em-nuvem) |
 | 85% | Workana | Desenvolvimento de Chatbot com Inteligência Artificial para Whatsapp | USD 250 - 500 · 30 propostas | 26/11 18:09 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-inteligencia-artificial-para-whatsapp-12) |
 | 85% | Workana | Desenvolvimento de Chatbot com Ia para Atendimento no Whatsapp | USD 100 - 250 · 29 propostas | 26/11 17:48 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-ia-para-atendimento-no-whatsapp-8) |
