@@ -19,6 +19,9 @@ const (
 	ModalityUnknown Modality = "Indefinido"
 )
 
+// SeniorityFreelance marca projetos freelance, avaliados e notificados à parte das vagas
+const SeniorityFreelance = "Freelance"
+
 // Job representa a entidade central de uma oportunidade de emprego
 type Job struct {
 	ID          string    `json:"id"`           // Hash SHA-256 único
@@ -35,6 +38,10 @@ type Job struct {
 	FitReason   string    `json:"fit_reason"`
 	PublishedAt time.Time `json:"published_at"`
 	CollectedAt time.Time `json:"collected_at"`
+
+	// Usados só na avaliação de freelance; não são persistidos
+	Skills []string `json:"-"`
+	Bids   int      `json:"-"`
 }
 
 // GenerateID calcula um identificador único imutável para a vaga

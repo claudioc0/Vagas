@@ -13,7 +13,7 @@ import (
 
 // GenerateMarkdownReport cria o arquivo radar_vagas_recomendadas.md atualizado
 func GenerateMarkdownReport(ctx context.Context, db *storage.DB, outputPath string) error {
-	jobs, err := db.ListJobs(ctx, storage.JobFilter{MinScore: 60, Limit: 50})
+	jobs, err := db.ListJobs(ctx, storage.JobFilter{MinScore: 60, Limit: 50, ExcludeFreelance: true})
 	if err != nil {
 		return err
 	}
@@ -68,6 +68,22 @@ func GenerateMarkdownReport(ctx context.Context, db *storage.DB, outputPath stri
 			}
 			sb.WriteString(fmt.Sprintf("| %s | %s | %s | `%s` | [Ver vaga](%s) |\n",
 				strings.ReplaceAll(j.Company, "|", "-"), strings.ReplaceAll(j.Title, "|", "-"), j.Modality, tags, j.URL))
+		}
+	}
+
+	// Projetos fecham rápido: só os publicados nos últimos 3 dias
+	freelas, err := db.ListJobs(ctx, storage.JobFilter{MinScore: 50, Limit: 30, OnlyFreelance: true, PublishedSince: time.Now().Add(-72 * time.Hour)})
+	if err != nil {
+		return err
+	}
+	if len(freelas) > 0 {
+		sb.WriteString("\n---\n\n## 💼 Projetos Freelance\n\n")
+		sb.WriteString("> Orçamento e número de propostas são os da última coleta em que o projeto passou nos filtros.\n\n")
+		sb.WriteString("| Fit | Projeto | Orçamento e propostas | Publicado | Link |\n")
+		sb.WriteString("| :---: | :--- | :--- | :---: | :---: |\n")
+		for _, j := range freelas {
+			sb.WriteString(fmt.Sprintf("| %d%% | %s | %s | %s | [Ver projeto](%s) |\n",
+				j.FitScore, strings.ReplaceAll(j.Title, "|", "-"), j.Location, j.PublishedAt.Format("02/01 15:04"), j.URL))
 		}
 	}
 

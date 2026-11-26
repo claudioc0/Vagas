@@ -89,6 +89,10 @@ func tierBRejection(job *domain.Job, title, desc, loc string) string {
 
 // Evaluate calcula o FitScore (0 a 100) e a justificativa para uma vaga
 func Evaluate(job *domain.Job) (int, string, []string) {
+	if job.Seniority == domain.SeniorityFreelance {
+		return evaluateFreelance(job)
+	}
+
 	title := job.Title
 	desc := job.Description
 	loc := strings.ToLower(job.Location)

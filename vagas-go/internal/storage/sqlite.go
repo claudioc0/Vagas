@@ -108,6 +108,7 @@ func (db *DB) UpsertJob(ctx context.Context, job *domain.Job) (bool, error) {
 		senioridade, link, descricao, tags, fit_score, fit_reason, publicada_em, coletada_em
 	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 	ON CONFLICT(id) DO UPDATE SET
+		localizacao = excluded.localizacao,
 		fit_score = excluded.fit_score,
 		fit_reason = excluded.fit_reason,
 		tags = excluded.tags
@@ -171,7 +172,14 @@ type JobFilter struct {
 	Limit    int
 	// ReasonPrefix filtra por prefixo de fit_reason (ex.: vagas de Nível B)
 	ReasonPrefix string
+	// ExcludeFreelance / OnlyFreelance separam vagas de projetos freelance
+	ExcludeFreelance bool
+	OnlyFreelance    bool
+	// PublishedSince filtra pela data de publicação e ordena das mais recentes para as antigas
+	PublishedSince time.Time
 }
+
+const notFreelanceSQL = "COALESCE(senioridade, '') <> '" + domain.SeniorityFreelance + "'"
 
 // ListJobs busca vagas aplicando filtros
 func (db *DB) ListJobs(ctx context.Context, filter JobFilter) ([]domain.Job, error) {
@@ -191,6 +199,21 @@ func (db *DB) ListJobs(ctx context.Context, filter JobFilter) ([]domain.Job, err
 	if filter.ReasonPrefix != "" {
 		conditions = append(conditions, "fit_reason LIKE ?")
 		args = append(args, filter.ReasonPrefix+"%")
+	}
+
+	if filter.ExcludeFreelance {
+		conditions = append(conditions, notFreelanceSQL)
+	}
+	if filter.OnlyFreelance {
+		conditions = append(conditions, "senioridade = ?")
+		args = append(args, domain.SeniorityFreelance)
+	}
+
+	orderBy := "fit_score DESC, coletada_em DESC"
+	if !filter.PublishedSince.IsZero() {
+		conditions = append(conditions, "julianday(publicada_em) >= julianday(?)")
+		args = append(args, filter.PublishedSince.Format(time.RFC3339))
+		orderBy = "julianday(publicada_em) DESC"
 	}
 
 	if strings.TrimSpace(filter.Search) != "" {
@@ -216,9 +239,9 @@ func (db *DB) ListJobs(ctx context.Context, filter JobFilter) ([]domain.Job, err
 		       senioridade, link, descricao, tags, fit_score, fit_reason, publicada_em, coletada_em
 		FROM vagas
 		%s
-		ORDER BY fit_score DESC, coletada_em DESC
+		ORDER BY %s
 		%s
-	`, whereClause, limitClause)
+	`, whereClause, orderBy, limitClause)
 
 	rows, err := db.conn.QueryContext(ctx, query, args...)
 	if err != nil {
@@ -277,10 +300,10 @@ func (db *DB) ListUnnotifiedJobs(ctx context.Context, minScore int, canal string
 		       v.publicada_em, v.coletada_em
 		FROM vagas v
 		LEFT JOIN notificacoes n ON v.id = n.vaga_id AND n.canal = ?
-		WHERE v.fit_score >= ? AND n.vaga_id IS NULL
+		WHERE v.fit_score >= ? AND n.vaga_id IS NULL AND %s
 		ORDER BY v.fit_score DESC, v.coletada_em DESC
 		LIMIT %d
-	`, limit)
+	`, notFreelanceSQL, limit)
 
 	rows, err := db.conn.QueryContext(ctx, query, canal, minScore)
 	if err != nil {
@@ -325,6 +348,36 @@ func (db *DB) ListUnnotifiedJobs(ctx context.Context, minScore int, canal string
 	}
 
 	return jobs, nil
+}
+
+// ListUnnotifiedFreelance devolve projetos publicados após "since" e ainda não enviados
+func (db *DB) ListUnnotifiedFreelance(ctx context.Context, minScore int, canal string, since time.Time, limit int) ([]domain.Job, error) {
+	rows, err := db.conn.QueryContext(ctx, `
+		SELECT v.id, v.titulo, v.empresa, v.localizacao, v.link, v.tags, v.fit_score
+		FROM vagas v
+		LEFT JOIN notificacoes n ON v.id = n.vaga_id AND n.canal = ?
+		WHERE v.senioridade = ? AND v.fit_score >= ? AND n.vaga_id IS NULL
+		  AND julianday(v.publicada_em) >= julianday(?)
+		ORDER BY v.fit_score DESC, julianday(v.publicada_em) DESC
+		LIMIT ?
+	`, canal, domain.SeniorityFreelance, minScore, since.Format(time.RFC3339), limit)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var jobs []domain.Job
+	for rows.Next() {
+		var j domain.Job
+		var tags string
+		if err := rows.Scan(&j.ID, &j.Title, &j.Company, &j.Location, &j.URL, &tags, &j.FitScore); err != nil {
+			return nil, err
+		}
+		j.Seniority = domain.SeniorityFreelance
+		_ = json.Unmarshal([]byte(tags), &j.Tags)
+		jobs = append(jobs, j)
+	}
+	return jobs, rows.Err()
 }
 
 // parseTimeFlex realiza o parsing de datas salvadas em diversos formatos históricos no SQLite
@@ -379,6 +432,6 @@ func (db *DB) CountJobs(ctx context.Context) (total int, elegiveis int, err erro
 	if err != nil {
 		return 0, 0, err
 	}
-	err = db.conn.QueryRowContext(ctx, "SELECT COUNT(*) FROM vagas WHERE fit_score >= 60").Scan(&elegiveis)
+	err = db.conn.QueryRowContext(ctx, "SELECT COUNT(*) FROM vagas WHERE fit_score >= 60 AND "+notFreelanceSQL).Scan(&elegiveis)
 	return total, elegiveis, err
 }

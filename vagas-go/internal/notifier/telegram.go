@@ -77,6 +77,21 @@ func (t *TelegramNotifier) NotifyHotJobs(ctx context.Context, jobs []domain.Job,
 			j.URL,
 		)
 
+		if j.Seniority == domain.SeniorityFreelance {
+			msg = fmt.Sprintf(
+				"💼 <b>FREELA (Fit %d%%)</b>\n\n"+
+					"📌 <b>%s</b>\n"+
+					"💰 %s\n"+
+					"🏷️ Tags: <code>%s</code>\n\n"+
+					"🔗 <a href=\"%s\">Ver projeto</a>",
+				j.FitScore,
+				escapeHTML(j.Title),
+				escapeHTML(j.Location),
+				escapeHTML(tags),
+				j.URL,
+			)
+		}
+
 		if err := t.sendMessage(ctx, msg); err != nil {
 			fmt.Printf("  [Telegram] Erro ao enviar vaga %s: %v\n", j.ID, err)
 			continue

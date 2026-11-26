@@ -27,6 +27,9 @@ var (
 	telegramMinScore int
 )
 
+// maxFreelanceAlerts limita os alertas de projetos freelance por execução
+const maxFreelanceAlerts = 5
+
 func main() {
 	defaultDB := filepath.Join("..", "vagas.db")
 	defaultReport := filepath.Join("..", "busca", "radar_vagas_recomendadas.md")
@@ -71,7 +74,8 @@ func main() {
 
 			gup := provider.NewGupyProvider()
 			cat := provider.NewCathoProvider()
-			engine := pipeline.NewEngine(db, gh, rem, gup, cat)
+			free := provider.NewFreelancerProvider()
+			engine := pipeline.NewEngine(db, gh, rem, gup, cat, free)
 
 			ctx, cancel := context.WithTimeout(context.Background(), 60*time.Second)
 			defer cancel()
@@ -87,6 +91,15 @@ func main() {
 			tel := notifier.NewTelegramNotifier(db)
 			if tel.IsConfigured() {
 				fmt.Printf("📲 Verificando alertas do Telegram (Score >= %d)...\n", telegramMinScore)
+				// Projetos freelance: fila própria, com limite menor para não encobrir as vagas
+				freeSent := 0
+				freeJobs, err := db.ListUnnotifiedFreelance(ctx, telegramMinScore, "telegram", time.Now().Add(-24*time.Hour), maxFreelanceAlerts)
+				if err != nil {
+					fmt.Printf("  [Telegram] Erro ao buscar projetos freelance: %v\n", err)
+				} else if freeSent, err = tel.NotifyHotJobs(ctx, freeJobs, telegramMinScore); err != nil {
+					fmt.Printf("  [Telegram] Aviso: %v\n", err)
+				}
+
 				jobs, err := db.ListUnnotifiedJobs(ctx, telegramMinScore, "telegram", 20)
 				if err != nil {
 					fmt.Printf("  [Telegram] Erro ao buscar vagas não notificadas: %v\n", err)
@@ -94,8 +107,8 @@ func main() {
 					sent, err := tel.NotifyHotJobs(ctx, jobs, telegramMinScore)
 					if err != nil {
 						fmt.Printf("  [Telegram] Aviso: %v\n", err)
-					} else if sent > 0 {
-						fmt.Printf("  -> %d nova(s) vaga(s) quente(s) enviada(s) ao Telegram!\n", sent)
+					} else if sent+freeSent > 0 {
+						fmt.Printf("  -> %d vaga(s) e %d freela(s) enviados ao Telegram!\n", sent, freeSent)
 						if err := tel.NotifyWarnings(ctx, stats.Warnings); err != nil {
 							fmt.Printf("  [Telegram] Erro ao enviar avisos: %v\n", err)
 						}
