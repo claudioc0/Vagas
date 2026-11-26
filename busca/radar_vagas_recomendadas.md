@@ -1,6 +1,6 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 26/11/2026 às 23:16 (Executado via GitHub Actions / Go Engine)
+> **Última Atualização:** 26/11/2026 às 23:30 (Executado via GitHub Actions / Go Engine)
 > **Total no Banco:** 1513 vagas | **Elegíveis (Score >= 60):** 78 vagas
 
 ---
@@ -69,7 +69,7 @@
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
 | 70% | Freelancer.com | AI Project Sourcing & Freelance Support Assistant | USD 1500–3000 (fixo) · 29 propostas | 26/11 23:12 | [Ver projeto](https://www.freelancer.com/projects/ai-model-integration/Project-Sourcing-Freelance-Support) |
-| 90% | Workana | Desenvolvimento de Chatbot com Ia para Atendimento ao Cliente via Whatsapp | USD 100 - 250 · 12 propostas | 26/11 23:07 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-ia-para-atendimento-ao-cliente-via-whatsapp-1) |
+| 90% | Workana | Desenvolvimento de Chatbot com Ia para Atendimento ao Cliente via Whatsapp | USD 100 - 250 · 13 propostas | 26/11 23:07 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-ia-para-atendimento-ao-cliente-via-whatsapp-1) |
 | 70% | Workana | > Criar site http:Lsjobs.com - | USD 100 - 250 · 25 propostas | 26/11 22:41 | [Ver projeto](https://www.workana.com/job/criar-site-http-lsjobs-com) |
 | 55% | Freelancer.com | Verify Executive Contact Details | EUR 30–250 (fixo) · 21 propostas | 26/11 22:24 | [Ver projeto](https://www.freelancer.com/projects/data-collection/Verify-Executive-Contact-Details) |
 | 70% | Freelancer.com | Native Australian Voices for AI Training | AUD 25–50 (por hora) · 0 propostas | 26/11 21:50 | [Ver projeto](https://www.freelancer.com/projects/ai-training-data/Native-Australian-Voices-for-Training) |
