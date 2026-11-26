@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 26/11/2026 às 17:00 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1435 vagas | **Elegíveis (Score >= 60):** 74 vagas
+> **Última Atualização:** 26/11/2026 às 17:15 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1442 vagas | **Elegíveis (Score >= 60):** 75 vagas
 
 ---
 
@@ -9,6 +9,7 @@
 
 | Fit | Empresa | Título da Vaga | Modalidade | Tecnologias | Link |
 | :---: | :--- | :--- | :---: | :--- | :---: |
+| **100%** | EVT | Desenvolvedor Junior | Remoto | `React, Node.js, IA/LLM, Git` | [Candidatar-se](https://jobs.quickin.io/evtit/jobs/6b082ce60103320013dc0beb?utm_source=remotar) |
 | **100%** | VExpenses | Desenvolvedor(a) Back-End Laravel - Júnior (Remoto) | Remoto | `Python, Node.js, IA/LLM` | [Candidatar-se](https://vexpenses.gupy.io/job/eyJqb2JJZCI6MTI5NDk0NTIsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **100%** | OrderMesh | Junior Software Development Engineer in Test (SDET) | Remoto | `TypeScript, Node.js, IA/LLM, Git` | [Candidatar-se](https://apply.workable.com/ordermesh/j/89F22141AF/?utm_source=remotar) |
 | **100%** | Datum TI | Pessoa Analista de Dados Júnior | Remoto | `Python, SQL, IA/LLM, Git` | [Candidatar-se](https://datum.jobs.recrut.ai/job/0H2SSE?utm_source=remotar) |
@@ -58,7 +59,6 @@
 | **70%** | Compass UOL | Cloud Network DevOps - Júnior (Remoto) | Remoto | `-` | [Candidatar-se](https://compass.gupy.io/job/eyJqb2JJZCI6MTI4Njg1NzYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **70%** | Sky.One | Analista de Segurança da Informação Júnior (SOC) | Remoto | `-` | [Candidatar-se](https://skyone.inhire.app/vagas/beded6c7-850f-4763-b29e-dc3ff726374e/analista-de-seguranca-da-informacao-junior-soc) |
 | **70%** | Jobgether | Analista de Cibersegurança Júnior (Blue Team) | Remoto | `-` | [Candidatar-se](https://www.linkedin.com/jobs/view/4490170698/?) |
-| **70%** | Vonbz | Analista Junior de Cybersecurity - Zscaler - Remoto | Remoto | `-` | [Candidatar-se](https://vonbz.inhire.app/vagas/602a17f3-36b9-4542-8c92-9e31cb5998a2/analista-junior-de-cybersecurity-or-zscaler-or-remoto) |
 
 ---
 
