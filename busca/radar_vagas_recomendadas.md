@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 26/11/2026 às 18:30 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1452 vagas | **Elegíveis (Score >= 60):** 75 vagas
+> **Última Atualização:** 26/11/2026 às 18:45 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1460 vagas | **Elegíveis (Score >= 60):** 77 vagas
 
 ---
 
@@ -19,6 +19,7 @@
 | **100%** | backend-br | [Remoto] Desenvolvedor(a) Back-end Júnior - Python / AI Coding & Agentic AI - MKdigital | Remoto | `Python, IA/LLM, Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12493) |
 | **95%** | Oportunidades | ANALISTA DE DADOS JUNIOR | Remoto | `Python, SQL` | [Candidatar-se](https://bancorbras.gupy.io/job/eyJqb2JJZCI6MTI4NDgzOTUsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **90%** | StarShip Aceleradora | Desenvolvedor - Analista Sistemas IA Claude Code | Remoto | `Python, IA/LLM` | [Candidatar-se](https://gabyreisrh.abler.com.br/vagas/desenvolvedor-analista-sistemas-ia-claude-code-855417?utm_source=remotar) |
+| **85%** | Dock | Software Engineer Junior | Remoto | `Go` | [Candidatar-se](https://dock.inhire.app/vagas/22b71f01-87d2-42fa-bef9-385d0a399665/software-engineer-junior) |
 | **85%** | AZ Tecnologia em Gestão | Desenvolvedor(a) Fullstack Júnior | Remoto | `IA/LLM` | [Candidatar-se](https://aztecnologia.vagas.solides.com.br/vaga/957052?origem=remotar) |
 | **85%** | Grupo SysMap | Engenheiro de Dados JR | Remoto | `IA/LLM` | [Candidatar-se](https://gruposysmap.gupy.io/job/eyJqb2JJZCI6MTI5MTY0ODksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **85%** | BIP Brasil | Pessoa Desenvolvedora de IA/RPA  - Junior | Remoto | `IA/LLM` | [Candidatar-se](https://vemprabip.gupy.io/job/eyJqb2JJZCI6MTI4NDQ3ODAsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
@@ -49,6 +50,7 @@
 | **75%** | soujava | [REMOTO] Desenvolvedor Java Junior na DB1/ANYMARKET | Remoto | `Git` | [Candidatar-se](https://github.com/soujava/vagas-java/issues/1962) |
 | **75%** | react-brasil | [Nova Lima, Brasil] Full Cycle Developer (Júnior) na Coodesh | Indefinido | `React, Git` | [Candidatar-se](https://github.com/react-brasil/vagas/issues/3038) |
 | **75%** | backend-br | [Remoto] Dev java junior - DB1 | Remoto | `Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12444) |
+| **70%** | Celcoin | Software Engineer PHP - Júnior | Remoto | `-` | [Candidatar-se](https://celcoin.inhire.app/vagas/3d9c8a59-a428-4e60-bdd1-3e458b697a5e/software-engineer-php-junior) |
 | **70%** | MJV | Trainee de Qualidade (QA / Testes) | Remoto | `-` | [Candidatar-se](https://mjv.inhire.app/vagas/b4a56dc7-cb0e-454d-a1a7-8f597be5272f/trainee-de-qualidade-qa-testes) |
 | **70%** | EVT | Desenvolvedor Tosca Júnior | Remoto | `-` | [Candidatar-se](https://jobs.quickin.io/evtit/jobs/6afedb9296ed470013c97a41?utm_source=remotar) |
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA2NjYsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
@@ -57,8 +59,6 @@
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA2NjYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **70%** | PagBank | Engenheiro de Qualidade de Software Jr. | Remoto | `-` | [Candidatar-se](https://pagseguro.gupy.io/job/eyJqb2JJZCI6MTE4ODI1NTksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Compass UOL | Cloud Network DevOps - Júnior (Remoto) | Remoto | `-` | [Candidatar-se](https://compass.gupy.io/job/eyJqb2JJZCI6MTI4Njg1NzYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
-| **70%** | Sky.One | Analista de Segurança da Informação Júnior (SOC) | Remoto | `-` | [Candidatar-se](https://skyone.inhire.app/vagas/beded6c7-850f-4763-b29e-dc3ff726374e/analista-de-seguranca-da-informacao-junior-soc) |
-| **70%** | Jobgether | Analista de Cibersegurança Júnior (Blue Team) | Remoto | `-` | [Candidatar-se](https://www.linkedin.com/jobs/view/4490170698/?) |
 
 ---
 
@@ -68,7 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 85% | Workana | Desenvolvimento de Chatbot com Inteligência Artificial para Whatsapp | USD 250 - 500 · 26 propostas | 26/11 18:09 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-inteligencia-artificial-para-whatsapp-12) |
+| 85% | Workana | Desenvolvimento de Chatbot com Inteligência Artificial para Whatsapp | USD 250 - 500 · 30 propostas | 26/11 18:09 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-inteligencia-artificial-para-whatsapp-12) |
 | 85% | Workana | Desenvolvimento de Chatbot com Ia para Atendimento no Whatsapp | USD 100 - 250 · 25 propostas | 26/11 17:48 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-ia-para-atendimento-no-whatsapp-8) |
 | 65% | Freelancer.com | Market Researcher | USD 25–50 (por hora) · 0 propostas | 26/11 17:30 | [Ver projeto](https://www.freelancer.com/projects/market-research/Market-Researcher-40837434) |
 | 70% | Workana | Desenvolvimento de Sistema de Respostas Automáticas para Perguntas Frequentes | USD 100 - 250 · 28 propostas | 26/11 16:05 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-respostas-automaticas-para-perguntas-frequentes) |
