@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 26/11/2026 às 14:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1372 vagas | **Elegíveis (Score >= 60):** 72 vagas
+> **Última Atualização:** 26/11/2026 às 15:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1375 vagas | **Elegíveis (Score >= 60):** 73 vagas
 
 ---
 
@@ -47,6 +47,7 @@
 | **75%** | soujava | [REMOTO] Desenvolvedor Java Junior na DB1/ANYMARKET | Remoto | `Git` | [Candidatar-se](https://github.com/soujava/vagas-java/issues/1962) |
 | **75%** | react-brasil | [Nova Lima, Brasil] Full Cycle Developer (Júnior) na Coodesh | Indefinido | `React, Git` | [Candidatar-se](https://github.com/react-brasil/vagas/issues/3038) |
 | **75%** | backend-br | [Remoto] Dev java junior - DB1 | Remoto | `Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12444) |
+| **70%** | MJV | Trainee de Qualidade (QA / Testes) | Remoto | `-` | [Candidatar-se](https://mjv.inhire.app/vagas/b4a56dc7-cb0e-454d-a1a7-8f597be5272f/trainee-de-qualidade-qa-testes) |
 | **70%** | EVT | Desenvolvedor Tosca Júnior | Remoto | `-` | [Candidatar-se](https://jobs.quickin.io/evtit/jobs/6afedb9296ed470013c97a41?utm_source=remotar) |
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA2NjYsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA0OTIsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
@@ -58,7 +59,6 @@
 | **70%** | Jobgether | Analista de Cibersegurança Júnior (Blue Team) | Remoto | `-` | [Candidatar-se](https://www.linkedin.com/jobs/view/4490170698/?) |
 | **70%** | Vonbz | Analista Junior de Cybersecurity - Zscaler - Remoto | Remoto | `-` | [Candidatar-se](https://vonbz.inhire.app/vagas/602a17f3-36b9-4542-8c92-9e31cb5998a2/analista-junior-de-cybersecurity-or-zscaler-or-remoto) |
 | **70%** | Ahlex | Analista de Qualidade (QA) Júnior | Remoto | `-` | [Candidatar-se](https://ahlex.vagas.solides.com.br/vaga/943274?origem=remotar) |
-| **70%** | Ativa GR | Analista de Qualidade (QA/Tester) Júnior | Remoto | `-` | [Candidatar-se](https://ativagr.gupy.io/job/eyJqb2JJZCI6MTI4MjUxNzUsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
