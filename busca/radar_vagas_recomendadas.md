@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 01:30 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1525 vagas | **Elegíveis (Score >= 60):** 78 vagas
+> **Última Atualização:** 27/11/2026 às 01:45 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1526 vagas | **Elegíveis (Score >= 60):** 78 vagas
 
 ---
 
@@ -68,9 +68,10 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
+| 60% | Freelancer.com | AI Cinematic Spiritual Drama Sequences | USD 30–250 (fixo) · 28 propostas | 27/11 01:32 | [Ver projeto](https://www.freelancer.com/projects/ai-video/Cinematic-Spiritual-Drama-Sequences) |
 | 70% | Freelancer.com | AI Founder Reels Creation | INR 12500–37500 (fixo) · 4 propostas | 27/11 00:53 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Founder-Reels-Creation) |
 | 60% | Workana | Desenvolvimento de Aplicativo Web e Mobile para Agendamento em Barbearias com Pagamento Antecipado | USD 100 - 250 · 20 propostas | 27/11 00:25 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-web-e-mobile-para-agendamento-em-barbearias-com-pagamento-antecipado) |
-| 60% | Workana | Desenvolvimento de Jogo de Tiro Leve no Velho Oeste com Caçador de Recompensas | USD 100 - 250 · 21 propostas | 27/11 00:13 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-jogo-de-tiro-leve-no-velho-oeste-com-cacador-de-recompensas) |
+| 60% | Workana | Desenvolvimento de Jogo de Tiro Leve no Velho Oeste com Caçador de Recompensas | USD 100 - 250 · 22 propostas | 27/11 00:13 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-jogo-de-tiro-leve-no-velho-oeste-com-cacador-de-recompensas) |
 | 70% | Freelancer.com | AI Project Sourcing & Freelance Support Assistant | USD 1500–3000 (fixo) · 29 propostas | 26/11 23:12 | [Ver projeto](https://www.freelancer.com/projects/ai-model-integration/Project-Sourcing-Freelance-Support) |
 | 90% | Workana | Desenvolvimento de Chatbot com Ia para Atendimento ao Cliente via Whatsapp | USD 100 - 250 · 19 propostas | 26/11 23:07 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-ia-para-atendimento-ao-cliente-via-whatsapp-1) |
 | 70% | Workana | > Criar site http:Lsjobs.com - | USD 100 - 250 · 30 propostas | 26/11 22:41 | [Ver projeto](https://www.workana.com/job/criar-site-http-lsjobs-com) |
