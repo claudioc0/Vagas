@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 01:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1526 vagas | **Elegíveis (Score >= 60):** 78 vagas
+> **Última Atualização:** 27/11/2026 às 02:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1527 vagas | **Elegíveis (Score >= 60):** 78 vagas
 
 ---
 
@@ -69,9 +69,9 @@
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
 | 60% | Freelancer.com | AI Cinematic Spiritual Drama Sequences | USD 30–250 (fixo) · 28 propostas | 27/11 01:32 | [Ver projeto](https://www.freelancer.com/projects/ai-video/Cinematic-Spiritual-Drama-Sequences) |
-| 70% | Freelancer.com | AI Founder Reels Creation | INR 12500–37500 (fixo) · 4 propostas | 27/11 00:53 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Founder-Reels-Creation) |
+| 70% | Freelancer.com | AI Founder Reels Creation | INR 12500–37500 (fixo) · 8 propostas | 27/11 00:53 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Founder-Reels-Creation) |
 | 60% | Workana | Desenvolvimento de Aplicativo Web e Mobile para Agendamento em Barbearias com Pagamento Antecipado | USD 100 - 250 · 20 propostas | 27/11 00:25 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-web-e-mobile-para-agendamento-em-barbearias-com-pagamento-antecipado) |
-| 60% | Workana | Desenvolvimento de Jogo de Tiro Leve no Velho Oeste com Caçador de Recompensas | USD 100 - 250 · 22 propostas | 27/11 00:13 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-jogo-de-tiro-leve-no-velho-oeste-com-cacador-de-recompensas) |
+| 60% | Workana | Desenvolvimento de Jogo de Tiro Leve no Velho Oeste com Caçador de Recompensas | USD 100 - 250 · 23 propostas | 27/11 00:13 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-jogo-de-tiro-leve-no-velho-oeste-com-cacador-de-recompensas) |
 | 70% | Freelancer.com | AI Project Sourcing & Freelance Support Assistant | USD 1500–3000 (fixo) · 29 propostas | 26/11 23:12 | [Ver projeto](https://www.freelancer.com/projects/ai-model-integration/Project-Sourcing-Freelance-Support) |
 | 90% | Workana | Desenvolvimento de Chatbot com Ia para Atendimento ao Cliente via Whatsapp | USD 100 - 250 · 19 propostas | 26/11 23:07 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-ia-para-atendimento-ao-cliente-via-whatsapp-1) |
 | 70% | Workana | > Criar site http:Lsjobs.com - | USD 100 - 250 · 30 propostas | 26/11 22:41 | [Ver projeto](https://www.workana.com/job/criar-site-http-lsjobs-com) |
@@ -79,7 +79,7 @@
 | 70% | Freelancer.com | Native Australian Voices for AI Training | AUD 25–50 (por hora) · 1 propostas | 26/11 21:50 | [Ver projeto](https://www.freelancer.com/projects/ai-training-data/Native-Australian-Voices-for-Training) |
 | 55% | Workana | Desenvolvimento de site institucional em Astro + Lumos a partir de especificação pronta | USD 250 - 500 · 30 propostas | 26/11 21:43 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-site-institucional-em-astro-lumos-a-partir-de-especificacao-pronta) |
 | 60% | Workana | Desenvolvimento de Plataforma Web Responsiva Completa com Ia e Integração Whatsapp | USD 250 - 500 · 29 propostas | 26/11 21:35 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-plataforma-web-responsiva-completa-com-ia-e-integracao-whatsapp) |
-| 55% | Freelancer.com | Facebook Comment Safety Consultation PDF | USD 30–250 (fixo) · 26 propostas | 26/11 20:20 | [Ver projeto](https://www.freelancer.com/projects/selenium/Facebook-Comment-Safety-Consultation-PDF) |
+| 55% | Freelancer.com | Facebook Comment Safety Consultation PDF | USD 30–250 (fixo) · 27 propostas | 26/11 20:20 | [Ver projeto](https://www.freelancer.com/projects/selenium/Facebook-Comment-Safety-Consultation-PDF) |
 | 55% | Freelancer.com | On-Screen Takeoff 3 Project | USD 30–250 (fixo) · 29 propostas | 26/11 20:19 | [Ver projeto](https://www.freelancer.com/projects/construction-management/Screen-Takeoff-Project) |
 | 75% | Workana | Programador Python para Suporte e Infraestrutura em Nuvem | USD 100 - 250 · 30 propostas | 26/11 20:03 | [Ver projeto](https://www.workana.com/job/programador-python-para-suporte-e-infraestrutura-em-nuvem) |
 | 85% | Workana | Desenvolvimento de Chatbot com Inteligência Artificial para Whatsapp | USD 250 - 500 · 30 propostas | 26/11 18:09 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-inteligencia-artificial-para-whatsapp-12) |
@@ -88,7 +88,7 @@
 | 70% | Workana | Desenvolvimento de Sistema de Respostas Automáticas para Perguntas Frequentes | USD 100 - 250 · 28 propostas | 26/11 16:05 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-respostas-automaticas-para-perguntas-frequentes) |
 | 85% | Freelancer.com | Telegram FAQ Chatbot Development | INR 5000000 (fixo) · 25 propostas | 26/11 15:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Telegram-FAQ-Chatbot-Development) |
 | 60% | Freelancer.com | Node.js Role-Based Access Control | INR 10000–16000 (fixo) · 16 propostas | 26/11 12:19 | [Ver projeto](https://www.freelancer.com/projects/restful-api/Node-Role-Based-Access-Control) |
-| 60% | Freelancer.com | Astrology and Vastu AI Fine-Tuning | INR 12500–37500 (fixo) · 25 propostas | 26/11 11:08 | [Ver projeto](https://www.freelancer.com/projects/ai-model-development/Astrology-Vastu-Fine-Tuning) |
+| 60% | Freelancer.com | Astrology and Vastu AI Fine-Tuning | INR 12500–37500 (fixo) · 24 propostas | 26/11 11:08 | [Ver projeto](https://www.freelancer.com/projects/ai-model-development/Astrology-Vastu-Fine-Tuning) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
