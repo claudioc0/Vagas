@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 07:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1563 vagas | **Elegíveis (Score >= 60):** 78 vagas
+> **Última Atualização:** 27/11/2026 às 08:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1565 vagas | **Elegíveis (Score >= 60):** 78 vagas
 
 ---
 
@@ -68,16 +68,16 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 100% | Workana | Desenvolvimento de Solução Rpa c/ Ia para Automação de Emissão de Recibos via Whatsapp e Gov.Br | USD 100 - 250 · pagamento verificado · 19 propostas | 27/11 07:17 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-solucao-rpa-c-ia-para-automacao-de-emissao-de-recibos-via-whatsapp-e-gov-br) |
-| 75% | Freelancer.com | Automated Cryptocurrency Trading Bot Development | INR 12500–37500 (fixo) · 20 propostas | 27/11 06:34 | [Ver projeto](https://www.freelancer.com/projects/cryptocurrency/Automated-Cryptocurrency-Trading-Bot) |
-| 85% | Workana | Configuração e Implementação de Inteligência Artificial para Instagram | USD 100 - 250 · 10 propostas | 27/11 06:20 | [Ver projeto](https://www.workana.com/job/configuracao-e-implementacao-de-inteligencia-artificial-para-instagram) |
+| 95% | Workana | Desenvolvimento de Solução Rpa c/ Ia para Automação de Emissão de Recibos via Whatsapp e Gov.Br | USD 100 - 250 · pagamento verificado · 23 propostas | 27/11 07:17 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-solucao-rpa-c-ia-para-automacao-de-emissao-de-recibos-via-whatsapp-e-gov-br) |
+| 70% | Freelancer.com | Automated Cryptocurrency Trading Bot Development | INR 12500–37500 (fixo) · 21 propostas | 27/11 06:34 | [Ver projeto](https://www.freelancer.com/projects/cryptocurrency/Automated-Cryptocurrency-Trading-Bot) |
+| 80% | Workana | Configuração e Implementação de Inteligência Artificial para Instagram | USD 100 - 250 · 11 propostas | 27/11 06:20 | [Ver projeto](https://www.workana.com/job/configuracao-e-implementacao-de-inteligencia-artificial-para-instagram) |
 | 100% | Freelancer.com | AI Project Communication Assistant | USD 15–25 (por hora) · 0 propostas | 27/11 06:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Project-Communication-Assistant) |
 | 60% | Freelancer.com | Data Science Journal Paper Prep | INR 10000–20000 (fixo) · 18 propostas | 27/11 05:48 | [Ver projeto](https://www.freelancer.com/projects/scientific-writing/Data-Science-Journal-Paper-Prep) |
 | 60% | Freelancer.com | Industrial Inspection Camera Lift/drop | USD 250–750 (fixo) · 15 propostas | 27/11 03:21 | [Ver projeto](https://www.freelancer.com/projects/mechatronics/Industrial-Inspection-Camera-Lift-drop) |
 | 70% | 99Freelas | Sistema financeiro python banco de dados | Orçamento não informado · 9 propostas | 27/11 03:01 | [Ver projeto](https://www.99freelas.com.br/project/sistema-financeiro-python-banco-de-dados-801450) |
 | 60% | Freelancer.com | Step-By-Step Python Basics Tutor | INR 12500–37500 (fixo) · 30 propostas | 27/11 02:22 | [Ver projeto](https://www.freelancer.com/projects/c-programming/Step-Step-Python-Basics-Tutor) |
 | 60% | Freelancer.com | AI Cinematic Spiritual Drama Sequences | USD 30–250 (fixo) · 28 propostas | 27/11 01:32 | [Ver projeto](https://www.freelancer.com/projects/ai-video/Cinematic-Spiritual-Drama-Sequences) |
-| 60% | Freelancer.com | AI Founder Reels Creation | INR 12500–37500 (fixo) · 24 propostas | 27/11 00:53 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Founder-Reels-Creation) |
+| 60% | Freelancer.com | AI Founder Reels Creation | INR 12500–37500 (fixo) · 25 propostas | 27/11 00:53 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Founder-Reels-Creation) |
 | 60% | Workana | Desenvolvimento de Aplicativo Web e Mobile para Agendamento em Barbearias com Pagamento Antecipado | USD 100 - 250 · 20 propostas | 27/11 00:25 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-web-e-mobile-para-agendamento-em-barbearias-com-pagamento-antecipado) |
 | 60% | Workana | Desenvolvimento de Jogo de Tiro Leve no Velho Oeste com Caçador de Recompensas | USD 100 - 250 · 24 propostas | 27/11 00:13 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-jogo-de-tiro-leve-no-velho-oeste-com-cacador-de-recompensas) |
 | 70% | Freelancer.com | AI Project Sourcing & Freelance Support Assistant | USD 1500–3000 (fixo) · 29 propostas | 26/11 23:12 | [Ver projeto](https://www.freelancer.com/projects/ai-model-integration/Project-Sourcing-Freelance-Support) |
