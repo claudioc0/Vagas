@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 18:15 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1638 vagas | **Elegíveis (Score >= 60):** 80 vagas
+> **Última Atualização:** 27/11/2026 às 18:30 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1639 vagas | **Elegíveis (Score >= 60):** 80 vagas
 
 ---
 
@@ -68,6 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
+| 80% | Workana | Desenvolvimento de Respostas Automáticas para Whatsapp | USD 100 - 250 · 10 propostas | 27/11 18:16 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-respostas-automaticas-para-whatsapp-1) |
 | 70% | Freelancer.com | Rust Backend Architect for AI Training | USD 50 (por hora) · 7 propostas | 27/11 17:14 | [Ver projeto](https://www.freelancer.com/projects/rust/Rust-Backend-Architect-for-Training) |
 | 70% | Workana | Desenvolvimento de Sistema de Gestão de Estoque com Vibe Coding (Replit) | USD 500 - 1.000 · 21 propostas | 27/11 17:01 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-gestao-de-estoque-com-vibe-coding-replit) |
 | 100% | Workana | Desenvolvedor Full-Stack Sênior para Auditoria e Evolução de Plataformas Saas | USD 100 - 250 · 26 propostas | 27/11 16:56 | [Ver projeto](https://www.workana.com/job/desenvolvedor-full-stack-senior-para-auditoria-e-evolucao-de-plataformas-saas) |
@@ -97,7 +98,6 @@
 | 60% | Workana | Desenvolvimento de Plataforma Web Responsiva Completa com Ia e Integração Whatsapp | USD 250 - 500 · 29 propostas | 26/11 21:35 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-plataforma-web-responsiva-completa-com-ia-e-integracao-whatsapp) |
 | 55% | Freelancer.com | Facebook Comment Safety Consultation PDF | USD 30–250 (fixo) · 30 propostas | 26/11 20:20 | [Ver projeto](https://www.freelancer.com/projects/selenium/Facebook-Comment-Safety-Consultation-PDF) |
 | 55% | Freelancer.com | On-Screen Takeoff 3 Project | USD 30–250 (fixo) · 30 propostas | 26/11 20:19 | [Ver projeto](https://www.freelancer.com/projects/construction-management/Screen-Takeoff-Project) |
-| 75% | Workana | Programador Python para Suporte e Infraestrutura em Nuvem | USD 100 - 250 · 30 propostas | 26/11 20:03 | [Ver projeto](https://www.workana.com/job/programador-python-para-suporte-e-infraestrutura-em-nuvem) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
