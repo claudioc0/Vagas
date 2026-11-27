@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 19:00 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1655 vagas | **Elegíveis (Score >= 60):** 80 vagas
+> **Última Atualização:** 27/11/2026 às 19:15 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1662 vagas | **Elegíveis (Score >= 60):** 80 vagas
 
 ---
 
@@ -68,7 +68,8 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 60% | Freelancer.com | Project: Mineral Property Valuation | USD 250–750 (fixo) · 18 propostas | 27/11 18:55 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Project-Mineral-Property-Valuation) |
+| 85% | Workana | Desenvolvimento de Bot de Respostas Automatizadas com Ia para Whatsapp | USD 100 - 250 · 24 propostas | 27/11 18:58 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-bot-de-respostas-automatizadas-com-ia-para-whatsapp) |
+| 60% | Freelancer.com | Project: Mineral Property Valuation | USD 250–750 (fixo) · 20 propostas | 27/11 18:55 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Project-Mineral-Property-Valuation) |
 | 60% | Freelancer.com | Comprehensive Mining Valuation Report | USD 30–250 (fixo) · 17 propostas | 27/11 18:49 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Comprehensive-Mining-Valuation-Report) |
 | 80% | Workana | Desenvolvimento de Respostas Automáticas para Whatsapp | USD 100 - 250 · 10 propostas | 27/11 18:16 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-respostas-automaticas-para-whatsapp-1) |
 | 70% | Freelancer.com | Rust Backend Architect for AI Training | USD 50 (por hora) · 7 propostas | 27/11 17:14 | [Ver projeto](https://www.freelancer.com/projects/rust/Rust-Backend-Architect-for-Training) |
@@ -97,7 +98,6 @@
 | 55% | Freelancer.com | Verify Executive Contact Details | EUR 30–250 (fixo) · 30 propostas | 26/11 22:24 | [Ver projeto](https://www.freelancer.com/projects/data-collection/Verify-Executive-Contact-Details) |
 | 70% | Freelancer.com | Native Australian Voices for AI Training | AUD 25–50 (por hora) · 1 propostas | 26/11 21:50 | [Ver projeto](https://www.freelancer.com/projects/ai-training-data/Native-Australian-Voices-for-Training) |
 | 55% | Workana | Desenvolvimento de site institucional em Astro + Lumos a partir de especificação pronta | USD 250 - 500 · 30 propostas | 26/11 21:43 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-site-institucional-em-astro-lumos-a-partir-de-especificacao-pronta) |
-| 60% | Workana | Desenvolvimento de Plataforma Web Responsiva Completa com Ia e Integração Whatsapp | USD 250 - 500 · 29 propostas | 26/11 21:35 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-plataforma-web-responsiva-completa-com-ia-e-integracao-whatsapp) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
