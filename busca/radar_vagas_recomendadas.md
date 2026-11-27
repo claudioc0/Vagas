@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 14:30 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1603 vagas | **Elegíveis (Score >= 60):** 78 vagas
+> **Última Atualização:** 27/11/2026 às 14:45 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1604 vagas | **Elegíveis (Score >= 60):** 78 vagas
 
 ---
 
