@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 14:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1604 vagas | **Elegíveis (Score >= 60):** 78 vagas
+> **Última Atualização:** 27/11/2026 às 15:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1607 vagas | **Elegíveis (Score >= 60):** 79 vagas
 
 ---
 
@@ -19,6 +19,7 @@
 | **100%** | backend-br | [Remoto] Desenvolvedor(a) Back-end Júnior - Python / AI Coding & Agentic AI - MKdigital | Remoto | `Python, IA/LLM, Git` | [Candidatar-se](https://github.com/backend-br/vagas/issues/12493) |
 | **95%** | Oportunidades | ANALISTA DE DADOS JUNIOR | Remoto | `Python, SQL` | [Candidatar-se](https://bancorbras.gupy.io/job/eyJqb2JJZCI6MTI4NDgzOTUsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **90%** | StarShip Aceleradora | Desenvolvedor - Analista Sistemas IA Claude Code | Remoto | `Python, IA/LLM` | [Candidatar-se](https://gabyreisrh.abler.com.br/vagas/desenvolvedor-analista-sistemas-ia-claude-code-855417?utm_source=remotar) |
+| **85%** | MadeinWeb | Pessoa Desenvolvedora (.NET CORE + ORACLE) - BackEnd ou FullStack | Remoto | `SQL, IA/LLM` | [Candidatar-se](https://madeinweb.inhire.app/vagas/bfec5617-0166-4835-b0c0-160d20b3ea9e/pessoa-desenvolvedora-net-core-oracle-or-backend-ou-fullstack) |
 | **85%** | Dock | Software Engineer Junior | Remoto | `Go` | [Candidatar-se](https://dock.inhire.app/vagas/22b71f01-87d2-42fa-bef9-385d0a399665/software-engineer-junior) |
 | **85%** | AZ Tecnologia em Gestão | Desenvolvedor(a) Fullstack Júnior | Remoto | `IA/LLM` | [Candidatar-se](https://aztecnologia.vagas.solides.com.br/vaga/957052?origem=remotar) |
 | **85%** | Grupo SysMap | Engenheiro de Dados JR | Remoto | `IA/LLM` | [Candidatar-se](https://gruposysmap.gupy.io/job/eyJqb2JJZCI6MTI5MTY0ODksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
@@ -58,7 +59,6 @@
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA0OTIsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Frete.com | Software Engineer III (Frontend) | Remoto | `React` | [Candidatar-se](https://frete.inhire.app/vagas/6aa4b219-14b1-4c20-9fde-d017265fe9a5/software-engineer-iii-frontend) |
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA2NjYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
-| **70%** | PagBank | Engenheiro de Qualidade de Software Jr. | Remoto | `-` | [Candidatar-se](https://pagseguro.gupy.io/job/eyJqb2JJZCI6MTE4ODI1NTksInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 
 ---
 
@@ -80,7 +80,7 @@
 | 65% | 99Freelas | Sistema financeiro python banco de dados | Orçamento não informado · 13 propostas | 27/11 03:01 | [Ver projeto](https://www.99freelas.com.br/project/sistema-financeiro-python-banco-de-dados-801450) |
 | 60% | Freelancer.com | Step-By-Step Python Basics Tutor | INR 12500–37500 (fixo) · 30 propostas | 27/11 02:22 | [Ver projeto](https://www.freelancer.com/projects/c-programming/Step-Step-Python-Basics-Tutor) |
 | 60% | Freelancer.com | AI Cinematic Spiritual Drama Sequences | USD 30–250 (fixo) · 28 propostas | 27/11 01:32 | [Ver projeto](https://www.freelancer.com/projects/ai-video/Cinematic-Spiritual-Drama-Sequences) |
-| 60% | Freelancer.com | AI Founder Reels Creation | INR 12500–37500 (fixo) · 26 propostas | 27/11 00:53 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Founder-Reels-Creation) |
+| 60% | Freelancer.com | AI Founder Reels Creation | INR 12500–37500 (fixo) · 27 propostas | 27/11 00:53 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Founder-Reels-Creation) |
 | 60% | Workana | Desenvolvimento de Aplicativo Web e Mobile para Agendamento em Barbearias com Pagamento Antecipado | USD 100 - 250 · 20 propostas | 27/11 00:25 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-web-e-mobile-para-agendamento-em-barbearias-com-pagamento-antecipado) |
 | 60% | Workana | Desenvolvimento de Jogo de Tiro Leve no Velho Oeste com Caçador de Recompensas | USD 100 - 250 · 24 propostas | 27/11 00:13 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-jogo-de-tiro-leve-no-velho-oeste-com-cacador-de-recompensas) |
 | 70% | Freelancer.com | AI Project Sourcing & Freelance Support Assistant | USD 1500–3000 (fixo) · 29 propostas | 26/11 23:12 | [Ver projeto](https://www.freelancer.com/projects/ai-model-integration/Project-Sourcing-Freelance-Support) |
