@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 19:15 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1662 vagas | **Elegíveis (Score >= 60):** 80 vagas
+> **Última Atualização:** 27/11/2026 às 19:30 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1666 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -9,6 +9,7 @@
 
 | Fit | Empresa | Título da Vaga | Modalidade | Tecnologias | Link |
 | :---: | :--- | :--- | :---: | :--- | :---: |
+| **100%** | SoftExpert | Engenheiro(a) de Software Júnior (IA e Automação) | Remoto | `Python, Node.js, SQL, IA/LLM` | [Candidatar-se](https://softexpert.gupy.io/job/eyJqb2JJZCI6MTI5NTQ3NDMsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **100%** | Carreiras SoftExpert | Engenheiro(a) de Software Júnior (IA e Automação) | Remoto | `Python, Node.js, SQL, IA/LLM` | [Candidatar-se](https://softexpert.gupy.io/job/eyJqb2JJZCI6MTI5NTQ3NDMsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **100%** | EVT | Desenvolvedor Junior | Remoto | `React, Node.js, IA/LLM, Git` | [Candidatar-se](https://jobs.quickin.io/evtit/jobs/6b082ce60103320013dc0beb?utm_source=remotar) |
 | **100%** | VExpenses | Desenvolvedor(a) Back-End Laravel - Júnior (Remoto) | Remoto | `Python, Node.js, IA/LLM` | [Candidatar-se](https://vexpenses.gupy.io/job/eyJqb2JJZCI6MTI5NDk0NTIsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
@@ -58,7 +59,6 @@
 | **70%** | EVT | Desenvolvedor Tosca Júnior | Remoto | `-` | [Candidatar-se](https://jobs.quickin.io/evtit/jobs/6afedb9296ed470013c97a41?utm_source=remotar) |
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA2NjYsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA0OTIsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
-| **70%** | Frete.com | Software Engineer III (Frontend) | Remoto | `React` | [Candidatar-se](https://frete.inhire.app/vagas/6aa4b219-14b1-4c20-9fde-d017265fe9a5/software-engineer-iii-frontend) |
 
 ---
 
@@ -68,9 +68,9 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 85% | Workana | Desenvolvimento de Bot de Respostas Automatizadas com Ia para Whatsapp | USD 100 - 250 · 24 propostas | 27/11 18:58 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-bot-de-respostas-automatizadas-com-ia-para-whatsapp) |
-| 60% | Freelancer.com | Project: Mineral Property Valuation | USD 250–750 (fixo) · 20 propostas | 27/11 18:55 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Project-Mineral-Property-Valuation) |
-| 60% | Freelancer.com | Comprehensive Mining Valuation Report | USD 30–250 (fixo) · 17 propostas | 27/11 18:49 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Comprehensive-Mining-Valuation-Report) |
+| 85% | Workana | Desenvolvimento de Bot de Respostas Automatizadas com Ia para Whatsapp | USD 100 - 250 · 28 propostas | 27/11 18:58 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-bot-de-respostas-automatizadas-com-ia-para-whatsapp) |
+| 55% | Freelancer.com | Project: Mineral Property Valuation | USD 250–750 (fixo) · 24 propostas | 27/11 18:55 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Project-Mineral-Property-Valuation) |
+| 60% | Freelancer.com | Comprehensive Mining Valuation Report | USD 30–250 (fixo) · 18 propostas | 27/11 18:49 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Comprehensive-Mining-Valuation-Report) |
 | 80% | Workana | Desenvolvimento de Respostas Automáticas para Whatsapp | USD 100 - 250 · 10 propostas | 27/11 18:16 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-respostas-automaticas-para-whatsapp-1) |
 | 70% | Freelancer.com | Rust Backend Architect for AI Training | USD 50 (por hora) · 7 propostas | 27/11 17:14 | [Ver projeto](https://www.freelancer.com/projects/rust/Rust-Backend-Architect-for-Training) |
 | 70% | Workana | Desenvolvimento de Sistema de Gestão de Estoque com Vibe Coding (Replit) | USD 500 - 1.000 · 21 propostas | 27/11 17:01 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-gestao-de-estoque-com-vibe-coding-replit) |
