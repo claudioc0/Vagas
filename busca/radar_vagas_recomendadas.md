@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 18:30 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1639 vagas | **Elegíveis (Score >= 60):** 80 vagas
+> **Última Atualização:** 27/11/2026 às 18:45 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1644 vagas | **Elegíveis (Score >= 60):** 80 vagas
 
 ---
 
@@ -71,7 +71,7 @@
 | 80% | Workana | Desenvolvimento de Respostas Automáticas para Whatsapp | USD 100 - 250 · 10 propostas | 27/11 18:16 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-respostas-automaticas-para-whatsapp-1) |
 | 70% | Freelancer.com | Rust Backend Architect for AI Training | USD 50 (por hora) · 7 propostas | 27/11 17:14 | [Ver projeto](https://www.freelancer.com/projects/rust/Rust-Backend-Architect-for-Training) |
 | 70% | Workana | Desenvolvimento de Sistema de Gestão de Estoque com Vibe Coding (Replit) | USD 500 - 1.000 · 21 propostas | 27/11 17:01 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-gestao-de-estoque-com-vibe-coding-replit) |
-| 100% | Workana | Desenvolvedor Full-Stack Sênior para Auditoria e Evolução de Plataformas Saas | USD 100 - 250 · 26 propostas | 27/11 16:56 | [Ver projeto](https://www.workana.com/job/desenvolvedor-full-stack-senior-para-auditoria-e-evolucao-de-plataformas-saas) |
+| 100% | Workana | Desenvolvedor Full-Stack Sênior para Auditoria e Evolução de Plataformas Saas | USD 100 - 250 · 30 propostas | 27/11 16:56 | [Ver projeto](https://www.workana.com/job/desenvolvedor-full-stack-senior-para-auditoria-e-evolucao-de-plataformas-saas) |
 | 80% | Freelancer.com | AI YouTube Shorts Mentorship | USD 30–250 (fixo) · 2 propostas | 27/11 16:45 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/YouTube-Shorts-Mentorship) |
 | 60% | Freelancer.com | Compelling Mountain Real Estate Shorts | INR 12500–37500 (fixo) · 30 propostas | 27/11 15:13 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Compelling-Mountain-Real-Estate-Shorts) |
 | 60% | 99Freelas | Instalação e preparação de ambiente chatwoot | Orçamento não informado · 12 propostas | 27/11 13:26 | [Ver projeto](https://www.99freelas.com.br/project/instalacao-e-preparacao-de-ambiente-chatwoot-801497) |
