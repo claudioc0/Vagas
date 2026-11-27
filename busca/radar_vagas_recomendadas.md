@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 13:15 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1591 vagas | **Elegíveis (Score >= 60):** 78 vagas
+> **Última Atualização:** 27/11/2026 às 13:30 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1592 vagas | **Elegíveis (Score >= 60):** 78 vagas
 
 ---
 
@@ -68,6 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
+| 60% | 99Freelas | Instalação e preparação de ambiente chatwoot | Orçamento não informado · 12 propostas | 27/11 13:26 | [Ver projeto](https://www.99freelas.com.br/project/instalacao-e-preparacao-de-ambiente-chatwoot-801497) |
 | 60% | Workana | Desenvolvimento de Aplicativo de Gestão e Crm para Rede de Franquias | USD 250 - 500 · 25 propostas | 27/11 12:34 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-de-gestao-e-crm-para-rede-de-franquias) |
 | 60% | Freelancer.com | Complete Meta-Analysis Support | USD 30–250 (fixo) · 14 propostas | 27/11 11:59 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Complete-Meta-Analysis-Support) |
 | 95% | Workana | Desenvolvimento de Solução Rpa c/ Ia para Automação de Emissão de Recibos via Whatsapp e Gov.Br | USD 100 - 250 · pagamento verificado · 29 propostas | 27/11 07:17 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-solucao-rpa-c-ia-para-automacao-de-emissao-de-recibos-via-whatsapp-e-gov-br) |
@@ -97,7 +98,6 @@
 | 65% | Freelancer.com | Market Researcher | USD 25–50 (por hora) · 0 propostas | 26/11 17:30 | [Ver projeto](https://www.freelancer.com/projects/market-research/Market-Researcher-40837434) |
 | 70% | Workana | Desenvolvimento de Sistema de Respostas Automáticas para Perguntas Frequentes | USD 100 - 250 · 28 propostas | 26/11 16:05 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-respostas-automaticas-para-perguntas-frequentes) |
 | 85% | Freelancer.com | Telegram FAQ Chatbot Development | INR 5000000 (fixo) · 30 propostas | 26/11 15:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Telegram-FAQ-Chatbot-Development) |
-| 60% | Freelancer.com | Node.js Role-Based Access Control | INR 10000–16000 (fixo) · 17 propostas | 26/11 12:19 | [Ver projeto](https://www.freelancer.com/projects/restful-api/Node-Role-Based-Access-Control) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
