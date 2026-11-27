@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 16:15 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1616 vagas | **Elegíveis (Score >= 60):** 79 vagas
+> **Última Atualização:** 27/11/2026 às 16:30 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1617 vagas | **Elegíveis (Score >= 60):** 80 vagas
 
 ---
 
@@ -9,6 +9,7 @@
 
 | Fit | Empresa | Título da Vaga | Modalidade | Tecnologias | Link |
 | :---: | :--- | :--- | :---: | :--- | :---: |
+| **100%** | Carreiras SoftExpert | Engenheiro(a) de Software Júnior (IA e Automação) | Remoto | `Python, Node.js, SQL, IA/LLM` | [Candidatar-se](https://softexpert.gupy.io/job/eyJqb2JJZCI6MTI5NTQ3NDMsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **100%** | EVT | Desenvolvedor Junior | Remoto | `React, Node.js, IA/LLM, Git` | [Candidatar-se](https://jobs.quickin.io/evtit/jobs/6b082ce60103320013dc0beb?utm_source=remotar) |
 | **100%** | VExpenses | Desenvolvedor(a) Back-End Laravel - Júnior (Remoto) | Remoto | `Python, Node.js, IA/LLM` | [Candidatar-se](https://vexpenses.gupy.io/job/eyJqb2JJZCI6MTI5NDk0NTIsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 | **100%** | OrderMesh | Junior Software Development Engineer in Test (SDET) | Remoto | `TypeScript, Node.js, IA/LLM, Git` | [Candidatar-se](https://apply.workable.com/ordermesh/j/89F22141AF/?utm_source=remotar) |
@@ -58,7 +59,6 @@
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA2NjYsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA0OTIsInNvdXJjZSI6InJlbW90YXIifQ==?jobBoardSource=remotar) |
 | **70%** | Frete.com | Software Engineer III (Frontend) | Remoto | `React` | [Candidatar-se](https://frete.inhire.app/vagas/6aa4b219-14b1-4c20-9fde-d017265fe9a5/software-engineer-iii-frontend) |
-| **70%** | Evoluservices | Analista de Testes e QA Júnior | Remoto | `-` | [Candidatar-se](https://evoluservices.gupy.io/job/eyJqb2JJZCI6MTI5MjA2NjYsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal) |
 
 ---
 
@@ -68,7 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 60% | Freelancer.com | Compelling Mountain Real Estate Shorts | INR 12500–37500 (fixo) · 27 propostas | 27/11 15:13 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Compelling-Mountain-Real-Estate-Shorts) |
+| 60% | Freelancer.com | Compelling Mountain Real Estate Shorts | INR 12500–37500 (fixo) · 28 propostas | 27/11 15:13 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Compelling-Mountain-Real-Estate-Shorts) |
 | 60% | 99Freelas | Instalação e preparação de ambiente chatwoot | Orçamento não informado · 12 propostas | 27/11 13:26 | [Ver projeto](https://www.99freelas.com.br/project/instalacao-e-preparacao-de-ambiente-chatwoot-801497) |
 | 60% | Workana | Desenvolvimento de Aplicativo de Gestão e Crm para Rede de Franquias | USD 250 - 500 · 25 propostas | 27/11 12:34 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-de-gestao-e-crm-para-rede-de-franquias) |
 | 60% | Freelancer.com | Complete Meta-Analysis Support | USD 30–250 (fixo) · 14 propostas | 27/11 11:59 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Complete-Meta-Analysis-Support) |
