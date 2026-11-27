@@ -1,6 +1,6 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 15:30 (Executado via GitHub Actions / Go Engine)
+> **Última Atualização:** 27/11/2026 às 15:45 (Executado via GitHub Actions / Go Engine)
 > **Total no Banco:** 1612 vagas | **Elegíveis (Score >= 60):** 79 vagas
 
 ---
@@ -68,7 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 60% | Freelancer.com | Compelling Mountain Real Estate Shorts | INR 12500–37500 (fixo) · 21 propostas | 27/11 15:13 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Compelling-Mountain-Real-Estate-Shorts) |
+| 60% | Freelancer.com | Compelling Mountain Real Estate Shorts | INR 12500–37500 (fixo) · 25 propostas | 27/11 15:13 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Compelling-Mountain-Real-Estate-Shorts) |
 | 60% | 99Freelas | Instalação e preparação de ambiente chatwoot | Orçamento não informado · 12 propostas | 27/11 13:26 | [Ver projeto](https://www.99freelas.com.br/project/instalacao-e-preparacao-de-ambiente-chatwoot-801497) |
 | 60% | Workana | Desenvolvimento de Aplicativo de Gestão e Crm para Rede de Franquias | USD 250 - 500 · 25 propostas | 27/11 12:34 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-de-gestao-e-crm-para-rede-de-franquias) |
 | 60% | Freelancer.com | Complete Meta-Analysis Support | USD 30–250 (fixo) · 14 propostas | 27/11 11:59 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Complete-Meta-Analysis-Support) |
@@ -77,7 +77,7 @@
 | 75% | Workana | Configuração e Implementação de Inteligência Artificial para Instagram | USD 100 - 250 · 30 propostas | 27/11 06:20 | [Ver projeto](https://www.workana.com/job/configuracao-e-implementacao-de-inteligencia-artificial-para-instagram) |
 | 100% | Freelancer.com | AI Project Communication Assistant | USD 15–25 (por hora) · 0 propostas | 27/11 06:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Project-Communication-Assistant) |
 | 60% | Freelancer.com | Data Science Journal Paper Prep | INR 10000–20000 (fixo) · 19 propostas | 27/11 05:48 | [Ver projeto](https://www.freelancer.com/projects/scientific-writing/Data-Science-Journal-Paper-Prep) |
-| 60% | Freelancer.com | Industrial Inspection Camera Lift/drop | USD 250–750 (fixo) · 20 propostas | 27/11 03:21 | [Ver projeto](https://www.freelancer.com/projects/mechatronics/Industrial-Inspection-Camera-Lift-drop) |
+| 55% | Freelancer.com | Industrial Inspection Camera Lift/drop | USD 250–750 (fixo) · 22 propostas | 27/11 03:21 | [Ver projeto](https://www.freelancer.com/projects/mechatronics/Industrial-Inspection-Camera-Lift-drop) |
 | 65% | 99Freelas | Sistema financeiro python banco de dados | Orçamento não informado · 13 propostas | 27/11 03:01 | [Ver projeto](https://www.99freelas.com.br/project/sistema-financeiro-python-banco-de-dados-801450) |
 | 60% | Freelancer.com | Step-By-Step Python Basics Tutor | INR 12500–37500 (fixo) · 30 propostas | 27/11 02:22 | [Ver projeto](https://www.freelancer.com/projects/c-programming/Step-Step-Python-Basics-Tutor) |
 | 60% | Freelancer.com | AI Cinematic Spiritual Drama Sequences | USD 30–250 (fixo) · 28 propostas | 27/11 01:32 | [Ver projeto](https://www.freelancer.com/projects/ai-video/Cinematic-Spiritual-Drama-Sequences) |
