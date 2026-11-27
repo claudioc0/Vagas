@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 03:00 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1534 vagas | **Elegíveis (Score >= 60):** 78 vagas
+> **Última Atualização:** 27/11/2026 às 03:15 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1536 vagas | **Elegíveis (Score >= 60):** 78 vagas
 
 ---
 
@@ -68,6 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
+| 70% | 99Freelas | Sistema financeiro python banco de dados | Orçamento não informado · 1 propostas | 27/11 03:01 | [Ver projeto](https://www.99freelas.com.br/project/sistema-financeiro-python-banco-de-dados-801450) |
 | 60% | Freelancer.com | Step-By-Step Python Basics Tutor | INR 12500–37500 (fixo) · 23 propostas | 27/11 02:22 | [Ver projeto](https://www.freelancer.com/projects/c-programming/Step-Step-Python-Basics-Tutor) |
 | 60% | Freelancer.com | AI Cinematic Spiritual Drama Sequences | USD 30–250 (fixo) · 28 propostas | 27/11 01:32 | [Ver projeto](https://www.freelancer.com/projects/ai-video/Cinematic-Spiritual-Drama-Sequences) |
 | 70% | Freelancer.com | AI Founder Reels Creation | INR 12500–37500 (fixo) · 10 propostas | 27/11 00:53 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Founder-Reels-Creation) |
@@ -88,8 +89,8 @@
 | 65% | Freelancer.com | Market Researcher | USD 25–50 (por hora) · 0 propostas | 26/11 17:30 | [Ver projeto](https://www.freelancer.com/projects/market-research/Market-Researcher-40837434) |
 | 70% | Workana | Desenvolvimento de Sistema de Respostas Automáticas para Perguntas Frequentes | USD 100 - 250 · 28 propostas | 26/11 16:05 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-respostas-automaticas-para-perguntas-frequentes) |
 | 85% | Freelancer.com | Telegram FAQ Chatbot Development | INR 5000000 (fixo) · 25 propostas | 26/11 15:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Telegram-FAQ-Chatbot-Development) |
-| 60% | Freelancer.com | Node.js Role-Based Access Control | INR 10000–16000 (fixo) · 16 propostas | 26/11 12:19 | [Ver projeto](https://www.freelancer.com/projects/restful-api/Node-Role-Based-Access-Control) |
-| 60% | Freelancer.com | Astrology and Vastu AI Fine-Tuning | INR 12500–37500 (fixo) · 24 propostas | 26/11 11:08 | [Ver projeto](https://www.freelancer.com/projects/ai-model-development/Astrology-Vastu-Fine-Tuning) |
+| 60% | Freelancer.com | Node.js Role-Based Access Control | INR 10000–16000 (fixo) · 15 propostas | 26/11 12:19 | [Ver projeto](https://www.freelancer.com/projects/restful-api/Node-Role-Based-Access-Control) |
+| 60% | Freelancer.com | Astrology and Vastu AI Fine-Tuning | INR 12500–37500 (fixo) · 25 propostas | 26/11 11:08 | [Ver projeto](https://www.freelancer.com/projects/ai-model-development/Astrology-Vastu-Fine-Tuning) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
