@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 02:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1532 vagas | **Elegíveis (Score >= 60):** 78 vagas
+> **Última Atualização:** 27/11/2026 às 03:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1534 vagas | **Elegíveis (Score >= 60):** 78 vagas
 
 ---
 
@@ -68,7 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 60% | Freelancer.com | Step-By-Step Python Basics Tutor | INR 12500–37500 (fixo) · 21 propostas | 27/11 02:22 | [Ver projeto](https://www.freelancer.com/projects/c-programming/Step-Step-Python-Basics-Tutor) |
+| 60% | Freelancer.com | Step-By-Step Python Basics Tutor | INR 12500–37500 (fixo) · 23 propostas | 27/11 02:22 | [Ver projeto](https://www.freelancer.com/projects/c-programming/Step-Step-Python-Basics-Tutor) |
 | 60% | Freelancer.com | AI Cinematic Spiritual Drama Sequences | USD 30–250 (fixo) · 28 propostas | 27/11 01:32 | [Ver projeto](https://www.freelancer.com/projects/ai-video/Cinematic-Spiritual-Drama-Sequences) |
 | 70% | Freelancer.com | AI Founder Reels Creation | INR 12500–37500 (fixo) · 10 propostas | 27/11 00:53 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Founder-Reels-Creation) |
 | 60% | Workana | Desenvolvimento de Aplicativo Web e Mobile para Agendamento em Barbearias com Pagamento Antecipado | USD 100 - 250 · 20 propostas | 27/11 00:25 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-web-e-mobile-para-agendamento-em-barbearias-com-pagamento-antecipado) |
