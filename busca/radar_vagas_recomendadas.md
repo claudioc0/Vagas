@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 19:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1668 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 27/11/2026 às 20:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1672 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -68,8 +68,9 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
+| 55% | Freelancer.com | Buy Existing Mobile Shop CRM/ERP | INR 12500–37500 (fixo) · 27 propostas | 27/11 19:58 | [Ver projeto](https://www.freelancer.com/projects/flutter/Buy-Existing-Mobile-Shop-CRM) |
 | 85% | Workana | Desenvolvimento de Bot de Respostas Automatizadas com Ia para Whatsapp | USD 100 - 250 · 28 propostas | 27/11 18:58 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-bot-de-respostas-automatizadas-com-ia-para-whatsapp) |
-| 55% | Freelancer.com | Project: Mineral Property Valuation | USD 250–750 (fixo) · 27 propostas | 27/11 18:55 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Project-Mineral-Property-Valuation) |
+| 55% | Freelancer.com | Project: Mineral Property Valuation | USD 250–750 (fixo) · 28 propostas | 27/11 18:55 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Project-Mineral-Property-Valuation) |
 | 60% | Freelancer.com | Comprehensive Mining Valuation Report | USD 30–250 (fixo) · 19 propostas | 27/11 18:49 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Comprehensive-Mining-Valuation-Report) |
 | 80% | Workana | Desenvolvimento de Respostas Automáticas para Whatsapp | USD 100 - 250 · 10 propostas | 27/11 18:16 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-respostas-automaticas-para-whatsapp-1) |
 | 70% | Freelancer.com | Rust Backend Architect for AI Training | USD 50 (por hora) · 7 propostas | 27/11 17:14 | [Ver projeto](https://www.freelancer.com/projects/rust/Rust-Backend-Architect-for-Training) |
@@ -84,7 +85,7 @@
 | 70% | Freelancer.com | Automated Cryptocurrency Trading Bot Development | INR 12500–37500 (fixo) · 26 propostas | 27/11 06:34 | [Ver projeto](https://www.freelancer.com/projects/cryptocurrency/Automated-Cryptocurrency-Trading-Bot) |
 | 75% | Workana | Configuração e Implementação de Inteligência Artificial para Instagram | USD 100 - 250 · 30 propostas | 27/11 06:20 | [Ver projeto](https://www.workana.com/job/configuracao-e-implementacao-de-inteligencia-artificial-para-instagram) |
 | 100% | Freelancer.com | AI Project Communication Assistant | USD 15–25 (por hora) · 0 propostas | 27/11 06:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Project-Communication-Assistant) |
-| 60% | Freelancer.com | Data Science Journal Paper Prep | INR 10000–20000 (fixo) · 20 propostas | 27/11 05:48 | [Ver projeto](https://www.freelancer.com/projects/scientific-writing/Data-Science-Journal-Paper-Prep) |
+| 55% | Freelancer.com | Data Science Journal Paper Prep | INR 10000–20000 (fixo) · 21 propostas | 27/11 05:48 | [Ver projeto](https://www.freelancer.com/projects/scientific-writing/Data-Science-Journal-Paper-Prep) |
 | 55% | Freelancer.com | Industrial Inspection Camera Lift/drop | USD 250–750 (fixo) · 24 propostas | 27/11 03:21 | [Ver projeto](https://www.freelancer.com/projects/mechatronics/Industrial-Inspection-Camera-Lift-drop) |
 | 65% | 99Freelas | Sistema financeiro python banco de dados | Orçamento não informado · 13 propostas | 27/11 03:01 | [Ver projeto](https://www.99freelas.com.br/project/sistema-financeiro-python-banco-de-dados-801450) |
 | 60% | Freelancer.com | Step-By-Step Python Basics Tutor | INR 12500–37500 (fixo) · 30 propostas | 27/11 02:22 | [Ver projeto](https://www.freelancer.com/projects/c-programming/Step-Step-Python-Basics-Tutor) |
@@ -97,7 +98,6 @@
 | 70% | Workana | > Criar site http:Lsjobs.com - | USD 100 - 250 · 30 propostas | 26/11 22:41 | [Ver projeto](https://www.workana.com/job/criar-site-http-lsjobs-com) |
 | 55% | Freelancer.com | Verify Executive Contact Details | EUR 30–250 (fixo) · 30 propostas | 26/11 22:24 | [Ver projeto](https://www.freelancer.com/projects/data-collection/Verify-Executive-Contact-Details) |
 | 70% | Freelancer.com | Native Australian Voices for AI Training | AUD 25–50 (por hora) · 1 propostas | 26/11 21:50 | [Ver projeto](https://www.freelancer.com/projects/ai-training-data/Native-Australian-Voices-for-Training) |
-| 55% | Workana | Desenvolvimento de site institucional em Astro + Lumos a partir de especificação pronta | USD 250 - 500 · 30 propostas | 26/11 21:43 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-site-institucional-em-astro-lumos-a-partir-de-especificacao-pronta) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
