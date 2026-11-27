@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 07:15 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1561 vagas | **Elegíveis (Score >= 60):** 78 vagas
+> **Última Atualização:** 27/11/2026 às 07:30 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1562 vagas | **Elegíveis (Score >= 60):** 78 vagas
 
 ---
 
@@ -68,8 +68,9 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 75% | Freelancer.com | Automated Cryptocurrency Trading Bot Development | INR 12500–37500 (fixo) · 15 propostas | 27/11 06:34 | [Ver projeto](https://www.freelancer.com/projects/cryptocurrency/Automated-Cryptocurrency-Trading-Bot) |
-| 85% | Workana | Configuração e Implementação de Inteligência Artificial para Instagram | USD 100 - 250 · 9 propostas | 27/11 06:20 | [Ver projeto](https://www.workana.com/job/configuracao-e-implementacao-de-inteligencia-artificial-para-instagram) |
+| 100% | Workana | Desenvolvimento de Solução Rpa c/ Ia para Automação de Emissão de Recibos via Whatsapp e Gov.Br | USD 100 - 250 · pagamento verificado · 17 propostas | 27/11 07:17 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-solucao-rpa-c-ia-para-automacao-de-emissao-de-recibos-via-whatsapp-e-gov-br) |
+| 75% | Freelancer.com | Automated Cryptocurrency Trading Bot Development | INR 12500–37500 (fixo) · 18 propostas | 27/11 06:34 | [Ver projeto](https://www.freelancer.com/projects/cryptocurrency/Automated-Cryptocurrency-Trading-Bot) |
+| 85% | Workana | Configuração e Implementação de Inteligência Artificial para Instagram | USD 100 - 250 · 10 propostas | 27/11 06:20 | [Ver projeto](https://www.workana.com/job/configuracao-e-implementacao-de-inteligencia-artificial-para-instagram) |
 | 100% | Freelancer.com | AI Project Communication Assistant | USD 15–25 (por hora) · 0 propostas | 27/11 06:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Project-Communication-Assistant) |
 | 60% | Freelancer.com | Data Science Journal Paper Prep | INR 10000–20000 (fixo) · 17 propostas | 27/11 05:48 | [Ver projeto](https://www.freelancer.com/projects/scientific-writing/Data-Science-Journal-Paper-Prep) |
 | 60% | Freelancer.com | Industrial Inspection Camera Lift/drop | USD 250–750 (fixo) · 15 propostas | 27/11 03:21 | [Ver projeto](https://www.freelancer.com/projects/mechatronics/Industrial-Inspection-Camera-Lift-drop) |
