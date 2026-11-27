@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 20:15 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1673 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 27/11/2026 às 20:30 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1674 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -70,8 +70,8 @@
 | :---: | :--- | :--- | :--- | :---: | :---: |
 | 55% | Freelancer.com | Buy Existing Mobile Shop CRM/ERP | INR 12500–37500 (fixo) · 27 propostas | 27/11 19:58 | [Ver projeto](https://www.freelancer.com/projects/flutter/Buy-Existing-Mobile-Shop-CRM) |
 | 85% | Workana | Desenvolvimento de Bot de Respostas Automatizadas com Ia para Whatsapp | USD 100 - 250 · 28 propostas | 27/11 18:58 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-bot-de-respostas-automatizadas-com-ia-para-whatsapp) |
-| 55% | Freelancer.com | Project: Mineral Property Valuation | USD 250–750 (fixo) · 28 propostas | 27/11 18:55 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Project-Mineral-Property-Valuation) |
-| 60% | Freelancer.com | Comprehensive Mining Valuation Report | USD 30–250 (fixo) · 19 propostas | 27/11 18:49 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Comprehensive-Mining-Valuation-Report) |
+| 55% | Freelancer.com | Project: Mineral Property Valuation | USD 250–750 (fixo) · 30 propostas | 27/11 18:55 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Project-Mineral-Property-Valuation) |
+| 60% | Freelancer.com | Comprehensive Mining Valuation Report | USD 30–250 (fixo) · 20 propostas | 27/11 18:49 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Comprehensive-Mining-Valuation-Report) |
 | 80% | Workana | Desenvolvimento de Respostas Automáticas para Whatsapp | USD 100 - 250 · 10 propostas | 27/11 18:16 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-respostas-automaticas-para-whatsapp-1) |
 | 70% | Freelancer.com | Rust Backend Architect for AI Training | USD 50 (por hora) · 7 propostas | 27/11 17:14 | [Ver projeto](https://www.freelancer.com/projects/rust/Rust-Backend-Architect-for-Training) |
 | 70% | Workana | Desenvolvimento de Sistema de Gestão de Estoque com Vibe Coding (Replit) | USD 500 - 1.000 · 21 propostas | 27/11 17:01 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-gestao-de-estoque-com-vibe-coding-replit) |
