@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 28/11/2026 às 12:30 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1762 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 28/11/2026 às 12:45 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1763 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -69,10 +69,10 @@
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
 | 90% | Freelancer.com | Build B2B Trade Workflow Platform -- 2 | INR 12500–37500 (fixo) · 10 propostas | 28/11 12:14 | [Ver projeto](https://www.freelancer.com/projects/php/Build-Trade-Workflow-Platform) |
-| 65% | Freelancer.com | Global Software Business Expansion | INR 75000–150000 (fixo) · 6 propostas | 28/11 11:38 | [Ver projeto](https://www.freelancer.com/projects/saas/Global-Software-Business-Expansion) |
+| 65% | Freelancer.com | Global Software Business Expansion | INR 75000–150000 (fixo) · 8 propostas | 28/11 11:38 | [Ver projeto](https://www.freelancer.com/projects/saas/Global-Software-Business-Expansion) |
 | 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk | USD 15–25 (por hora) · 2 propostas | 28/11 11:26 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40840009) |
 | 55% | Freelancer.com | Economics Journal Manuscript Development | USD 30–250 (fixo) · 21 propostas | 28/11 10:44 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Economics-Journal-Manuscript-Development) |
-| 75% | Workana | Desenvolvimento de Inteligência Artificial para Otimização de Estudos e Preparação para Provas | USD 100 - 250 · 22 propostas | 28/11 10:36 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-inteligencia-artificial-para-otimizacao-de-estudos-e-preparacao-para-provas) |
+| 75% | Workana | Desenvolvimento de Inteligência Artificial para Otimização de Estudos e Preparação para Provas | USD 100 - 250 · 23 propostas | 28/11 10:36 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-inteligencia-artificial-para-otimizacao-de-estudos-e-preparacao-para-provas) |
 | 70% | Freelancer.com | Mobile Catering Operations Management App | USD 250–750 (fixo) · 1 propostas | 28/11 10:15 | [Ver projeto](https://www.freelancer.com/projects/mobile-app-development/Mobile-Catering-Operations-Management) |
 | 55% | Freelancer.com | Migrate Busy Data to Zoho | INR 12500–37500 (fixo) · 30 propostas | 28/11 09:52 | [Ver projeto](https://www.freelancer.com/projects/accounting/Migrate-Busy-Data-Zoho) |
 | 55% | Freelancer.com | Accurate PDF Tables to Excel | INR 12500–37500 (fixo) · 30 propostas | 28/11 09:34 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Accurate-PDF-Tables-Excel) |
