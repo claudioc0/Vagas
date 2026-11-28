@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 28/11/2026 às 05:01 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1724 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 28/11/2026 às 05:15 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1725 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -68,7 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) | USD 15–25 (por hora) · 3 propostas | 28/11 03:32 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial) |
+| 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) | USD 15–25 (por hora) · 4 propostas | 28/11 03:32 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial) |
 | 70% | 99Freelas | Automação completa com IA no WhatsApp (n8n), relatórios e monitoramento | Orçamento não informado · 30 propostas | 27/11 23:56 | [Ver projeto](https://www.99freelas.com.br/project/automacao-completa-com-ia-no-whatsapp-n8n-relatorios-e-monitoramento-801613) |
 | 55% | Workana | Desenvolvimento de Aplicativo de Empregos e Busca de Profissionais | USD 250 - 500 · 29 propostas | 27/11 22:16 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-de-empregos-e-busca-de-profissionais) |
 | 100% | Workana | Desenvolvimento de Robô de Automação Inteligente para Afiliados Shopee com Ia e Integrações | USD 100 - 250 · 18 propostas | 27/11 21:24 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-robo-de-automacao-inteligente-para-afiliados-shopee-com-ia-e-integracoes) |
