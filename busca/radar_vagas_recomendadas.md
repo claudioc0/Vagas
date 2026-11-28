@@ -1,6 +1,6 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 28/11/2026 às 07:15 (Executado via GitHub Actions / Go Engine)
+> **Última Atualização:** 28/11/2026 às 07:30 (Executado via GitHub Actions / Go Engine)
 > **Total no Banco:** 1734 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
@@ -68,7 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) -- 2 | USD 15–25 (por hora) · 1 propostas | 28/11 07:14 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40839739) |
+| 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) -- 2 | USD 15–25 (por hora) · 3 propostas | 28/11 07:14 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40839739) |
 | 70% | Freelancer.com | Choose Ideal Claude.ai Plan | USD 15–25 (por hora) · 28 propostas | 28/11 05:22 | [Ver projeto](https://www.freelancer.com/projects/ai-automation/Choose-Ideal-Claude-Plan) |
 | 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) | USD 15–25 (por hora) · 5 propostas | 28/11 03:32 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial) |
 | 70% | 99Freelas | Automação completa com IA no WhatsApp (n8n), relatórios e monitoramento | Orçamento não informado · 30 propostas | 27/11 23:56 | [Ver projeto](https://www.99freelas.com.br/project/automacao-completa-com-ia-no-whatsapp-n8n-relatorios-e-monitoramento-801613) |
