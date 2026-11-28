@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 28/11/2026 às 10:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1750 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 28/11/2026 às 11:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1751 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -68,12 +68,12 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 65% | Freelancer.com | Economics Journal Manuscript Development | USD 30–250 (fixo) · 7 propostas | 28/11 10:44 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Economics-Journal-Manuscript-Development) |
-| 80% | Workana | Desenvolvimento de Inteligência Artificial para Otimização de Estudos e Preparação para Provas | USD 100 - 250 · 14 propostas | 28/11 10:36 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-inteligencia-artificial-para-otimizacao-de-estudos-e-preparacao-para-provas) |
+| 60% | Freelancer.com | Economics Journal Manuscript Development | USD 30–250 (fixo) · 19 propostas | 28/11 10:44 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Economics-Journal-Manuscript-Development) |
+| 80% | Workana | Desenvolvimento de Inteligência Artificial para Otimização de Estudos e Preparação para Provas | USD 100 - 250 · 16 propostas | 28/11 10:36 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-inteligencia-artificial-para-otimizacao-de-estudos-e-preparacao-para-provas) |
 | 70% | Freelancer.com | Mobile Catering Operations Management App | USD 250–750 (fixo) · 1 propostas | 28/11 10:15 | [Ver projeto](https://www.freelancer.com/projects/mobile-app-development/Mobile-Catering-Operations-Management) |
 | 55% | Freelancer.com | Migrate Busy Data to Zoho | INR 12500–37500 (fixo) · 30 propostas | 28/11 09:52 | [Ver projeto](https://www.freelancer.com/projects/accounting/Migrate-Busy-Data-Zoho) |
 | 55% | Freelancer.com | Accurate PDF Tables to Excel | INR 12500–37500 (fixo) · 30 propostas | 28/11 09:34 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Accurate-PDF-Tables-Excel) |
-| 60% | 99Freelas | Apenas instalar o app e integrar IA+Wattssapp+APP+site+instagran | Orçamento não informado · 27 propostas | 28/11 09:10 | [Ver projeto](https://www.99freelas.com.br/project/apenas-instalar-o-app-e-integrar-ia-wattssapp-app-site-instagran-801650) |
+| 60% | 99Freelas | Apenas instalar o app e integrar IA+Wattssapp+APP+site+instagran | Orçamento não informado · 28 propostas | 28/11 09:10 | [Ver projeto](https://www.99freelas.com.br/project/apenas-instalar-o-app-e-integrar-ia-wattssapp-app-site-instagran-801650) |
 | 85% | Freelancer.com | Enhance Multilingual AI Assistant Platform | INR 12500–37500 (fixo) · 29 propostas | 28/11 08:58 | [Ver projeto](https://www.freelancer.com/projects/python/Enhance-Multilingual-Assistant-Platform) |
 | 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) - | USD 15–25 (por hora) · 3 propostas | 28/11 08:12 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40839809) |
 | 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) -- 2 | USD 15–25 (por hora) · 3 propostas | 28/11 07:14 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40839739) |
