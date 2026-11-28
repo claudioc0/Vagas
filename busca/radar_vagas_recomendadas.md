@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 28/11/2026 às 13:30 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1769 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 28/11/2026 às 13:45 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1773 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -68,7 +68,8 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 95% | Workana | Automatização de Respostas no Whatsapp com Ia e Gestão de Campanhas | USD 250 - 500 · 24 propostas | 28/11 13:07 | [Ver projeto](https://www.workana.com/job/automatizacao-de-respostas-no-whatsapp-com-ia-e-gestao-de-campanhas) |
+| 65% | Workana | Site para marca de residências de alto padrão (Rio de Janeiro e Atenas) | USD 1.000 - 3.000 · 8 propostas | 28/11 13:39 | [Ver projeto](https://www.workana.com/job/site-para-marca-de-residencias-de-alto-padrao-rio-de-janeiro-e-atenas) |
+| 95% | Workana | Automatização de Respostas no Whatsapp com Ia e Gestão de Campanhas | USD 250 - 500 · 26 propostas | 28/11 13:07 | [Ver projeto](https://www.workana.com/job/automatizacao-de-respostas-no-whatsapp-com-ia-e-gestao-de-campanhas) |
 | 85% | Workana | Desenvolvimento de Sistema de Gestão Financeira com Integração Whatsapp e Ia | USD 500 - 1.000 · 29 propostas | 28/11 13:07 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-gestao-financeira-com-integracao-whatsapp-e-ia) |
 | 90% | Freelancer.com | Build B2B Trade Workflow Platform -- 2 | INR 12500–37500 (fixo) · 10 propostas | 28/11 12:14 | [Ver projeto](https://www.freelancer.com/projects/php/Build-Trade-Workflow-Platform) |
 | 65% | Freelancer.com | Global Software Business Expansion | INR 75000–150000 (fixo) · 10 propostas | 28/11 11:38 | [Ver projeto](https://www.freelancer.com/projects/saas/Global-Software-Business-Expansion) |
@@ -97,7 +98,6 @@
 | 100% | Workana | Desenvolvedor Full-Stack Sênior para Auditoria e Evolução de Plataformas Saas | USD 100 - 250 · 30 propostas | 27/11 16:56 | [Ver projeto](https://www.workana.com/job/desenvolvedor-full-stack-senior-para-auditoria-e-evolucao-de-plataformas-saas) |
 | 80% | Freelancer.com | AI YouTube Shorts Mentorship | USD 30–250 (fixo) · 2 propostas | 27/11 16:45 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/YouTube-Shorts-Mentorship) |
 | 60% | Freelancer.com | Compelling Mountain Real Estate Shorts | INR 12500–37500 (fixo) · 30 propostas | 27/11 15:13 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Compelling-Mountain-Real-Estate-Shorts) |
-| 60% | 99Freelas | Instalação e preparação de ambiente chatwoot | Orçamento não informado · 12 propostas | 27/11 13:26 | [Ver projeto](https://www.99freelas.com.br/project/instalacao-e-preparacao-de-ambiente-chatwoot-801497) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
