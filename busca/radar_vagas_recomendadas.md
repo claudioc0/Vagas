@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 28/11/2026 às 10:00 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1746 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 28/11/2026 às 10:15 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1747 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -68,9 +68,10 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 55% | Freelancer.com | Migrate Busy Data to Zoho | INR 12500–37500 (fixo) · 24 propostas | 28/11 09:52 | [Ver projeto](https://www.freelancer.com/projects/accounting/Migrate-Busy-Data-Zoho) |
-| 55% | Freelancer.com | Accurate PDF Tables to Excel | INR 12500–37500 (fixo) · 24 propostas | 28/11 09:34 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Accurate-PDF-Tables-Excel) |
-| 65% | 99Freelas | Apenas instalar o app e integrar IA+Wattssapp+APP+site+instagran | Orçamento não informado · 20 propostas | 28/11 09:10 | [Ver projeto](https://www.99freelas.com.br/project/apenas-instalar-o-app-e-integrar-ia-wattssapp-app-site-instagran-801650) |
+| 70% | Freelancer.com | Mobile Catering Operations Management App | USD 250–750 (fixo) · 1 propostas | 28/11 10:15 | [Ver projeto](https://www.freelancer.com/projects/mobile-app-development/Mobile-Catering-Operations-Management) |
+| 55% | Freelancer.com | Migrate Busy Data to Zoho | INR 12500–37500 (fixo) · 29 propostas | 28/11 09:52 | [Ver projeto](https://www.freelancer.com/projects/accounting/Migrate-Busy-Data-Zoho) |
+| 55% | Freelancer.com | Accurate PDF Tables to Excel | INR 12500–37500 (fixo) · 27 propostas | 28/11 09:34 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Accurate-PDF-Tables-Excel) |
+| 60% | 99Freelas | Apenas instalar o app e integrar IA+Wattssapp+APP+site+instagran | Orçamento não informado · 24 propostas | 28/11 09:10 | [Ver projeto](https://www.99freelas.com.br/project/apenas-instalar-o-app-e-integrar-ia-wattssapp-app-site-instagran-801650) |
 | 85% | Freelancer.com | Enhance Multilingual AI Assistant Platform | INR 12500–37500 (fixo) · 29 propostas | 28/11 08:58 | [Ver projeto](https://www.freelancer.com/projects/python/Enhance-Multilingual-Assistant-Platform) |
 | 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) - | USD 15–25 (por hora) · 2 propostas | 28/11 08:12 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40839809) |
 | 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) -- 2 | USD 15–25 (por hora) · 3 propostas | 28/11 07:14 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40839739) |
@@ -82,7 +83,7 @@
 | 55% | Freelancer.com | Buy Existing Mobile Shop CRM/ERP | INR 12500–37500 (fixo) · 27 propostas | 27/11 19:58 | [Ver projeto](https://www.freelancer.com/projects/flutter/Buy-Existing-Mobile-Shop-CRM) |
 | 85% | Workana | Desenvolvimento de Bot de Respostas Automatizadas com Ia para Whatsapp | USD 100 - 250 · 28 propostas | 27/11 18:58 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-bot-de-respostas-automatizadas-com-ia-para-whatsapp) |
 | 55% | Freelancer.com | Project: Mineral Property Valuation | USD 250–750 (fixo) · 30 propostas | 27/11 18:55 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Project-Mineral-Property-Valuation) |
-| 55% | Freelancer.com | Comprehensive Mining Valuation Report | USD 30–250 (fixo) · 25 propostas | 27/11 18:49 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Comprehensive-Mining-Valuation-Report) |
+| 55% | Freelancer.com | Comprehensive Mining Valuation Report | USD 30–250 (fixo) · 26 propostas | 27/11 18:49 | [Ver projeto](https://www.freelancer.com/projects/financial-analysis/Comprehensive-Mining-Valuation-Report) |
 | 80% | Workana | Desenvolvimento de Respostas Automáticas para Whatsapp | USD 100 - 250 · 10 propostas | 27/11 18:16 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-respostas-automaticas-para-whatsapp-1) |
 | 70% | Freelancer.com | Rust Backend Architect for AI Training | USD 50 (por hora) · 7 propostas | 27/11 17:14 | [Ver projeto](https://www.freelancer.com/projects/rust/Rust-Backend-Architect-for-Training) |
 | 70% | Workana | Desenvolvimento de Sistema de Gestão de Estoque com Vibe Coding (Replit) | USD 500 - 1.000 · 21 propostas | 27/11 17:01 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-gestao-de-estoque-com-vibe-coding-replit) |
@@ -97,7 +98,6 @@
 | 75% | Workana | Configuração e Implementação de Inteligência Artificial para Instagram | USD 100 - 250 · 30 propostas | 27/11 06:20 | [Ver projeto](https://www.workana.com/job/configuracao-e-implementacao-de-inteligencia-artificial-para-instagram) |
 | 100% | Freelancer.com | AI Project Communication Assistant | USD 15–25 (por hora) · 0 propostas | 27/11 06:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Project-Communication-Assistant) |
 | 55% | Freelancer.com | Data Science Journal Paper Prep | INR 10000–20000 (fixo) · 22 propostas | 27/11 05:48 | [Ver projeto](https://www.freelancer.com/projects/scientific-writing/Data-Science-Journal-Paper-Prep) |
-| 55% | Freelancer.com | Industrial Inspection Camera Lift/drop | USD 250–750 (fixo) · 24 propostas | 27/11 03:21 | [Ver projeto](https://www.freelancer.com/projects/mechatronics/Industrial-Inspection-Camera-Lift-drop) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
