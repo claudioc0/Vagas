@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 28/11/2026 às 08:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1740 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 28/11/2026 às 09:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1742 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -68,6 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
+| 85% | Freelancer.com | Enhance Multilingual AI Assistant Platform | INR 12500–37500 (fixo) · 29 propostas | 28/11 08:58 | [Ver projeto](https://www.freelancer.com/projects/python/Enhance-Multilingual-Assistant-Platform) |
 | 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) - | USD 15–25 (por hora) · 2 propostas | 28/11 08:12 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40839809) |
 | 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) -- 2 | USD 15–25 (por hora) · 3 propostas | 28/11 07:14 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40839739) |
 | 70% | Freelancer.com | Choose Ideal Claude.ai Plan | USD 15–25 (por hora) · 28 propostas | 28/11 05:22 | [Ver projeto](https://www.freelancer.com/projects/ai-automation/Choose-Ideal-Claude-Plan) |
@@ -97,7 +98,6 @@
 | 65% | 99Freelas | Sistema financeiro python banco de dados | Orçamento não informado · 13 propostas | 27/11 03:01 | [Ver projeto](https://www.99freelas.com.br/project/sistema-financeiro-python-banco-de-dados-801450) |
 | 60% | Freelancer.com | Step-By-Step Python Basics Tutor | INR 12500–37500 (fixo) · 30 propostas | 27/11 02:22 | [Ver projeto](https://www.freelancer.com/projects/c-programming/Step-Step-Python-Basics-Tutor) |
 | 60% | Freelancer.com | AI Cinematic Spiritual Drama Sequences | USD 30–250 (fixo) · 28 propostas | 27/11 01:32 | [Ver projeto](https://www.freelancer.com/projects/ai-video/Cinematic-Spiritual-Drama-Sequences) |
-| 60% | Freelancer.com | AI Founder Reels Creation | INR 12500–37500 (fixo) · 27 propostas | 27/11 00:53 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Founder-Reels-Creation) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
