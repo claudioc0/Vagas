@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 28/11/2026 às 13:00 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1764 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 28/11/2026 às 13:15 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1767 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -68,11 +68,13 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
+| 100% | Workana | Automatização de Respostas no Whatsapp com Ia e Gestão de Campanhas | USD 250 - 500 · 18 propostas | 28/11 13:07 | [Ver projeto](https://www.workana.com/job/automatizacao-de-respostas-no-whatsapp-com-ia-e-gestao-de-campanhas) |
+| 85% | Workana | Desenvolvimento de Sistema de Gestão Financeira com Integração Whatsapp e Ia | USD 500 - 1.000 · 29 propostas | 28/11 13:07 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-sistema-de-gestao-financeira-com-integracao-whatsapp-e-ia) |
 | 90% | Freelancer.com | Build B2B Trade Workflow Platform -- 2 | INR 12500–37500 (fixo) · 10 propostas | 28/11 12:14 | [Ver projeto](https://www.freelancer.com/projects/php/Build-Trade-Workflow-Platform) |
 | 65% | Freelancer.com | Global Software Business Expansion | INR 75000–150000 (fixo) · 10 propostas | 28/11 11:38 | [Ver projeto](https://www.freelancer.com/projects/saas/Global-Software-Business-Expansion) |
 | 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk | USD 15–25 (por hora) · 2 propostas | 28/11 11:26 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40840009) |
 | 55% | Freelancer.com | Economics Journal Manuscript Development | USD 30–250 (fixo) · 21 propostas | 28/11 10:44 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Economics-Journal-Manuscript-Development) |
-| 75% | Workana | Desenvolvimento de Inteligência Artificial para Otimização de Estudos e Preparação para Provas | USD 100 - 250 · 24 propostas | 28/11 10:36 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-inteligencia-artificial-para-otimizacao-de-estudos-e-preparacao-para-provas) |
+| 75% | Workana | Desenvolvimento de Inteligência Artificial para Otimização de Estudos e Preparação para Provas | USD 100 - 250 · 27 propostas | 28/11 10:36 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-inteligencia-artificial-para-otimizacao-de-estudos-e-preparacao-para-provas) |
 | 70% | Freelancer.com | Mobile Catering Operations Management App | USD 250–750 (fixo) · 1 propostas | 28/11 10:15 | [Ver projeto](https://www.freelancer.com/projects/mobile-app-development/Mobile-Catering-Operations-Management) |
 | 55% | Freelancer.com | Migrate Busy Data to Zoho | INR 12500–37500 (fixo) · 30 propostas | 28/11 09:52 | [Ver projeto](https://www.freelancer.com/projects/accounting/Migrate-Busy-Data-Zoho) |
 | 55% | Freelancer.com | Accurate PDF Tables to Excel | INR 12500–37500 (fixo) · 30 propostas | 28/11 09:34 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Accurate-PDF-Tables-Excel) |
@@ -96,8 +98,6 @@
 | 80% | Freelancer.com | AI YouTube Shorts Mentorship | USD 30–250 (fixo) · 2 propostas | 27/11 16:45 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/YouTube-Shorts-Mentorship) |
 | 60% | Freelancer.com | Compelling Mountain Real Estate Shorts | INR 12500–37500 (fixo) · 30 propostas | 27/11 15:13 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Compelling-Mountain-Real-Estate-Shorts) |
 | 60% | 99Freelas | Instalação e preparação de ambiente chatwoot | Orçamento não informado · 12 propostas | 27/11 13:26 | [Ver projeto](https://www.99freelas.com.br/project/instalacao-e-preparacao-de-ambiente-chatwoot-801497) |
-| 60% | Workana | Desenvolvimento de Aplicativo de Gestão e Crm para Rede de Franquias | USD 250 - 500 · 25 propostas | 27/11 12:34 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-de-gestao-e-crm-para-rede-de-franquias) |
-| 60% | Freelancer.com | Complete Meta-Analysis Support | USD 30–250 (fixo) · 14 propostas | 27/11 11:59 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Complete-Meta-Analysis-Support) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
