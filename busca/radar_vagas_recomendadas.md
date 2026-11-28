@@ -1,6 +1,6 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 28/11/2026 às 11:45 (Executado via GitHub Actions / Go Engine)
+> **Última Atualização:** 28/11/2026 às 12:00 (Executado via GitHub Actions / Go Engine)
 > **Total no Banco:** 1760 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
@@ -68,7 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 65% | Freelancer.com | Global Software Business Expansion | INR 75000–150000 (fixo) · 2 propostas | 28/11 11:38 | [Ver projeto](https://www.freelancer.com/projects/saas/Global-Software-Business-Expansion) |
+| 65% | Freelancer.com | Global Software Business Expansion | INR 75000–150000 (fixo) · 5 propostas | 28/11 11:38 | [Ver projeto](https://www.freelancer.com/projects/saas/Global-Software-Business-Expansion) |
 | 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk | USD 15–25 (por hora) · 1 propostas | 28/11 11:26 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40840009) |
 | 55% | Freelancer.com | Economics Journal Manuscript Development | USD 30–250 (fixo) · 21 propostas | 28/11 10:44 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Economics-Journal-Manuscript-Development) |
 | 75% | Workana | Desenvolvimento de Inteligência Artificial para Otimização de Estudos e Preparação para Provas | USD 100 - 250 · 21 propostas | 28/11 10:36 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-inteligencia-artificial-para-otimizacao-de-estudos-e-preparacao-para-provas) |
