@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 28/11/2026 às 11:30 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1759 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 28/11/2026 às 11:45 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1760 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -68,9 +68,10 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
+| 65% | Freelancer.com | Global Software Business Expansion | INR 75000–150000 (fixo) · 2 propostas | 28/11 11:38 | [Ver projeto](https://www.freelancer.com/projects/saas/Global-Software-Business-Expansion) |
 | 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk | USD 15–25 (por hora) · 1 propostas | 28/11 11:26 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40840009) |
 | 55% | Freelancer.com | Economics Journal Manuscript Development | USD 30–250 (fixo) · 21 propostas | 28/11 10:44 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Economics-Journal-Manuscript-Development) |
-| 80% | Workana | Desenvolvimento de Inteligência Artificial para Otimização de Estudos e Preparação para Provas | USD 100 - 250 · 17 propostas | 28/11 10:36 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-inteligencia-artificial-para-otimizacao-de-estudos-e-preparacao-para-provas) |
+| 75% | Workana | Desenvolvimento de Inteligência Artificial para Otimização de Estudos e Preparação para Provas | USD 100 - 250 · 21 propostas | 28/11 10:36 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-inteligencia-artificial-para-otimizacao-de-estudos-e-preparacao-para-provas) |
 | 70% | Freelancer.com | Mobile Catering Operations Management App | USD 250–750 (fixo) · 1 propostas | 28/11 10:15 | [Ver projeto](https://www.freelancer.com/projects/mobile-app-development/Mobile-Catering-Operations-Management) |
 | 55% | Freelancer.com | Migrate Busy Data to Zoho | INR 12500–37500 (fixo) · 30 propostas | 28/11 09:52 | [Ver projeto](https://www.freelancer.com/projects/accounting/Migrate-Busy-Data-Zoho) |
 | 55% | Freelancer.com | Accurate PDF Tables to Excel | INR 12500–37500 (fixo) · 30 propostas | 28/11 09:34 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Accurate-PDF-Tables-Excel) |
@@ -97,7 +98,6 @@
 | 60% | Workana | Desenvolvimento de Aplicativo de Gestão e Crm para Rede de Franquias | USD 250 - 500 · 25 propostas | 27/11 12:34 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-de-gestao-e-crm-para-rede-de-franquias) |
 | 60% | Freelancer.com | Complete Meta-Analysis Support | USD 30–250 (fixo) · 14 propostas | 27/11 11:59 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Complete-Meta-Analysis-Support) |
 | 95% | Workana | Desenvolvimento de Solução Rpa c/ Ia para Automação de Emissão de Recibos via Whatsapp e Gov.Br | USD 100 - 250 · pagamento verificado · 29 propostas | 27/11 07:17 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-solucao-rpa-c-ia-para-automacao-de-emissao-de-recibos-via-whatsapp-e-gov-br) |
-| 70% | Freelancer.com | Automated Cryptocurrency Trading Bot Development | INR 12500–37500 (fixo) · 27 propostas | 27/11 06:34 | [Ver projeto](https://www.freelancer.com/projects/cryptocurrency/Automated-Cryptocurrency-Trading-Bot) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
