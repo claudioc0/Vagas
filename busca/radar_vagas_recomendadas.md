@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 28/11/2026 às 05:15 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1725 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 28/11/2026 às 05:30 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1727 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -68,6 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
+| 75% | Freelancer.com | Choose Ideal Claude.ai Plan | USD 15–25 (por hora) · 19 propostas | 28/11 05:22 | [Ver projeto](https://www.freelancer.com/projects/ai-automation/Choose-Ideal-Claude-Plan) |
 | 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) | USD 15–25 (por hora) · 4 propostas | 28/11 03:32 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial) |
 | 70% | 99Freelas | Automação completa com IA no WhatsApp (n8n), relatórios e monitoramento | Orçamento não informado · 30 propostas | 27/11 23:56 | [Ver projeto](https://www.99freelas.com.br/project/automacao-completa-com-ia-no-whatsapp-n8n-relatorios-e-monitoramento-801613) |
 | 55% | Workana | Desenvolvimento de Aplicativo de Empregos e Busca de Profissionais | USD 250 - 500 · 29 propostas | 27/11 22:16 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-de-empregos-e-busca-de-profissionais) |
@@ -97,7 +98,6 @@
 | 60% | Freelancer.com | AI Founder Reels Creation | INR 12500–37500 (fixo) · 27 propostas | 27/11 00:53 | [Ver projeto](https://www.freelancer.com/projects/ai-video-editing/Founder-Reels-Creation) |
 | 60% | Workana | Desenvolvimento de Aplicativo Web e Mobile para Agendamento em Barbearias com Pagamento Antecipado | USD 100 - 250 · 20 propostas | 27/11 00:25 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-web-e-mobile-para-agendamento-em-barbearias-com-pagamento-antecipado) |
 | 60% | Workana | Desenvolvimento de Jogo de Tiro Leve no Velho Oeste com Caçador de Recompensas | USD 100 - 250 · 24 propostas | 27/11 00:13 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-jogo-de-tiro-leve-no-velho-oeste-com-cacador-de-recompensas) |
-| 70% | Freelancer.com | AI Project Sourcing & Freelance Support Assistant | USD 1500–3000 (fixo) · 29 propostas | 26/11 23:12 | [Ver projeto](https://www.freelancer.com/projects/ai-model-integration/Project-Sourcing-Freelance-Support) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
