@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 27/11/2026 às 23:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1698 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 28/11/2026 às 00:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1700 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -68,6 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
+| 80% | 99Freelas | Automação completa com IA no WhatsApp (n8n), relatórios e monitoramento | Orçamento não informado · 1 propostas | 27/11 23:56 | [Ver projeto](https://www.99freelas.com.br/project/automacao-completa-com-ia-no-whatsapp-n8n-relatorios-e-monitoramento-801613) |
 | 55% | Workana | Desenvolvimento de Aplicativo de Empregos e Busca de Profissionais | USD 250 - 500 · 29 propostas | 27/11 22:16 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-de-empregos-e-busca-de-profissionais) |
 | 100% | Workana | Desenvolvimento de Robô de Automação Inteligente para Afiliados Shopee com Ia e Integrações | USD 100 - 250 · 18 propostas | 27/11 21:24 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-robo-de-automacao-inteligente-para-afiliados-shopee-com-ia-e-integracoes) |
 | 55% | Freelancer.com | Buy Existing Mobile Shop CRM/ERP | INR 12500–37500 (fixo) · 27 propostas | 27/11 19:58 | [Ver projeto](https://www.freelancer.com/projects/flutter/Buy-Existing-Mobile-Shop-CRM) |
@@ -97,7 +98,6 @@
 | 60% | Workana | Desenvolvimento de Jogo de Tiro Leve no Velho Oeste com Caçador de Recompensas | USD 100 - 250 · 24 propostas | 27/11 00:13 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-jogo-de-tiro-leve-no-velho-oeste-com-cacador-de-recompensas) |
 | 70% | Freelancer.com | AI Project Sourcing & Freelance Support Assistant | USD 1500–3000 (fixo) · 29 propostas | 26/11 23:12 | [Ver projeto](https://www.freelancer.com/projects/ai-model-integration/Project-Sourcing-Freelance-Support) |
 | 90% | Workana | Desenvolvimento de Chatbot com Ia para Atendimento ao Cliente via Whatsapp | USD 100 - 250 · 19 propostas | 26/11 23:07 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-ia-para-atendimento-ao-cliente-via-whatsapp-1) |
-| 70% | Workana | > Criar site http:Lsjobs.com - | USD 100 - 250 · 30 propostas | 26/11 22:41 | [Ver projeto](https://www.workana.com/job/criar-site-http-lsjobs-com) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
