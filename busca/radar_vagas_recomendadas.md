@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 28/11/2026 às 03:30 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1719 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 28/11/2026 às 03:45 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1720 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -68,6 +68,7 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
+| 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) | USD 15–25 (por hora) · 2 propostas | 28/11 03:32 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial) |
 | 70% | 99Freelas | Automação completa com IA no WhatsApp (n8n), relatórios e monitoramento | Orçamento não informado · 30 propostas | 27/11 23:56 | [Ver projeto](https://www.99freelas.com.br/project/automacao-completa-com-ia-no-whatsapp-n8n-relatorios-e-monitoramento-801613) |
 | 55% | Workana | Desenvolvimento de Aplicativo de Empregos e Busca de Profissionais | USD 250 - 500 · 29 propostas | 27/11 22:16 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-de-empregos-e-busca-de-profissionais) |
 | 100% | Workana | Desenvolvimento de Robô de Automação Inteligente para Afiliados Shopee com Ia e Integrações | USD 100 - 250 · 18 propostas | 27/11 21:24 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-robo-de-automacao-inteligente-para-afiliados-shopee-com-ia-e-integracoes) |
@@ -97,7 +98,6 @@
 | 60% | Workana | Desenvolvimento de Aplicativo Web e Mobile para Agendamento em Barbearias com Pagamento Antecipado | USD 100 - 250 · 20 propostas | 27/11 00:25 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-aplicativo-web-e-mobile-para-agendamento-em-barbearias-com-pagamento-antecipado) |
 | 60% | Workana | Desenvolvimento de Jogo de Tiro Leve no Velho Oeste com Caçador de Recompensas | USD 100 - 250 · 24 propostas | 27/11 00:13 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-jogo-de-tiro-leve-no-velho-oeste-com-cacador-de-recompensas) |
 | 70% | Freelancer.com | AI Project Sourcing & Freelance Support Assistant | USD 1500–3000 (fixo) · 29 propostas | 26/11 23:12 | [Ver projeto](https://www.freelancer.com/projects/ai-model-integration/Project-Sourcing-Freelance-Support) |
-| 90% | Workana | Desenvolvimento de Chatbot com Ia para Atendimento ao Cliente via Whatsapp | USD 100 - 250 · 19 propostas | 26/11 23:07 | [Ver projeto](https://www.workana.com/job/desenvolvimento-de-chatbot-com-ia-para-atendimento-ao-cliente-via-whatsapp-1) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
