@@ -1,7 +1,7 @@
 # 🎯 Radar Automatizado de Vagas Tech (Go Engine)
 
-> **Última Atualização:** 28/11/2026 às 09:45 (Executado via GitHub Actions / Go Engine)
-> **Total no Banco:** 1744 vagas | **Elegíveis (Score >= 60):** 81 vagas
+> **Última Atualização:** 28/11/2026 às 10:00 (Executado via GitHub Actions / Go Engine)
+> **Total no Banco:** 1746 vagas | **Elegíveis (Score >= 60):** 81 vagas
 
 ---
 
@@ -68,7 +68,8 @@
 
 | Fit | Plataforma | Projeto | Orçamento e propostas | Publicado | Link |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| 60% | Freelancer.com | Accurate PDF Tables to Excel | INR 12500–37500 (fixo) · 20 propostas | 28/11 09:34 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Accurate-PDF-Tables-Excel) |
+| 55% | Freelancer.com | Migrate Busy Data to Zoho | INR 12500–37500 (fixo) · 24 propostas | 28/11 09:52 | [Ver projeto](https://www.freelancer.com/projects/accounting/Migrate-Busy-Data-Zoho) |
+| 55% | Freelancer.com | Accurate PDF Tables to Excel | INR 12500–37500 (fixo) · 24 propostas | 28/11 09:34 | [Ver projeto](https://www.freelancer.com/projects/data-analysis/Accurate-PDF-Tables-Excel) |
 | 65% | 99Freelas | Apenas instalar o app e integrar IA+Wattssapp+APP+site+instagran | Orçamento não informado · 20 propostas | 28/11 09:10 | [Ver projeto](https://www.99freelas.com.br/project/apenas-instalar-o-app-e-integrar-ia-wattssapp-app-site-instagran-801650) |
 | 85% | Freelancer.com | Enhance Multilingual AI Assistant Platform | INR 12500–37500 (fixo) · 29 propostas | 28/11 08:58 | [Ver projeto](https://www.freelancer.com/projects/python/Enhance-Multilingual-Assistant-Platform) |
 | 65% | Freelancer.com | Desktop Thermometer App Field Trial(only from Uk) - | USD 15–25 (por hora) · 2 propostas | 28/11 08:12 | [Ver projeto](https://www.freelancer.com/projects/report-writing/Desktop-Thermometer-App-Field-Trial-40839809) |
@@ -97,7 +98,6 @@
 | 100% | Freelancer.com | AI Project Communication Assistant | USD 15–25 (por hora) · 0 propostas | 27/11 06:15 | [Ver projeto](https://www.freelancer.com/projects/ai-chatbot-development/Project-Communication-Assistant) |
 | 55% | Freelancer.com | Data Science Journal Paper Prep | INR 10000–20000 (fixo) · 22 propostas | 27/11 05:48 | [Ver projeto](https://www.freelancer.com/projects/scientific-writing/Data-Science-Journal-Paper-Prep) |
 | 55% | Freelancer.com | Industrial Inspection Camera Lift/drop | USD 250–750 (fixo) · 24 propostas | 27/11 03:21 | [Ver projeto](https://www.freelancer.com/projects/mechatronics/Industrial-Inspection-Camera-Lift-drop) |
-| 65% | 99Freelas | Sistema financeiro python banco de dados | Orçamento não informado · 13 propostas | 27/11 03:01 | [Ver projeto](https://www.99freelas.com.br/project/sistema-financeiro-python-banco-de-dados-801450) |
 
 ---
 *(Relatório gerado automaticamente pelo motor de alta performance em Go)*
